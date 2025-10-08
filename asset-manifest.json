@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/studysingh/placement-react/static/css/main.3b71cc2a.css",
+    "main.js": "/studysingh/placement-react/static/js/main.f7a44181.js",
+    "static/js/453.5c1fd578.chunk.js": "/studysingh/placement-react/static/js/453.5c1fd578.chunk.js",
+    "index.html": "/studysingh/placement-react/index.html",
+    "main.3b71cc2a.css.map": "/studysingh/placement-react/static/css/main.3b71cc2a.css.map",
+    "main.f7a44181.js.map": "/studysingh/placement-react/static/js/main.f7a44181.js.map",
+    "453.5c1fd578.chunk.js.map": "/studysingh/placement-react/static/js/453.5c1fd578.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b71cc2a.css",
+    "static/js/main.f7a44181.js"
+  ]
+}
