@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1015,
+        "title": "Count Groups with K Unique Genres",
+        "problem_statement": "<h1>Count Groups with K Unique Genres</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>An online streaming company has picked N users who most frequently watched a specific genre in a pre-defined sequence. Each user is given a unique ID from 0 to N-1. The sales team has stored the most frequently watched genre for each user in the system and must analyse the interest of users in groups so that each group has users with consecutive IDs. Each group must contain users from exactly K different genres. The system must store the count of all the possible groups.</p>\r\n<p>Write an algorithm to find the count of all possible groups for analysis.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The first line of the input consists of an integer - <code>genreList_size</code>, representing the number of users selected (N).</p>\r\n<p>The next line consists of N space-separated integers - <code>genreList[0]</code>, <code>genreList[1]</code>, ..., <code>genreList[N-1]</code>, representing the most frequently watched genre for the users.</p>\r\n<p>The last line consists of an integer - <code>uniqueGenre</code>, representing the unique genres in a group for analysis (K).</p>\r\n\r\n<h2>Output</h2>\r\n<p>Print an integer representing the count of all possible groups for analysis.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n5\r\n2 5 2 4 7\r\n3\r\nOutput: 3</code></pre>\r\n<p><strong>Explanation:</strong> The unique genres in a group must be exactly 3. The possible groups with exactly K=3 unique genres are: (5,2,4) and (2,4,7). So, the output is 3.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>0 &lt;= uniqueGenre &lt;= genreList_size &lt;= 10^4</code></li>\r\n    <li><code>0 &lt;= genreList[0], genreList[1], ..., genreList[N-1] &lt; 1000</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Morgan stanley_12june",
+        "company_id": 327
+    }
+]

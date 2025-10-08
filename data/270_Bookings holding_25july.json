@@ -1,0 +1,11 @@
+[
+    {
+        "id": 881,
+        "title": "Palindrome Check",
+        "problem_statement": "<h1>Palindrome Check</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are given a string S of length N. The string is comprised of only lowercase alphabets. You have to check whether any anagram of this string is palindrome. If it is a palindrome anagram exists, print 'YES' or 'NO' (without quotes).</p>\r\n\r\n<h2>Input Format</h2>\r\n<p>The first line contains an integer N, and N is the length of the string.</p>\r\n<p>The second line contains the String S.</p>\r\n\r\n<h2>Output Format</h2>\r\n<p>Output 'YES' or 'NO' depending on the existence of the palindromic anagram.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: N = 5, S = abcab\r\nOutput: YES</code></pre>\r\n<p><strong>Explanation:</strong> The anagram 'abcba' is palindromic. So, the answer would be YES.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: N = 5, S = aaaaa\r\nOutput: YES</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &lt;= N &lt;= 10<sup>5</sup></code></li>\r\n    <li><code>'a' &lt;= S[i] &lt;= 'z'</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Bookings holding_25july",
+        "company_id": 270
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "id": 899,
+        "title": "Bitwise Recurrence Relation",
+        "problem_statement": "<h1>Bitwise Recurrence Relation</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A recurrence relation is an equation that expresses each element of a sequence as a function of the preceding ones. Consider the recurrence relation where F(i) = F(i-1) + F(i-2) + F(i-3). Here '+' is the bitwise XOR operator.</p>\r\n<p>Given four integers a, b, c, and n, find Fn.</p>\r\n<p>Complete the function <code>bitwiseRecurrence</code> in the editor below. The function must return F[n].</p>\r\n<p><code>bitwiseRecurrence</code> has the following parameters:</p>\r\n<ul>\r\n    <li><code>a</code>: an integer denoting F[0]</li>\r\n    <li><code>b</code>: an integer denoting F[1]</li>\r\n    <li><code>c</code>: an integer denoting F[2]</li>\r\n    <li><code>n</code>: an integer</li>\r\n</ul>\r\n\r\n<pre><code class='language-javascript'>long bitwiseRecurrence(long a, long b, long c, long n) {\r\n    // Function implementation goes here\r\n}</code></pre>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: a = 4, b = 1, c = 10, n = 4\r\nOutput: 14</code></pre>\r\n<p><strong>Explanation:</strong></p>\r\n<p>F[0] = 4, F[1] = 1, F[2] = 10</p>\r\n<p>F[3] = (F[2] ^ F[1]) ^ F[0] = (10 ^ 1) ^ 4 = 11 ^ 4 = 15</p>\r\n<p>F[4] = (F[3] ^ F[2]) ^ F[1] = (15 ^ 10) ^ 1 = 5 ^ 1 = 4</p>\r\n<p>Hence, in this case, returned value should be 14.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>0 <= a, b, c, n <= 10^12</code></li>\r\n</ul>\r\n\r\n<h2>Sample Cases</h2>\r\n<h3>Sample Case 0:</h3>\r\n<pre><code class='language-text'>Input: a = 3, b = 2, c = 5, n = 3\r\nOutput: 2</code></pre>\r\n<p><strong>Explanation:</strong> F0=3, F1=2, F2=5, F3=2</p>\r\n\r\n<h3>Sample Case 1:</h3>\r\n<pre><code class='language-text'>Input: a = 0, b = 0, c = 0, n = 2\r\nOutput: 0</code></pre>\r\n<p><strong>Explanation:</strong> F0=0, F1=0, F2=0</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Nvidia_23april",
+        "company_id": 277
+    }
+]

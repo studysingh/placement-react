@@ -1,0 +1,11 @@
+[
+    {
+        "id": 568,
+        "title": "GOAT-master Pass-code",
+        "problem_statement": "<h1>GOAT-master Pass-code</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>GOAT-master got arrested in a police chase. He is trying to escape the high-tech prison he is held captive in. He needs a pass-code P for disabling all the cameras in order to escape. Pass-code is the solution of matrix problem given below. Help him finding the pass-code.</p>\r\n<p>You are given a matrix of order N×N. Each cell in a matrix has a value A[i][j] (1<=i,j<=N), which is either positive or equal to -1 (representing blocked cell).</p>\r\n<p>Cells which are not blocked have distinct values. You can traverse from a cell in any direction (up, down, left or right), if there is no blockage.</p>\r\n<p>For any cell A[i][j], sed-value S<sub>ij</sub> is defined as sum of values of cells A[x][y] which are multiple of A[i][j], but not reachable from A[i][j]. For blocked cells, sed-value is -1.</p>\r\n<p>Pass-code P is sum of sed-values of all the cells, modulo 1000000007.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>1 <= N <= 10<sup>3</sup></li>\r\n    <li>1 <= A[i][j] <= 10<sup>6</sup></li>\r\n    <li>A[i][j] = -1 for blocked cells only</li>\r\n</ul>\r\n\r\n<h2>Input Format</h2>\r\n<p>First argument is a 2-D array of integers denoting the above matrix.</p>\r\n\r\n<h2>Output Format</h2>\r\n<p>Return the sum of sed-values of all the cells, modulo 1000000007.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n[\r\n [1 3 -1 5],\r\n [-1 -1 -1 -1],\r\n [2 6 -1 10],\r\n [8 7 -1 11]\r\n]\r\nOutput: 68</code></pre>\r\n<p><strong>Explanation:</strong>\r\nSed values of the following cells are :->\r\ni j SED_value\r\n0 0 49\r\n0 1 6\r\n0 2 -1\r\n0 3 10\r\n1 0 -1\r\n1 1 -1\r\n1 2 -1\r\n1 3 -1\r\n2 0 10\r\n2 1 0\r\n2 2 -1\r\n2 3 0\r\n3 0 0\r\n3 1 0\r\n3 2 -1\r\n3 3 0\r\nTotal Sum = 68</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: [[1]]\r\nOutput: 0</code></pre>\r\n<p><strong>Explanation:</strong>\r\nSed value of 1st cell is 0.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "MediaNet_7july",
+        "company_id": 191
+    }
+]

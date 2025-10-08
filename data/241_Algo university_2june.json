@@ -1,0 +1,20 @@
+[
+    {
+        "id": 760,
+        "title": "Maximum Grid Tile Sum",
+        "problem_statement": "<h1>Maximum Grid Tile Sum</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You have a grid with <code>n</code> rows and 3 columns. Each cell has a value written on it. You also have <code>k</code> tiles of dimensions 2 x 1. You need to place all the tiles on the grid vertically or horizontally such that no tiles overlap and the sum of values covered by the tiles is maximum. Find this maximum value. It is guaranteed that at least one valid arrangement of tiles always exists under given constraints.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The first line contains 2 integers <code>n</code>, <code>k</code>. The next <code>n</code> lines contain 3 integers each, representing the grid.</p>\r\n\r\n<h2>Output</h2>\r\n<p>Output a single integer - the maximum sum.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n5 3\r\n2 1 -1\r\n1 3 2\r\n0 2 3\r\n2 1 1\r\n3 3 0\r\nOutput:\r\n16</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &le; n, k &le; 1000</code></li>\r\n    <li><code>-10<sup>6</sup> &le; a<sub>i,j</sub> &le; 10<sup>6</sup></code> (where <code>a<sub>i,j</sub></code> is the value of a cell in the grid)</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Algo university_2june",
+        "company_id": 241
+    },
+    {
+        "id": 761,
+        "title": "Frog Freddy",
+        "problem_statement": "<h1>Frog Freddy</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Apaar is relaxing beside a large pond, while his pet frog Freddy is enjoying in the pond. The pond has N floating leaves, each defined by a x-coordinate and a y-coordinate as viewed from the sky.</p>\r\n<p>From leaf located at (a, b) frog Freddy can jump:-</p>\r\n<ul>\r\n<li>to (a + Z, b + Z) where Z is natural number. Call this direction A.</li>\r\n<li>to (a + Z, b - Z) where Z is natural number. Call this direction B.</li>\r\n<li>to (a - Z, b + Z) where Z is natural number. Call this direction C.</li>\r\n<li>to (a - Z, b - Z) where Z is natural number. Call this direction D.</li>\r\n</ul>\r\n<p>Apaar shouts one of the direction and Freddy jumps to the first leaf in chosen direction. If there is no leaf in that direction then Freddy doesn't moves. After Freddy jumps, the leaf Freddy jumps from collapses and sinks forever.</p>\r\n<p>Freddy starts from first leaf and we also know all the M commands that Apaar shouted in.</p>\r\n<p>Print final x-coordinate and y-coordinate of Freddy the Frog.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: 7 5\r\nACDBB\r\n5 6\r\n8 9\r\n4 13\r\n1 10\r\n7 4\r\n10 9\r\n3 7\r\nOutput: 7 4</code></pre>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Algo university_2june",
+        "company_id": 241
+    }
+]

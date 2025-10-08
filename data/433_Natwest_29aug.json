@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1273,
+        "title": "Prime Numbers",
+        "problem_statement": "<h1>Prime Numbers</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A prime number is divisible only by 1 and itself. You will be given a positive integer <code>num</code>. Your task is to write an algorithm to find all the prime numbers from 2 up to the given positive number.</p>\r\n<p><strong>Input:</strong></p>\r\n<p>The first line of the input consists of an integer <code>num</code>, representing the number written on the board.</p>\r\n<p><strong>Output:</strong></p>\r\n<p>Print space-separated integers representing the prime numbers requested in increasing order. If no prime number exists within the given range, then do not print anything.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: 11\r\nOutput: 2 3 5 7 11</code></pre>\r\n<p><strong>Explanation:</strong> The prime numbers less than or equal to 11 are 2, 3, 5, 7, and 11.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 < num < 10^9</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Natwest_29aug",
+        "company_id": 433
+    }
+]

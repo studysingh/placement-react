@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1336,
+        "title": "Infection in Wonderland",
+        "problem_statement": "```html\r\n<h1>Infection in Wonderland</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Wonderland is represented as a grid with R rows and C columns. The cell at the i<sup>th</sup> row from the top and j<sup>th</sup> column from the left is called a room (i, j).</p>\r\n<p>Some rooms are initially infected, and the infection spreads every minute.</p>\r\n<p>At each minute, any non-infected room (denoted by '.') that is adjacent (up, down, left, or right) to an infected room (denoted by '#') becomes infected.</p>\r\n<p>Your task is to determine the <strong>minimum</strong> time required for all rooms to become infected, so that no safe room remains in Wonderland.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'><strong>Input:</strong>\r\n3 4\r\n.#..\r\n.#..\r\n..#.\r\n<strong>Output:</strong> 2</code></pre>\r\n<p><strong>Explanation:</strong> The initial grid is as follows:</p>\r\n<pre><code class='language-text'>.#..\r\n.#..\r\n..#.</code></pre>\r\n<p>Then, the state of the grid after the 1<sup>st</sup> minute is as follows:</p>\r\n<pre><code class='language-text'>###.\r\n###.\r\n.###</code></pre>\r\n<p>And, the state of the grid after the 2<sup>nd</sup> minute is as follows:</p>\r\n<pre><code class='language-text'>####\r\n####\r\n####</code></pre>\r\n<p>Therefore, the minimum time required for all rooms to become infected is 2 minutes.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>2 &le; R, C &le; 1000</li>\r\n    <li>The given grid has at least one infected room.</li>\r\n    <li>Time limit: 1 second</li>\r\n</ul>\r\n```",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Commvault_3sep",
+        "company_id": 465
+    }
+]

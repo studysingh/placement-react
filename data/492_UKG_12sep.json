@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1404,
+        "title": "Balanced Strings",
+        "problem_statement": "<h1>Balanced Strings</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A string, <code>s</code>, is composed of the letters <code>a</code>, <code>b</code>, <code>c</code>, and <code>d</code>. The string is said to be <strong>balanced</strong> if both of the following conditions are satisfied:</p>\r\n<ul>\r\n    <li>The summed number of <code>a</code>'s and <code>c</code>'s is even.</li>\r\n    <li>The summed number of <code>b</code>'s and <code>d</code>'s is even.</li>\r\n</ul>\r\n<p>For example, the strings 'abcd' (a count + c count = 1 + 1 = 2, even, b count + d count = 1 + 1 = 2, even) is balanced, but 'abc' and 'bcd' are not.</p>\r\n<p>Complete the code in the editor below by filling in the blank (i.e., <code>______</code>) with a RegEx that only matches balanced strings.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: s = \"acdcdbbbbbaaac\"\r\nOutput: true</code></pre>\r\n<p><strong>Explanation:</strong> There are six a's and c's in the string and eight b's and d's. Thus, the string is balanced.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: s = \"cdba\"\r\nOutput: true</code></pre>\r\n<p><strong>Explanation:</strong> There are two a's and c's in the string and two b's and d's. Thus, the string is balanced.</p>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input: s = \"aaccb\"\r\nOutput: false</code></pre>\r\n<p><strong>Explanation:</strong> There are four a's and c's in the string and only one b (there are no d's). Thus, the string is not balanced.</p>\r\n\r\n<h3>Example 4:</h3>\r\n<pre><code class='language-text'>Input: s = \"cdcdaabb\"\r\nOutput: true</code></pre>\r\n<p><strong>Explanation:</strong> There are four a's and c's in the string and four b's and d's. Thus, the string is balanced.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>Each character <code>s[i] ∈ {a,b,c,d}</code>.</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "UKG_12sep",
+        "company_id": 492
+    }
+]

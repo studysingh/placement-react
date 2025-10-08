@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1302,
+        "title": "Add K Time Series",
+        "problem_statement": "<h1>Add K Time Series</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You have been given information regarding K time series data.</p>\r\n<p>A Discrete time series is an array of (time_i, value_i).</p>\r\n<p>Let T1 = {(0,1), (3,5), (7,2)}</p>\r\n<p>Let T2 = {(2,2), (3,3), (6,1)}</p>\r\n<p>The time series denotes the spike at time `time_i` with a magnitude of `value_i`. The magnitude remains same until a new spike occurs with an updated magnitude.</p>\r\n<p>For T1, value = 1 for (0,3), 5 for (3,7), 2 for (7,inf)</p>\r\n<p>For T2, value = 2 for (0,2), 3 for (2,6), 1 for (6,inf)</p>\r\n<p>Adding T1 and T2 results in a new time series = {(0,1), (2,2), (3,8), (6,1), (7,2)}</p>\r\n<p>Given K such time series, Print the resultant time series after adding all K time series.</p>\r\n\r\n<h2>Input</h2>\r\n<p>First line contains one integer K corresponding to the number of time series data.</p>\r\n<p>K Lines follow in similar manner as below :-</p>\r\n<ul>\r\n    <li>A single line containing the size N_i, of the i_th time series.</li>\r\n    <li>N_i space separated integers corresponding to time_i for the i_th time series.</li>\r\n    <li>N_i space separated integers corresponding to value_i for the i_th time series.</li>\r\n</ul>\r\n\r\n<h2>Output</h2>\r\n<p>First line corresponds to single integer N corresponding to the size of resultant time series.</p>\r\n<p>Second line corresponds to N space separated integers corresponding to the time_i of the resultant time series.</p>\r\n<p>Third line corresponds to N space separated integers corresponding to the value_i of the resultant time series.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n2\r\n3\r\n0 3 7\r\n1 5 2\r\n3\r\n2 3 6\r\n2 3 1\r\nOutput:\r\n5\r\n0 2 3 6 7\r\n1 3 8 6 3</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &le; K &le; 10^5</code></li>\r\n    <li><code>1 &le; &sum; N_i &le; 10^7</code></li>\r\n    <li><code>1 &le; time_i, value_i &le; 10^9</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "High Radius_23aug",
+        "company_id": 449
+    }
+]

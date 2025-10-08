@@ -1,0 +1,29 @@
+[
+    {
+        "id": 313,
+        "title": "Programmer String",
+        "problem_statement": "<div class=\\\"problem-container\\\">\n    <h2 class=\\\"problem-title\\\">8. Programmer String</h2>\n    \n    <div class=\\\"problem-description\\\">\n        <p>A programmer string contains letters that can be rearranged to form the word \\'programmer\\' and is a substring of a longer string. Note that the strings \\'programmerpro\\', \\'grammerpro\\', and \\'prozmeragram\\' are all classified as programmer strings by this definition. Given a string, determine the number of indices that lie between the rightmost and leftmost programmer strings that it contains.</p>\n    </div>\n\n    <div class=\\\"function-description\\\">\n        <h3>Function Description</h3>\n        <p>Complete the function <code>programmerStrings</code> in the editor below.</p>\n        \n        <p><code>programmerStrings</code> has the following parameter(s):</p>\n        <ul>\n            <li><code>string s</code>: a string containing 2 programmer strings</li>\n        </ul>\n\n        <p><strong>Returns:</strong></p>\n        <ul>\n            <li><code>int</code>: the number of indices which are between the rightmost and leftmost programmer strings within s</li>\n        </ul>\n    </div>\n\n    <div class=\\\"constraints\\\">\n        <h3>Constraints</h3>\n        <ul>\n            <li>String s consists of lowercase English alphabetic letters only, ascii[a-z]</li>\n            <li>1 ≤ the length of s ≤ 10<sup>5</sup></li>\n            <li>There will always be two non-overlapping programmer strings</li>\n        </ul>\n    </div>\n\n    <div class=\\\"examples\\\">\n        <h3>Example</h3>\n        <div class=\\\"example\\\">\n            <pre class=\\\"input\\\">s = \\'programmerxxxprozmeragram\\'</pre>\n            <div class=\\\"visualization\\\">\n                <p class=\\\"index-display\\\">0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</p>\n                <p class=\\\"string-display\\\">p r o g r a m m e r x x x p r o z m e r a g r a m</p>\n            </div>\n            <pre class=\\\"output\\\">3</pre>\n            <div class=\\\"explanation\\\">\n                <p>In this example, indices 0-9 form one programmer string and indices 13-24 contain another. There are 3 indices between the programmer strings, so the function will return 3.</p>\n            </div>\n        </div>\n\n        <h3>Sample Case 0</h3>\n        <div class=\\\"example\\\">\n            <pre class=\\\"input\\\">programmerrxprogrammer</pre>\n            <pre class=\\\"output\\\">2</pre>\n            <div class=\\\"explanation\\\">\n                <p>There are two indices, i = 11 and i = 12, between the leftmost and rightmost programmer strings.</p>\n            </div>\n        </div>\n    </div>\n\n    <div class=\\\"function-signature\\\">\n        <h3>Function Signature</h3>\n        <pre class=\\\"code\\\">int programmerStrings(string s) {\n    // Write your code here\n}</pre>\n    </div>\n</div>\n\n<style>\n.visualization {\n    font-family: monospace;\n    background-color: #f5f5f5;\n    padding: 10px;\n    border-radius: 4px;\n    margin: 10px 0;\n}\n\n.index-display {\n    color: #666;\n    margin-bottom: 5px;\n}\n\n.string-display {\n    color: #000;\n    letter-spacing: 1px;\n}\n</style>",
+        "google_doc_link": "https://docs.google.com/document/d/1EN6qf_nAkqHvDPiqjyUBr00FpW-Q7KajfikSHcmqHuQ/edit?usp=sharing",
+        "solution_code": "",
+        "company_name": "Cashfree",
+        "company_id": 93
+    },
+    {
+        "id": 327,
+        "title": "Smaple question",
+        "problem_statement": "",
+        "google_doc_link": "https://oahelper.in/",
+        "solution_code": "",
+        "company_name": "Cashfree",
+        "company_id": 93
+    },
+    {
+        "id": 328,
+        "title": "sample",
+        "problem_statement": "",
+        "google_doc_link": "https://oahelper.in/",
+        "solution_code": "",
+        "company_name": "Cashfree",
+        "company_id": 93
+    }
+]

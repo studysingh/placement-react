@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1602,
+        "title": "SQL Query: Trains with Speed Greater Than 75",
+        "problem_statement": "<h1>SQL Query: Trains with Speed Greater Than 75</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Write an SQL query to display the train IDs and the names of the trains whose speed is more than 75.</p>\r\n<p>The train IDs should be aliased as <strong>'ID'</strong> and the train names should be aliased as <strong>'NAME'</strong>.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Expected Output Columns:</h3>\r\n<pre><code class='language-text'>ID | NAME</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<p>The database schema consists of the following tables:</p>\r\n<ul>\r\n    <li><strong>train_details_tbl:</strong> Contains details about trains.\r\n        <ul>\r\n            <li><code>train_id</code> (INT)</li>\r\n            <li><code>train_name</code> (VARCHAR(50))</li>\r\n            <li><code>train_type</code> (VARCHAR(5))</li>\r\n            <li><code>train_time</code> (VARCHAR(4))</li>\r\n            <li><code>train_from</code> (VARCHAR(5))</li>\r\n            <li><code>train_to</code> (VARCHAR(5))</li>\r\n            <li><code>train_speed</code> (INT)</li>\r\n        </ul>\r\n    </li>\r\n    <li><strong>train_type_tbl:</strong> Contains types of trains.\r\n        <ul>\r\n            <li><code>train_type</code> (VARCHAR(5))</li>\r\n            <li><code>type_description</code> (VARCHAR(30))</li>\r\n        </ul>\r\n    </li>\r\n    <li><strong>train_stations_tbl:</strong> Contains details about stations.\r\n        <ul>\r\n            <li><code>station_id</code> (VARCHAR(5))</li>\r\n            <li><code>station_name</code> (VARCHAR(30))</li>\r\n        </ul>\r\n    </li>\r\n</ul>\r\n<p>The relevant table for this query is <strong>train_details_tbl</strong>.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "ZS_4oct",
+        "company_id": 559
+    },
+    {
+        "id": 1603,
+        "title": "Employee Salary and Insurance Details Query",
+        "problem_statement": "<h1>Employee Salary and Insurance Details Query</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Write an SQL query to display the following information:</p>\r\n<ul>\r\n    <li>The employee category</li>\r\n    <li>Basic salary paid</li>\r\n    <li>Insurance provided by the company</li>\r\n</ul>\r\n<p>Your output should have three columns with the following names:</p>\r\n<pre><code class='language-text'>Employee_Category Basic Insurance</code></pre>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: Database schema containing tables such as EMPLOYEE_INFO and SALARY_INFO, which include columns like EMPLOYEE_CATEGORY, BASIC, and INSURANCE.\r\nOutput: A result set with three columns.\r\n</code></pre>\r\n<p><strong>Explanation:</strong> The SQL query should retrieve the employee category, basic salary, and insurance amount from the database. The resulting columns must be named <code>Employee_Category</code>, <code>Basic</code>, and <code>Insurance</code> respectively.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "ZS_4oct",
+        "company_id": 559
+    },
+    {
+        "id": 1604,
+        "title": "Warehouse of Automobile Factory",
+        "problem_statement": "<h1>Warehouse of Automobile Factory</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are working in the warehouse of an automobile company and are required to sell automobile parts in the wholesale market.</p>\r\n<p>You are given two arrays -</p>\r\n<ul>\r\n    <li>UniqueId[ ] of size N denoting the unique id of each automobile part.</li>\r\n    <li>Profit[ ] of size N denoting the profit that can be earned by selling each part.</li>\r\n</ul>\r\n<p>Your task is to return the maximum profit that can be earned by selling the automobile parts in the market.</p>\r\n<p><strong>Note:</strong> If two or more consecutive parts in the array UniqueId[ ] have the same id, then only the one amongst them with the maximum profit can be sold.</p>\r\n\r\n<p><strong>Input Specification:</strong></p>\r\n<p>input1 : An array of integers denoting the Unique Ids of the automobile parts.</p>\r\n<p>input2 : An array of integers denoting the profit that can be earned per part.</p>\r\n<p>input3 : An integer N denoting the length of the arrays.</p>\r\n\r\n<p><strong>Output Specification:</strong></p>\r\n<p>Return an integer denoting the maximum total profit that can be earned by selling automobile parts.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: input1 = [4,6,3,3,4]\r\ninput2 = [-1,10,10,15,-5]\r\ninput3 = 5\r\nOutput: 25</code></pre>\r\n<p><strong>Explanation:</strong> We can sell the 2nd and 4th items and earn a total profit of 10 + 15 = 25. This is the maximum possible profit that we can earn. Note that we cannot sell both the 3rd and 4th items as they have the same unique id. Hence, 25 will be returned as the output.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: input1 = [1,2,1]\r\ninput2 = [10,20,30]\r\ninput3 = 3\r\nOutput: 60</code></pre>\r\n<p><strong>Explanation:</strong> We can sell all the 3 items and earn a total profit of 10 + 20 + 30 = 60. This is the maximum possible profit that we can earn. Note that we can sell the 1st and 3rd items having the same UniqueId as they are not consecutive. Hence, 60 will be returned as the output.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "ZS_4oct",
+        "company_id": 559
+    }
+]

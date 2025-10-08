@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1139,
+        "title": "Count Unchanged Characters After Reversal",
+        "problem_statement": "<h1>Count Unchanged Characters After Reversal</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A company is transmitting its data to another server. To secure the data against malicious activity, they plan to reverse the data before transmitting. They want to know the number of data characters that do not change position even after the data stream is reversed. The network administrator has been tasked with ensuring the smooth transmission of the data.</p>\r\n<p>Write an algorithm for the network administrator to help in finding the number of data characters that do not change position even after the data stream is reversed.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The input consists of a string - <code>dataStream</code>, representing the data to be transmitted through the network (N).</p>\r\n\r\n<h2>Output</h2>\r\n<p>Print an integer representing the number of data characters that do not change position even after the data stream is reversed. If no such character is found or the input string is empty, then print 0.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>0 <= length of dataStream</code></li>\r\n</ul>\r\n\r\n<p><strong>Note:</strong> The input string <code>dataStream</code> is case sensitive and made up of English letters only. Uppercase characters and lowercase characters are counted as different.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: dataStream = \"alphxxdida\"\r\nOutput: 4</code></pre>\r\n<p><strong>Explanation:</strong> The reversed data stream is \"adidxxhpla\". The characters that do not change position after the data stream is reversed are the characters 'a' at the start and end position and the characters 'x' in the middle positions.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "eqtechnologic_4aug",
+        "company_id": 381
+    },
+    {
+        "id": 1140,
+        "title": "Count Elements Less Than K",
+        "problem_statement": "<h1>Count Elements Less Than K</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are given a list of integers and an integer K. Write an algorithm to find the number of elements in the list that are strictly less than K.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The first line of the input consists of an integer - <code>element_size</code>, representing the number of elements in the list (N).</p>\r\n<p>The second line consists of N space-separated integers - <code>element[1], element[2], ......., element[N]</code>, representing the list of integers.</p>\r\n<p>The last line consists of an integer <code>K</code>, representing the integer to be compared.</p>\r\n\r\n<h2>Output</h2>\r\n<p>Print a positive integer representing the number of elements in the list that are strictly less than K.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n7\r\n1 7 4 5 6 3 2\r\n5\r\nOutput:\r\n4</code></pre>\r\n<p><strong>Explanation:</strong> The numbers in the list <code>[1, 7, 4, 5, 6, 3, 2]</code> that are strictly less than <code>5</code> are <code>1, 4, 3, 2</code>. There are 4 such numbers.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>-10^9 <= K <= 10^9</code></li>\r\n    <li><code>-10^9 <= element[i] <= 10^9</code> for each element <code>i</code> in the list.</li>\r\n</ul>\r\n\r\n<pre><code class='language-cpp'>#include &lt;iostream&gt;\r\nusing namespace std;\r\n\r\nint main() {\r\n  // Write your code here\r\n  return 0;\r\n}\r\n</code></pre>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "eqtechnologic_4aug",
+        "company_id": 381
+    }
+]
