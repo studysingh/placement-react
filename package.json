@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
 
-  
+
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "collect": "python collect_problems.py && python generate_file_index.py && git add . && git commit -m \"collected more files\" && git push",
+    "collect": "python collect_problems.py && python generate_file_index.py && git add . && git commit -m \"collected more files\" && git push && npm run build && npm run deploy",
     "republish": "npm run build && npm run deploy"
   },
   "eslintConfig": {
