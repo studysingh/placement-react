@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1172,
+        "title": "Maximum Efficiency",
+        "problem_statement": "<h1>Maximum Efficiency</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Given a network of <code>n</code> computer systems represented as a rooted tree (with the master computer as the root). The problem describes the tree structure using two arrays, <code>connect_from[]</code> and <code>connect_to[]</code>. Each pair <code>connect_from[i]</code>, <code>connect_to[i]</code> represents an undirected edge between two computers. Each computer has a value assigned to it, represented by the array <code>computer_val[]</code>. For the purpose of subtree operations, it is implied that node 0 is the root of the tree.</p>\r\n\r\n<p>To maximize the network's throughput, inefficient systems can be removed. In one operation, any computer node <code>u</code> and all nodes in its subtree can be removed. The number of such operations applied is denoted as <code>num_ops</code>.</p>\r\n\r\n<p>For a given parameter <code>k</code>, the efficiency of the network after <code>num_ops</code> operations is calculated as: (sum of values of all remaining computer nodes) - <code>k * num_ops</code>.</p>\r\n\r\n<p>Determine the maximum possible efficiency when applying some (possibly zero) operations optimally.</p>\r\n\r\n<p><strong>Note:</strong> The node values can be negative.</p>\r\n\r\n<p>Complete the function <code>getMaximumEfficiency</code> in the editor with the following parameters:</p>\r\n<ul>\r\n    <li><code>int connect_nodes</code>: the number of nodes in the system</li>\r\n    <li><code>vector&lt;int&gt; connect_from</code>: one node of the connecting edges</li>\r\n    <li><code>vector",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Tekion_4aug",
+        "company_id": 394
+    }
+]

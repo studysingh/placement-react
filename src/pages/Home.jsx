@@ -11,14 +11,15 @@ const Home = () => {
   const [selectedFile, setSelectedFile] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
+  const basePath = process.env.PUBLIC_URL + '/data';
   // Load all JSON files
   useEffect(() => {
-    fetch('/data/files_index.json')
+    fetch(`${basePath}/files_index.json`)
       .then(res => res.json())
       .then(fileNames => {
         Promise.all(
           fileNames.map(file =>
-            fetch(`/data/${file}`)
+            fetch(`${basePath}/${file}`)
               .then(res => res.json())
               .then(problems => ({
                 fileName: file,

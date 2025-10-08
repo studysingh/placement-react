@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1446,
+        "title": "Maximum Three-Letter Palindromes",
+        "problem_statement": "<h1>Maximum Three-Letter Palindromes</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A string is a palindrome if it reads the same backward as forward. For example, \"madam\" and \"racecar\" are palindromes, but \"milk\" is not.</p>\r\n<p>Write a function:</p>\r\n<pre><code class='language-python'>def solution(S)</code></pre>\r\n<p>that, given a string S made of N letters, returns the maximum number of three-letter palindromes you can build using letters from S. You can use each letter from S once.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: S = \"aaaabc\"\r\nOutput: 2</code></pre>\r\n<p><strong>Explanation:</strong> Examples of three-letter palindromes you can build simultaneously are \"aba\" and \"aca\".</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: S = \"xyvzwy\"\r\nOutput: 1</code></pre>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input: S = \"dd\"\r\nOutput: 0</code></pre>\r\n<p><strong>Explanation:</strong> You cannot build any three-letter palindrome.</p>\r\n\r\n<h3>Example 4:</h3>\r\n<pre><code class='language-text'>Input: S = \"fknfkn\"\r\nOutput: 2</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<p>Write an efficient algorithm for the following assumptions:</p>\r\n<ul>\r\n    <li>N is an integer within the range [1..50,000];</li>\r\n    <li>string S is made only of lowercase letters (a-z).</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "trading tech_17sep",
+        "company_id": 507
+    },
+    {
+        "id": 1447,
+        "title": "Minimal Substring Split",
+        "problem_statement": "<h1>Minimal Substring Split</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are given a string consisting of lowercase letters of the English alphabet. You must split this string into a minimal number of substrings in such a way that no letter occurs more than once in each substring.</p>\r\n<p>For example, here are some correct splits of the string 'abacdec': ('a', 'bac', 'dec'), ('a', 'bacd', 'ec') and ('ab', 'ac', 'dec').</p>\r\n<p>Write a function:</p>\r\n<pre><code class='language-javascript'>def solution(S)</code></pre>\r\n<p>that, given a string S of length N, returns the minimum number of substrings into which the string has to be split.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: S = \"world\"\r\nOutput: 1</code></pre>\r\n<p><strong>Explanation:</strong> There is no need to split the string into substrings as all letters occur just once.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: S = \"dddd\"\r\nOutput: 4</code></pre>\r\n<p><strong>Explanation:</strong> The result can be achieved by splitting the string into four substrings ('d', 'd', 'd', 'd').</p>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input: S = \"cycle\"\r\nOutput: 2</code></pre>\r\n<p><strong>Explanation:</strong> The result can be achieved by splitting the string into two substrings ('cy', 'cle') or ('c', 'ycle').</p>\r\n\r\n<h3>Example 4:</h3>\r\n<pre><code class='language-text'>Input: S = \"abba\"\r\nOutput: 2</code></pre>\r\n<p><strong>Explanation:</strong> The result can be achieved by splitting the string into two substrings ('ab', 'ba').</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n<li>N is an integer within the range [1..1,000,000].</li>\r\n<li>string S is made only of lowercase letters (a-z).</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "trading tech_17sep",
+        "company_id": 507
+    }
+]

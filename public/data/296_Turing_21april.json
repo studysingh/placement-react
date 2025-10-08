@@ -1,0 +1,11 @@
+[
+    {
+        "id": 944,
+        "title": "Maximize Achievements Score",
+        "problem_statement": "<h1>Maximize Achievements Score</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Given an integer array called <code>achievements</code>, which represents the values of different achievements. Initially, the total score <code>x</code> is 0, and all achievements are marked as unclaimed. There is an operation that can be performed any number of times:</p>\r\n<p>Select an unclaimed achievement <code>i</code> from the range <code>[0, n - 1]</code>. If the score of the achievement at index <code>i</code>, <code>achievements[i]</code>, is higher than the current total score <code>x</code>, then add <code>achievements[i]</code> to <code>x</code> (i.e., <code>x = x + achievements[i]</code>), and mark the achievement <code>i</code> as claimed.</p>\r\n<p>Find the maximum total score that can be obtained by performing the operations optimally.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: achievements = [2,2,4,4]\r\nOutput: 6</code></pre>\r\n<p><strong>Explanation:</strong> During the operations, we can choose to claim the achievements at indices 0 and 2 in order, resulting in a total score of 6, which is the maximum.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: achievements = [1,5,3,2,1]\r\nOutput: 9</code></pre>\r\n<p><strong>Explanation:</strong> Claim the achievements at indices 0, 2, and 1 in order. The total score will then be 9, which is the maximum.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 <= achievements.length <= 2000</code></li>\r\n    <li><code>1 <= achievements[i] <= 2000</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Turing_21april",
+        "company_id": 296
+    }
+]

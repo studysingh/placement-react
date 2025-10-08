@@ -1,0 +1,11 @@
+[
+    {
+        "id": 545,
+        "title": "Simple Symbols",
+        "problem_statement": "<h1>Simple Symbols</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Have the function <code>SimpleSymbols(str)</code> take the <code>str</code> parameter being passed and determine if it is an acceptable sequence by either returning <code>true</code> or <code>false</code>.</p>\r\n<p>The <code>str</code> parameter will be composed of <code>+</code> and <code>=</code> symbols with several characters between them (i.e. <code>++d+=+++c++=a)</code>).</p>\r\n<p>For the string to be true, each letter must be surrounded by a <code>+</code> symbol.</p>\r\n<p>The string will not be empty and will have at least one letter.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: \"+d+=3=+5+\"\r\nOutput: true</code></pre>\r\n<p><strong>Explanation:</strong> The letter 'd' is surrounded by '+' symbols. The digits '3' and '5' do not need to be surrounded by '+'.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: \"+f++d+\"\r\nOutput: false</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>The string will not be empty.</li>\r\n    <li>The string will have at least one letter.</li>\r\n    <li>The string will be composed of <code>+</code>, <code>=</code>, and other characters (implied to include letters and digits).</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Fast retailing_20july",
+        "company_id": 181
+    }
+]

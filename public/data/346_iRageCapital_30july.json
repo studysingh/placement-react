@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1061,
+        "title": "The Module Problem",
+        "problem_statement": "<h1>The Module Problem</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are given a number N. You have to find F(X) mod M.</p>\r\n<p><strong>Note:</strong> F(X) is defined as a product of prime up to X.</p>\r\n\r\n<h2>Input Format</h2>\r\n<p>First line: Three space-separated integers N, X, and M</p>\r\n\r\n<h2>Output Format</h2>\r\n<p>Print the desired result in a single line.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: 2 4 5\r\nOutput: 4</code></pre>\r\n<p><strong>Explanation:</strong></p>\r\n<p>The primes which are less than or equal to 4 are 2 and 3.</p>\r\n<p>F(X) = 2 * 3 = 6</p>\r\n<p>The problem asks for N<sup>F(X)</sup> mod M. In this case, 2<sup>6</sup> mod 5.</p>\r\n<p>2<sup>6</sup> = 64</p>\r\n<p>64 % 5 = 4, which is the desired result.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &le; N, M &le; 10<sup>9</sup></code></li>\r\n    <li><code>1 &le; X &le; 10<sup>5</sup></code></li>\r\n</ul>\r\n\r\n<h2>Note</h2>\r\n<p>Your code must be able to print the sample output from the provided sample input. However, your code must pass these hidden test cases to solve the problem statement.</p>\r\n<ul>\r\n    <li>Time Limit: 10 secs for each input file</li>\r\n    <li>Memory Limit: 256 MB</li>\r\n    <li>Source Limit: 1024 KB</li>\r\n</ul>\r\n\r\n<h2>Scoring</h2>\r\n<p>Score is assigned if any testcase passes</p>\r\n\r\n<h2>Allowed Languages</h2>\r\n<p>Bash, C, C++14, C++17, Clojure, C#, D, Erlang, F#, Go, Groovy, Haskell, Java 8, Java 14, Java 17, JavaScript, Kotlin, Lisp, Lua, Objective-C, OCaml, Octave, Perl, PHP, Python, Python 3, Python 3.8, RRScript, Racket, Ruby, Rust, Scala, Swift, TypeScript, Visual Basic</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "iRageCapital_30july",
+        "company_id": 346
+    },
+    {
+        "id": 1062,
+        "title": "Game of Coordinates",
+        "problem_statement": "<h1>Game of Coordinates</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are given the coordinates (x, y). Initially, you are at (1, 1) and are required to go to (x, y) using the following rules:</p>\r\n<p>If the current position is (a, b), then in the next move, you can only move to (a+b, b) or (a, a+b).</p>\r\n<p>Write a program to check if you can reach (x, y) using only the described moves.</p>\r\n\r\n<h2>Input Format</h2>\r\n<p>The first line contains an integer T that represents the number of test cases.</p>\r\n<p>Each of the next T lines contains two space-separated integers representing (x, y).</p>\r\n\r\n<h2>Output Format</h2>\r\n<p>For each test case, print \"Yes\" if it is possible for you to reach (x, y) else print \"No\" (without quotes) in a separate line.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>T <= 10^4</code></li>\r\n    <li><code>1 <= x, y <= 10^18</code></li>\r\n</ul>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n3\r\n1 2\r\n3 2\r\n4 6\r\nOutput:\r\nYes\r\nYes\r\nNo</code></pre>\r\n<p><strong>Explanation:</strong> For test case 1: (1,1) -> (1,1+1)=(1,2). For test case 2: (1,1) -> (1,2) -> (2,2) -> (2,3). There is no way of reaching (4,6).</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "iRageCapital_30july",
+        "company_id": 346
+    }
+]

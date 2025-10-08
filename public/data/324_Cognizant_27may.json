@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1012,
+        "title": "Image Filter Application",
+        "problem_statement": "<h1>Image Filter Application</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are building a simple image filter application that applies CSS filters to an image. The project structure is in place, but you need to complete three simple one-liner tasks.</p>\r\n<p><strong>Objectives:</strong></p>\r\n<ul>\r\n    <li>Add the <strong>ID \"previewImage\"</strong> to the img element</li>\r\n    <li>Set the <strong>box-shadow</strong> of the active filter button to <code>0 0 0 2px #6200ee</code></li>\r\n    <li>Apply the selected filter to the image by updating its <strong>style.filter</strong> property</li>\r\n</ul>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>Do not change the existing HTML structure or class names</li>\r\n    <li>Ensure your solution applies all filter types correctly</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Cognizant_27may",
+        "company_id": 324
+    }
+]

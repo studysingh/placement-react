@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1123,
+        "title": "Sum of Energies for Maximum Product",
+        "problem_statement": "<h1>Sum of Energies for Maximum Product</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>In a science research lab, combining two nuclear chemicals produces a maximum energy that is the product of the energy of the two chemicals. The energy values of the chemicals can be negative or positive. The scientist wishes to calculate the sum of the energies of the two chemicals which produces maximum energy on reaction.</p>\r\n<p>Write an algorithm to find the sum of energy of the two chemicals which produces maximum energy on reaction.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The first line of the input consists of an integer - <code>numOfChem</code>, representing the number of chemicals (N).</p>\r\n<p>The second line consists of N space-separated integers - <code>ener_1, ener_2, ..., ener_N</code>, representing the energies of the chemicals.</p>\r\n\r\n<h2>Output</h2>\r\n<p>Print an integer representing the sum of energy of the two chemicals which produces maximum energy on reaction.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>0 <= numOfChem <= 10^6</code></li>\r\n    <li><code>-10^6 <= ener_i <= 10^6</code></li>\r\n    <li><code>0 <= i < numOfChem</code></li>\r\n</ul>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n7\r\n9 -3 8 -6 7 8 10\r\nOutput: 19</code></pre>\r\n<p><strong>Explanation:</strong> The maximum product of the energies is 90, i.e. 9 * 10. So, the sum of the energies of the chemicals is 19.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Natwest_7aug",
+        "company_id": 371
+    },
+    {
+        "id": 1161,
+        "title": "Alternate Sorted Elements",
+        "problem_statement": "<h1>Alternate Sorted Elements</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>An alternate sort of a list consists of alternate elements (starting from the first position) of the given list after sorting it in an ascending order. You are given a list of unsorted elements. Write an algorithm to find the alternate sort of the given list.</p>\r\n<p>The first line of the input consists of an integer <code>size</code> representing the size of the given list (N).</p>\r\n<p>The second line consists of N space-separated integers <code>arr_0, arr_1, ..., arr_N-1</code> representing the elements of input list.</p>\r\n<p>Print space-separated integers representing the alternately sorted elements of the given list.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n7\r\n3 1 5 2 9 5 10\r\nOutput:\r\n1 3 5 9</code></pre>\r\n<p><strong>Explanation:</strong> After sorting, the list is <code>[1, 2, 3, 5, 5, 9, 10]</code>. The alternate elements of the sorted list (at indices 0, 2, 4, 6) are <code>[1, 3, 5, 9]</code>.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>0 &lt; size &lt;= 10<sup>6</sup></code></li>\r\n    <li><code>-10<sup>9</sup> &lt;= arr_i &lt;= 10<sup>9</sup></code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Natwest_7aug",
+        "company_id": 371
+    }
+]

@@ -5,8 +5,8 @@ import os
 import re
 
 # 🔧 CONFIG
-START_ID = 1
-END_ID = 50
+START_ID = 580
+END_ID = 600
 # Save files directly into React app's public/data folder
 OUTPUT_DIR = os.path.join("public", "data")  
 

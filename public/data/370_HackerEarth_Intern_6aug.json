@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1122,
+        "title": "Array-Difference",
+        "problem_statement": "<h1>Array-Difference</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Mark has an array of N elements of positive integers. He is interested in finding out the maximum absolute difference between any two elements in the array. But he wants to minimize the maximum absolute difference.</p>\r\n<p>He can perform the following two types of operation on the array elements any number of times.</p>\r\n<ul>\r\n    <li>If the element E is even then he can replace it by E/2</li>\r\n    <li>If the element E is odd then he can replace it by 2E</li>\r\n</ul>\r\n<p>Can you help him minimize this maximum absolute difference?</p>\r\n\r\n<p><strong>Input Format:</strong></p>\r\n<p>The first line consists of a single integer T, the number of test cases.</p>\r\n<p>Each test case consists of 2 lines, 1st line has an integer N, the number of elements in the array.</p>\r\n<p>Next lines have N space separated integers, denoting array elements.</p>\r\n\r\n<p><strong>Output Format:</strong></p>\r\n<p>For each test case, output in a separate line, the answer to the given question.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n1\r\n2\r\n1 2\r\nOutput:\r\n0</code></pre>\r\n<p><strong>Explanation:</strong> He can make 1 as 1*2 = 2. So array becomes [2, 2]. Min(max absolute diff) he can get is (2-2) = 0.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &lt;= T &lt;= 500</code></li>\r\n    <li><code>2 &lt;= N &lt;= 50000</code></li>\r\n    <li><code>1 &lt;= A[i] &lt;= 10^9</code> for each valid i</li>\r\n    <li>It is guaranteed that summation of N over all test cases doesn't exceed 250000.</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "HackerEarth_Intern_6aug",
+        "company_id": 370
+    }
+]

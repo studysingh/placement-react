@@ -1,0 +1,29 @@
+[
+    {
+        "id": 587,
+        "title": "Maximum Power Block",
+        "problem_statement": "<h1>Maximum Power Block</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>In the city of Electropolis, power is drawn from a network of energy cells laid out in a rectangular grid. Each cell in this grid stores a certain amount of electricity, represented by a non-zero integer. Due to a massive short-circuit, several parts of the grid have failed — these are now marked with a 0 and are considered dead cells. The remaining live cells can only share their power with neighboring cells in the up, down, left, and right directions — diagonal connections are not allowed. A group of such connected live cells forms a power block. The engineers must now determine how much power can still be delivered to Electropolis. But here's the twist — the city can only draw electricity from one connected power block at a time due to safety regulations. Write a program that takes a 2D grid as an input and returns the maximum amount of energy that can be given to the city.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: grid = [\r\n    [1, 2, 0, 0],\r\n    [0, 3, 0, 4],\r\n    [5, 0, 0, 4],\r\n    [0, 0, 6, 4]\r\n]\r\nOutput: 18</code></pre>\r\n<p><strong>Explanation:</strong></p>\r\n<ul>\r\n    <li>Block 1: [1, 2] &rarr; sum = 3</li>\r\n    <li>Block 2: [3] &rarr; sum = 3</li>\r\n    <li>Block 3: [4, 4, 6] (connected through right-down paths) &rarr; sum = 18</li>\r\n    <li>Block 4: [5] &rarr; sum = 5</li>\r\n</ul>\r\n<p>The maximum sum among these blocks is 18.</p>\r\n\r\n<pre><code class='language-cpp'>/*\r\n * Complete the 'max_power_block' function below.\r\n *\r\n * The function is expected to return an INTEGER.\r\n * The function accepts 2D_INTEGER_ARRAY grid as parameter.\r\n */\r\n\r\nint max_power_block(vector<vector<int>> grid) {\r\n    // Function implementation goes here\r\n}</code></pre>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "IBM_15june",
+        "company_id": 198
+    },
+    {
+        "id": 588,
+        "title": "Minimum Cost to Equalize Strings",
+        "problem_statement": "<h1>Minimum Cost to Equalize Strings</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are given two strings <code>s1</code> and <code>s2</code>. Your task is to transform both strings into a common string by deleting characters from both strings. The goal is to minimize the total deletion cost, where the deletion cost of a character is equal to its ASCII value. Both strings should be transformed to the same common string.</p>\r\n\r\n<p><strong>Cost Calculation:</strong></p>\r\n<ul>\r\n    <li>Each time you delete a character from either string, you add the ASCII value of that character to a running total.</li>\r\n    <li>The objective is to minimize the sum of these ASCII values after both strings become identical.</li>\r\n</ul>\r\n\r\n<p><strong>Goal:</strong></p>\r\n<p>Write a function that returns the minimum cost (sum of ASCII values) of deletions required to make both strings equal.</p>\r\n\r\n<h2>Function Description</h2>\r\n<p>Complete the function <code>minimumCostToEqualizeStrings</code> in the editor below.</p>\r\n\r\n<p><strong>Parameters:</strong></p>\r\n<ul>\r\n    <li><code>s1</code> (string): The first input string.</li>\r\n    <li><code>s2</code> (string): The second input string.</li>\r\n</ul>\r\n\r\n<p><strong>Returns:</strong></p>\r\n<p>The function is expected to return an <strong>INTEGER</strong>, representing the minimum cost.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "IBM_15june",
+        "company_id": 198
+    },
+    {
+        "id": 589,
+        "title": "Closest Ashram",
+        "problem_statement": "<h1>Closest Ashram</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>In the ancient land of Bharatvarsha, the great warrior Arjun is traveling during his exile. He carries with him a scroll listing the locations of sacred ashrams, measured in yojanas (distance from Hastinapur). The list is sorted in increasing order. Given Arjun's current position, your task is to find the ashram closest to him.</p>\r\n<p>If two ashrams are equally distant, Arjun chooses the one closer to Hastinapur (i.e., the smaller value).</p>\r\n\r\n<p><strong>Input:</strong></p>\r\n<ul>\r\n    <li><code>ashrams</code>: a list of integers of size n (1 &le; n &le; 10<sup>5</sup>) &mdash; sorted list of ashram locations (in yojanas)</li>\r\n    <li><code>position</code>: an integer (-10<sup>9</sup> &le; position &le; 10<sup>9</sup>) &mdash; Arjun's current position</li>\r\n</ul>\r\n\r\n<p><strong>Output:</strong></p>\r\n<ul>\r\n    <li>Return a single integer &mdash; the closest ashram location to the given position. If two ashrams are equally close, return the smaller one.</li>\r\n</ul>\r\n\r\n<p>The function signature to complete is:</p>\r\n<pre><code class='language-cpp'>int closest_ashram(vector&lt;int&gt; ashrams, int positions) {\r\n    // Complete the 'closest_ashram' function below.\r\n    // The function is expected to return an INTEGER.\r\n    // The function accepts following parameters:\r\n    //  1. INTEGER_ARRAY ashrams\r\n    //  2. INTEGER positions\r\n}</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>The list <code>ashrams</code> is sorted in strictly increasing order.</li>\r\n    <li>All values are integers.</li>\r\n    <li>No duplicate ashram locations.</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "IBM_15june",
+        "company_id": 198
+    }
+]

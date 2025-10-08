@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1200,
+        "title": "Game of Book Cricket",
+        "problem_statement": "<h1>Game of Book Cricket</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>The Game of Book Cricket is played by 2 players. Each player randomly opens the book and as you open the pages you score runs. The last digit of the even numbered page corresponds to your score.</p>\r\n<p>So if you opened page number 236, your score is 6. Hence possible scores are either 0, 2, 4, 6 or 8.</p>\r\n<p>However if the number ends with a 0 or 8, you are out and you lose your turn.</p>\r\n<p>Every time you open the book, note the score and keep on adding. So if you opened pages 124, 56, 22 your score is 4 + 6 + 2 = 12.</p>\r\n<p>Given that player 1 has scored N(totalScore) runs and the number of pages in the book is only 10, your task is to identify the number of ways you can match the score and remain not out?</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: totalScore = 6\r\nOutput: 4</code></pre>\r\n<p><strong>Explanation:</strong> 6 can be reached by the following combinations:</p>\r\n<ul>\r\n    <li>[2,2,2]</li>\r\n    <li>[2,4]</li>\r\n    <li>[4,2]</li>\r\n    <li>[6]</li>\r\n</ul>\r\n\r\n<p>The problem also provides the function signature to be completed:</p>\r\n<pre><code class='language-javascript'>int noOfWaysToDrawTheGame(int totalScore) {\r\n    // Complete the 'noOfWaysToDrawTheGame' function below.\r\n    // The function is expected to return an INTEGER.\r\n    // The function accepts INTEGER totalScore as parameter.\r\n}</code></pre>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Goldman sachs_9aug",
+        "company_id": 407
+    },
+    {
+        "id": 1201,
+        "title": "Secure my conversations",
+        "problem_statement": "<h1>Secure my conversations</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Persons A and B uses an encryption based system for their conversation. Each conversation message is encoded from the source and decoded in the destination using a shared private positive number key known to each other.</p>\r\n<p>The algorithm is illustrated with an example.</p>\r\n\r\n<p><strong>Input Format with explanation:</strong></p>\r\n<ul>\r\n    <li>1. Operation (1 for Encoding and 2 for Decoding)</li>\r\n    <li>2. Input message</li>\r\n    <li>3. Input private key</li>\r\n</ul>\r\n\r\n<p><strong>Output Format with explanation:</strong></p>\r\n<ul>\r\n    <li>1. Output message</li>\r\n</ul>\r\n\r\n<p>Complete the <code>secureChannel</code> function below:</p>\r\n<pre><code class='language-javascript'>string secureChannel(int operation, string message, string key)</code></pre>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n1\r\nOpen\r\n123\r\nOutput:\r\nOppeeen</code></pre>\r\n<p><strong>Explanation:</strong> Here, the input message characters are duplicated based on each digit in the key.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input:\r\n2\r\nOppeeen\r\n123\r\nOutput:\r\nOpen</code></pre>\r\n<p><strong>Explanation:</strong> Here, the input message characters are compressed based on each digit in the key.</p>\r\n\r\n<h2>Constraints</h2>\r\n<p>The conversation message and the private key need NOT be in equal length and the encoding / decoding takes place till the end is reached in either the conversation message or private key, while retaining the rest of the conversation message.</p>\r\n<p>Returns -1 in all exception scenarios</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Goldman sachs_9aug",
+        "company_id": 407
+    }
+]

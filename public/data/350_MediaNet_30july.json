@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1069,
+        "title": "A lot to Merge",
+        "problem_statement": "```html\r\n<h1>A lot to Merge</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Nebula gave Groot an integer N and M and an algorithm to construct a matrix of size N*M. The matrix is constructed as follows:</p>\r\n<p>The entry at the intersection of i'th row and j'th column will be i*j.</p>\r\n<p>Once Groot is done making the matrix, Nebula asked him to take all the elements of the matrix and arrange them in ascending order.</p>\r\n<p>Now Nebula gave Groot an integer K and asked Groot to find the K'th element in the arranged list.</p>\r\n<p>You only need to implement the given function. Do not read input; instead use the arguments to the function. Do not print the output; instead return values as specified.</p>\r\n<p>The function signature is:</p>\r\n<pre><code class='language-cpp'>int Solution::solve(int A, int B, int C)</code></pre>\r\n<p>Where <code>A</code>, <code>B</code>, and <code>C</code> correspond to the input integers N, M, and K respectively.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: N = 2, M = 2, K = 2\r\nOutput: 2</code></pre>\r\n<p><strong>Explanation:</strong> Value of the Kth element is 2.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>1 &lt;= N, M &lt;= 10<sup>4</sup></li>\r\n    <li>1 &lt;= K &lt;= N*M</li>\r\n</ul>\r\n```",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "MediaNet_30july",
+        "company_id": 350
+    }
+]

@@ -1,6 +1,6 @@
 {
   "name": "placement-qs",
-  "homepage": "https://github.com/studysingh/placement-react",
+  "homepage": "https://studysingh.github.io/placement-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "collect": "python collect_problems.py && python generate_file_index.py && git add . && git commit -m \"collected more files\" && git push",
+    "republish": "npm run build && npm run deploy"
   },
   "eslintConfig": {
     "extends": [

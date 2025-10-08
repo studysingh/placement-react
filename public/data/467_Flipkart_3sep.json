@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1342,
+        "title": "Maximum Carrots",
+        "problem_statement": "```html\r\n<h1>Maximum Carrots</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A field, represented as cells of an M x N matrix, is given. There are some carrots in every cell and a rabbit is trying to cross the field while eating the carrots available on the way. He starts from the top-left cell, and moves right or down in each step, and finally reaches the bottom-right cell.</p>\r\n<p>Write a program to find the maximum number of carrots the rabbit can eat during the trip from the top-left cell to the bottom-right cell.</p>\r\n<p>Note that the rabbit always moves either to downfield or right field, and always consumes all the carrots available in the cells on its path.</p>\r\n<p>Read the input from STDIN and print the output to STDOUT. Do not print arbitrary strings anywhere in the program, as these contribute to the output and test cases will fail.</p>\r\n\r\n<p><strong>Input Format:</strong><br>\r\nThe first line of input contains two integers M and N separated by a single white space, where M and N represent the size of the field.<br>\r\nNext M lines have N integers, separated by a single white space, which represents the number of carrots in each cell.</p>\r\n\r\n<p><strong>Output Format:</strong><br>\r\nThe output contains an integer, Z, the maximum number of carrots that the rabbit can have during the trip from top-left cell to the bottom-right cell.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'><strong>Sample Input 1:</strong>\r\n3 3\r\n1 2 3\r\n4 5 6\r\n7 8 9\r\n\r\n<strong>Sample Output 1:</strong>\r\n29</code></pre>\r\n<p><strong>Explanation:</strong> The path that maximizes the carrots is 1 &rarr; 4 &rarr; 7 &rarr; 8 &rarr; 9. The total number of carrots collected is 1 + 4 + 7 + 8 + 9 = 29.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n  <li>M, N >= 2</li>\r\n</ul>\r\n```",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Flipkart_3sep",
+        "company_id": 467
+    },
+    {
+        "id": 1343,
+        "title": "Sum of Root-to-Leaf Path Numbers",
+        "problem_statement": "```html\r\n<h1>Sum of Root-to-Leaf Path Numbers</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Consider a binary tree with N nodes (1 Root and N-1 descendants). Each node, X is related to the Root by some relations such as L, R, LL, LR... and so on, where X is left (L) to Root or left-left (LL) or right-left (RL) to Root and so on.</p>\r\n\r\n<p>Perform the following operations to find the value of Sum.</p>\r\n<ol>\r\n    <li>If the given tree has M leaf nodes, there will be M minimum paths from root to M leaf nodes. Each path, Path<sub>i</sub> is the path from root to the i<sup>th</sup> leaf node, where 1 &le; i &le; M. Find all such paths.</li>\r\n    <li>Concatenate all node values along the Path<sub>i</sub> to form an integer P<sub>i</sub>, where 1 &le; i &le; M.</li>\r\n    <li>Calculate Sum, where Sum = P<sub>1</sub> + P<sub>2</sub> + ... + P<sub>M</sub>.</li>\r\n</ol>\r\n\r\n<p>Write a program to print Sum.</p>\r\n<p>Read the input from STDIN and print the output to STDOUT. Do not write arbitrary strings while reading the input or while printing, as these contribute to the standard output.</p>\r\n\r\n<h2>Input Format</h2>\r\n<p>The first line of input contains an integer, N, the number of nodes in the tree.</p>\r\n<p>The second line of input contains an integer, Root, which is the root of the tree.</p>\r\n<p>The next N-1 lines of input contain a string, S, and an integer, X, separated by a single white space, where X is a node in the tree and S is the relation between Root and X.</p>\r\n\r\n<h2>Output Format</h2>\r\n<p>The output contains the sum, S.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>1 &le; N &le; 50</li>\r\n    <li>Node values are always greater than or equal to 0.</li>\r\n</ul>\r\n```",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Flipkart_3sep",
+        "company_id": 467
+    },
+    {
+        "id": 1344,
+        "title": "Largest Square of 1s",
+        "problem_statement": "```html\r\n<h1>Largest Square of 1s</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Given a binary matrix of dimensions <code>R x C</code>, filled with elements 0 and 1, write a program to find the largest square containing only 1s and print its area.</p>\r\n<p>Read the input from STDIN and print the output to STDOUT. Do not print arbitrary strings anywhere in the program, as these contribute to the output and testcases will fail.</p>\r\n\r\n<h3>Input Format:</h3>\r\n<p>The first line of input contains two integers R and C separated by a single white space, where R is the number of rows and C is the number of columns.</p>\r\n<p>Next, R lines of input contain C 0s or 1s each.</p>\r\n\r\n<h3>Output Format:</h3>\r\n<p>Output contains the area of the largest square which has only 1s.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'><strong>Input:</strong>\r\n4 4\r\n0011\r\n1011\r\n0100\r\n1010\r\n</code></pre>\r\n<pre><code class='language-text'><strong>Output:</strong> 4\r\n</code></pre>\r\n<p><strong>Explanation:</strong> R = 4 and C = 4. The input matrix is given below and the largest square of 1s is highlighted. The area of this 2x2 square is 4.</p>\r\n<pre><code class='language-text'>0 0 <strong>1 1</strong>\r\n1 0 <strong>1 1</strong>\r\n0 1 0 0\r\n1 0 1 0\r\n</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>2 &lt;= R, C &lt;= 1000</li>\r\n</ul>\r\n```",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Flipkart_3sep",
+        "company_id": 467
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "id": 792,
+        "title": "Determine Armstrong",
+        "problem_statement": "<h1>Determine Armstrong</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A number X is an Armstrong number if it is the sum of N<sup>th</sup> powers of its digits where N = the number of digits present in X.</p>\r\n<p>You are given a number X. If it is Armstrong print YES otherwise print NO.</p>\r\n\r\n<h3>Function Description</h3>\r\n<p>Complete the function <code>solve()</code>. This function takes the following parameter and returns the required answer.</p>\r\n<ul>\r\n    <li><code>X</code>: Represents the value of X</li>\r\n</ul>\r\n\r\n<h3>Input Format for Custom Testing</h3>\r\n<p><strong>Note:</strong> Use this input format if you are testing against custom input or writing code in a language where we don't provide boilerplate code</p>\r\n<ul>\r\n    <li>The first line contains T, which represents the number of test cases.</li>\r\n    <li>For each test case\r\n        <ul>\r\n            <li>The first line contains a single integer X denoting the value of X</li>\r\n        </ul>\r\n    </li>\r\n</ul>\r\n\r\n<h2>Output Format</h2>\r\n<p>For each test case, print a single line containing the answer.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n2\r\n153\r\n321\r\nOutput:\r\nYES\r\nNO</code></pre>\r\n<p><strong>Explanation:</strong></p>\r\n<p>The first testcase (X = 153) is an Armstrong number because it is the sum of its digits raised to the power of the number of digits. For 153, N=3 (as it has 3 digits). So, 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 1 + 125 + 27 = 153. Since 153 == 153, it is an Armstrong number, and the output is YES.</p>\r\n<p>For the second testcase (X = 321):</p>\r\n<p><strong>Approach:</strong></p>\r\n<ul>\r\n    <li>N = 3 as 321 has 3 digits.</li>\r\n    <li>1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> = 1 + 8 + 27 = 36 (not equal to X). Therefore, 321 is not an Armstrong number. Thus, the answer is \"NO\".</li>\r\n</ul>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &lt;= T &lt;= 10</code></li>\r\n    <li><code>1 &lt;= X &lt; 10<sup>9</sup></code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Nokia_8march",
+        "company_id": 250
+    }
+]

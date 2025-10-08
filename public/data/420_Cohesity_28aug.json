@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1235,
+        "title": "Greatest Product of Two Elements in Array",
+        "problem_statement": "```html\r\n<h1>Greatest Product of Two Elements in Array</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Given an array <code>a</code>, find the greatest number in <code>a</code> that is a product of two elements in <code>a</code>. If there are no two elements in <code>a</code> that can be multiplied to produce another element contained in <code>a</code>, return -1.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: a = [10, 3, 5, 10, 15]\r\nOutput: 30</code></pre>\r\n<p><strong>Explanation:</strong> 30 is a product of 10 and 3.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: a = [2, 3, 7, 8]\r\nOutput: -1</code></pre>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input: a = [10, 2, 4, 30, 35]\r\nOutput: -1</code></pre>\r\n\r\n<h3>Example 4:</h3>\r\n<pre><code class='language-text'>Input: a = [10, 2, 2, 4, 30, 35]\r\nOutput: 4</code></pre>\r\n<p><strong>Explanation:</strong> 4 is a product of 2 and 2.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &lt;= a.length &lt;= 10^3</code></li>\r\n    <li><code>1 &lt;= a[i] &lt;= 10^9</code></li>\r\n</ul>\r\n```",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Cohesity_28aug",
+        "company_id": 420
+    },
+    {
+        "id": 1236,
+        "title": "Greatest Product of Two Elements",
+        "problem_statement": "<h1>Greatest Product of Two Elements</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Given an array <code>a</code>, find the greatest number in <code>a</code> that is a product of two elements in <code>a</code>. If there are no two elements in <code>a</code> that can be multiplied to produce another element contained in <code>a</code>, return -1.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: a = [10, 3, 5, 30, 35]\r\nOutput: 30</code></pre>\r\n<p><strong>Explanation:</strong> Because 30 is a product of 10 and 3.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: a = [2, 5, 7, 8]\r\nOutput: -1</code></pre>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input: a = [10, 2, 4, 30, 35]\r\nOutput: -1</code></pre>\r\n\r\n<h3>Example 4:</h3>\r\n<pre><code class='language-text'>Input: a = [10, 2, 2, 4, 30, 35]\r\nOutput: 4</code></pre>\r\n<p><strong>Explanation:</strong> Because 4 is a product of 2 and 2.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 <= a.length <= 10<sup>5</sup></code></li>\r\n    <li><code>1 <= a[i] <= 10<sup>4</sup></code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Cohesity_28aug",
+        "company_id": 420
+    },
+    {
+        "id": 1237,
+        "title": "Reservoir Sampling",
+        "problem_statement": "<h1>Reservoir Sampling</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Given a stream of integers and a target size (K). Pick K elements from the stream such that the probability of any element getting picked is equal.</p>\r\n<p>The input `int_vec` represents the stream of integers. Assume the size is not known. Basically you are not allowed to use <code>Int_vec.size()</code> to sample.</p>\r\n\r\n<h2>Input</h2>\r\n<ul>\r\n    <li><strong>int_vec:</strong> An array of integers representing the stream.</li>\r\n    <li><strong>k:</strong> An integer, the target sample size.</li>\r\n</ul>\r\n\r\n<h2>Output</h2>\r\n<ul>\r\n    <li>An array of integers containing <code>k</code> elements sampled from the stream.</li>\r\n</ul>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>Execution time limit: 1 second (C++)</li>\r\n    <li>Memory limit: 1 GB</li>\r\n</ul>\r\n\r\n<h2>C++ Syntax Tips</h2>\r\n<p>// Prints help message to the console</p>\r\n<p>// Returns a string</p>\r\n<pre><code class='language-cpp'>string helloworld(string name) {\r\n    cout << \"This prints to the console where\r\n    return \"Hello, \" + name;\r\n}</code></pre>\r\n<p>The function signature for the solution is:</p>\r\n<pre><code class='language-cpp'>vector&lt;int&gt; solution(vector&lt;int&gt; int_vec, int k) {\r\n    // Your implementation here\r\n}</code></pre>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Cohesity_28aug",
+        "company_id": 420
+    }
+]

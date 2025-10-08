@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1412,
+        "title": "Question 19",
+        "problem_statement": "<h1>Question 19</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>In the city of Electropolis, power is drawn from a network of energy cells laid out in a rectangular grid. Each cell in this grid stores a certain amount of electricity represented by a non-zero integer. Due to a massive short-circuit, several parts of the grid have failed — these are now marked with a 0 and are considered dead cells. The remaining live cells can only share their power with neighboring cells in the up, down, left, and right directions. Diagonal connections are not allowed. A group of such connected live cells forms a power block. The engineers must now determine how much power can still be delivered to Electropolis. But here's the twist — the city can only draw electricity from one connected power block at a time due to safety regulations. Write a program that takes a 2-D grid as an input and returns an integer representing the maximum amount of energy that can be given to city.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'><strong>Input:</strong> grid =\r\n[1, 2, 0, 0],\r\n[0, 3, 0, 4],\r\n[5, 0, 0, 4],\r\n[0, 0, 0, 1]\r\n<strong>Output:</strong> 18</code></pre>\r\n<p><strong>Explanation:</strong><br>Block 1: [1, 2] -> sum = 3<br>Block 2: [3] -> sum = 3<br>Block 3: [4, 4, 1] (connected through right-down paths) -> sum = 9<br>sum = 18</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>The input is a 2-D list of integers <code>grid</code> of size <code>m x n</code>.</li>\r\n    <li>Each <code>grid[i][j]</code> is a non-negative integer (0 means dead).</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "IBM_14sep",
+        "company_id": 497
+    },
+    {
+        "id": 1413,
+        "title": "Garden Watering System",
+        "problem_statement": "<h1>Garden Watering System</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>In a large resort's botanical garden, there are N × N square plots, arranged neatly in rows and columns. Each plot starts with 0 liters of water.</p>\r\n<p>The gardener, Sourabh, uses two types of watering systems:\r\nA horizontal sprinkler that waters an entire row of plots at once.\r\nA vertical sprinkler that waters an entire column of plots at once.</p>\r\n<p>Each time he runs a sprinkler, it adds a certain amount of water to all plots in that row or column. After a series of watering actions, Sourabh wants to know the most watered plot in the garden — that is, the one with the highest amount of water.</p>\r\n<p>Your task is to help him figure out how much water that plot has.</p>\r\n\r\n<p><strong>Input Format:</strong></p>\r\n<p>The first line contains two integers:</p>\r\n<ul>\r\n    <li>N — the number of rows and columns in the garden</li>\r\n    <li>Q — the number of watering actions</li>\r\n</ul>\r\n<p>The next Q lines each describe a watering action in one of the following formats:</p>\r\n<ul>\r\n    <li>WaterRow R X — add X liters to every plot in row R</li>\r\n    <li>WaterColumn C X — add X liters to every plot in column C</li>\r\n</ul>\r\n\r\n<p><strong>Output Format:</strong></p>\r\n<p>Print a single integer — the maximum amount of water in any plot after all watering actions.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: 3 4\r\nWaterRow 2 5\r\nWaterColumn 3 10\r\nWaterRow 2 1\r\nWaterColumn 1 7\r\nOutput: 16</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>1 &lt;= N &lt;= 314159</li>\r\n    <li>1 &lt;= Q &lt;= 314159</li>\r\n    <li>1 &lt;= X &lt;= 1000000</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "IBM_14sep",
+        "company_id": 497
+    }
+]

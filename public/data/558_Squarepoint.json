@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1599,
+        "title": "Lexicographically Smallest Bottom Row",
+        "problem_statement": "<h1>Lexicographically Smallest Bottom Row</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are given a collection of shelves, where each shelf is represented as a list of integers. The shelves can have different lengths.</p>\r\n<p>You are allowed to rearrange the shelves in any order, but the order of integers within a shelf cannot be changed.</p>\r\n<p>After placing the shelves in some order, imagine arranging them vertically as columns and applying gravity:</p>\r\n<p>Numbers in each column \"fall\" to the lowest available position, so that there are no empty gaps at the bottom of any column.</p>\r\n<p>Once gravity has been applied, consider the bottom row of the resulting grid.</p>\r\n<p>Your task is to determine the lexicographically smallest possible bottom row that can be achieved by reordering the shelves.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Squarepoint",
+        "company_id": 558
+    },
+    {
+        "id": 1636,
+        "title": "Maximize Minimum Throughput",
+        "problem_statement": "<h1>Maximize Minimum Throughput</h1>\n\n<h2>Problem Description</h2>\n<p>You are given <code>n</code> services. For each service <code>i</code>, the following information is provided:</p>\n<ul>\n    <li><code>t[i]</code> &rarr; the base throughput of the service</li>\n    <li><code>c[i]</code> &rarr; the cost of scaling the service by one step</li>\n</ul>\n<p>If you scale service <code>i</code> by an integer amount <code>x[i] &ge; 0</code>, then:</p>\n<ul>\n    <li>Its throughput becomes: <code>throughput_i = (x[i]+1) &#183; t[i]</code></li>\n    <li>The cost of scaling it is: <code>x[i] &#183; c[i]</code></li>\n</ul>\n<p>You are also given a total budget <code>B</code>.</p>\n<p>Your task is to allocate scaling amounts <code>x[i]</code> to the services such that:</p>\n<ul>\n    <li>The total cost of scaling does not exceed <code>B</code>.</li>\n    <li>The minimum throughput across all services is as large as possible.</li>\n</ul>\n<p>Formally, maximize:</p>\n<pre><code class='language-text'>min(throughput_1, throughput_2, ..., throughput_n)</code></pre>\n<p>subject to the constraint:</p>\n<pre><code class='language-text'>&sum; (x[i] &#183; c[i]) &le; B  (from i=1 to n)</code></pre>\n<p>Return this maximum possible bottleneck throughput.</p>\n\n<h2>Constraints</h2>\n<ul>\n    <li><code>x[i]</code> must be an integer.</li>\n    <li><code>x[i] &ge; 0</code> for all services <code>i</code>.</li>\n    <li>The total cost of scaling, <code>&sum; (x[i] &#183; c[i])</code>, must not exceed the budget <code>B</code>.</li>\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Squarepoint",
+        "company_id": 558
+    }
+]

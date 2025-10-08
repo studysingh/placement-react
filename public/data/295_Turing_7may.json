@@ -1,0 +1,11 @@
+[
+    {
+        "id": 943,
+        "title": "Problem 1",
+        "problem_statement": "<h1>Problem 1</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>In an enchanted dungeon, there are n wizards aligned in a row. Each wizard possesses a unique attribute that can either provide or drain your energy. Some wizards might even reduce your energy, meaning they drain energy from you.</p>\r\n<p>You've been cursed with a spell that forces you to teleport after gaining energy from wizard i to wizard (i + k). This teleportation continues until you reach a point where (i + k) is beyond the last wizard in the sequence.</p>\r\n<p>In simpler terms, you select a starting wizard, then repeatedly teleport k positions forward, gathering energy from each wizard you land on, until you can no longer teleport.</p>\r\n<p>Given an array energy and an integer k, determine the maximum amount of energy you can collect.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: energy = [7,-3,8,-2,4], k = 2\r\nOutput: 19</code></pre>\r\n<p><strong>Explanation:</strong> Starting from wizard 1, you can collect a total energy of 7 + 8 + 4 = 19.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: energy = [3,4,5,-7], k = 3\r\nOutput: 5</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 <= energy length <= 10^5</code></li>\r\n    <li><code>-1000 <= energy[i] <= 1000</code></li>\r\n    <li><code>1 <= k <= energy length - 1</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "Turing_7may",
+        "company_id": 295
+    }
+]
