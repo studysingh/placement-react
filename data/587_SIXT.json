@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1683,
+        "title": "Game on Tokens",
+        "problem_statement": "<h1>Game on Tokens</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Alice and Bob play a game on <code>n</code> independent tokens. Token <code>i</code> is placed at coordinates <code>(x_i, y_i)</code> on the integer lattice (both coordinates are non-negative integers). Alice moves first and the players alternate moves.</p>\r\n<p>A single move consists of: choosing any one token, and decreasing either its <code>x</code> coordinate or its <code>y</code> coordinate by a prime number <code>p</code> such that <code>p &le;</code> that coordinate (the result must remain non-negative).</p>\r\n<p>A token with <code>(0,0)</code> has no moves. A player who cannot make a move on their turn loses.</p>\r\n<p>Given the starting coordinates of all tokens, determine which player has a winning strategy when both play optimally. Output <code>A</code> if Alice (first player) wins, or <code>B</code> if Bob (second player) wins.</p>\r\n<p><strong>Note:</strong> Coordinates are small (<code>&le; 200</code>). Subtractions are restricted to prime numbers (2, 3, 5, ...). 1 is not a prime.</p>\r\n\r\n<h2>Input</h2>\r\n<p><strong>Input:</strong></p>\r\n<p>First line: integer <code>n</code> — number of tokens.</p>\r\n<p>Next <code>n</code> lines: two integers <code>x_i</code> and <code>y_i</code> (space separated) — coordinates of token <code>i</code>.</p>\r\n\r\n<h2>Output</h2>\r\n<p><strong>Output:</strong></p>\r\n<p>A single character: <code>A</code> if the first player wins, otherwise <code>B</code>.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &le; n &le; 200000</code></li>\r\n    <li><code>0 &le; x_i, y_i &le; 200</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "SIXT",
+        "company_id": 587
+    },
+    {
+        "id": 1684,
+        "title": "Max Nodes on Upward Path",
+        "problem_statement": "<h1>Max Nodes on Upward Path</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are given a rooted tree with N nodes (root is node 1). Each node <code>i</code> contains <code>A[i]</code> candies. For any starting node <code>u</code>, you may collect candies from <code>u</code> then climb to its parent, then to the parent's parent, and so on — collecting all candies of every visited node. You must stop as soon as collecting the next ancestor would make the total candies exceed <code>K</code>. (You may also stop earlier, but optimal play always takes as many as possible.)</p>\r\n<p>Find the maximum number of nodes you can collect (consecutive nodes on an upward path, starting from some node and repeatedly going to parent) such that the total candies collected is ≤ <code>K</code>.</p>\r\n<p><strong>Input Format:</strong></p>\r\n<ul>\r\n    <li>First line: two integers <code>N</code> and <code>K</code>.</li>\r\n    <li>Second line: <code>N</code> integers <code>A[1] A[2] ... A[N]</code>.</li>\r\n    <li>Next <code>N-1</code> lines: two integers <code>u v</code> meaning an undirected edge between nodes <code>u</code> and <code>v</code>.</li>\r\n</ul>\r\n<p>The tree is rooted at node 1.</p>\r\n<p><strong>Output Format:</strong></p>\r\n<p>Single integer: maximum number of nodes collectible on any upward path whose sum of <code>A</code> values is ≤ <code>K</code>.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n5 7\r\n1 2 3 4 5\r\n1 2\r\n2 3\r\n3 4\r\n4 5\r\nOutput:\r\n3</code></pre>\r\n<p><strong>Explanation:</strong> Consider starting at node 3. Collect A[3]=3, then parent 2 (+2 → 5), then parent 1 (+1 → 6) → total 6 ≤ 7, count = 3. Starting at node 4 gives 2 nodes (4+3=7). No start gives more than 3.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 <= N <= 100000</code></li>\r\n    <li><code>0 <= A[i] <= 1e12</code></li>\r\n    <li><code>0 <= K <= 1e18</code></li>\r\n    <li><code>1 <= u, v <= N</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "SIXT",
+        "company_id": 587
+    }
+]
