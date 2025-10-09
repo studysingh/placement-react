@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1707,
+        "title": "Honey Bees",
+        "problem_statement": "<h1>Honey Bees</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Rahul has purchased N honey bee queens and unintentionally placed them all in the same box. Each honey bee queen possesses a certain power level. A queen at the ith index can eliminate other queens located at indices j, where 0 &le; j &lt; i, provided that those queens have lower power levels than the ith queen. You are given the power level of each honey bee queen. Your task is to determine and print the total number of queens that remain alive after the fights.</p>\r\n\r\n<h2>Input Format</h2>\r\n<p>The first line contains an integer N, representing the number of honey bee queens.</p>\r\n<p>The second line contains N integers separated by spaces, representing the power levels of each honey bee queen.</p>\r\n\r\n<h2>Output Format</h2>\r\n<p>The output will be a single integer representing the total number of honey bee queens that remain alive after the fights.</p>\r\n\r\n<h2>Constraints</h2>\r\n<!-- Constraints content not visible in the provided images -->",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "unify",
+        "company_id": 598
+    },
+    {
+        "id": 1708,
+        "title": "Class Allocation",
+        "problem_statement": "<h1>Class Allocation</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are assigned to allocate classrooms to courses. You are given N courses numbered from 1, 2, ..., N along with the array A, where Ai is the number of students registered in the course i. You are also given M classrooms numbered from 1, 2, ..., M along with the array B, where Bi is the seating capacity of the room i. Each classroom can be assigned to at max one course. Also, classroom i can be assigned to course j only if there is enough seating capacity in classroom i for all the students taking course j, i.e. Bi >= Aj.</p>\r\n<p>Find the maximum number of courses that can be scheduled according to the above constraints.</p>\r\n\r\n<h2>Input Format</h2>\r\n<p>The first line contains two space separated integers N and M.</p>\r\n<p>The second line contains N space separated integers A1, A2, ..., AN.</p>\r\n<p>The third line contains M space separated integers B1, B2, ..., BM.</p>\r\n\r\n<h2>Output Format</h2>\r\n<p>Output a single integer, the maximum number of courses that can be scheduled.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "unify",
+        "company_id": 598
+    },
+    {
+        "id": 1709,
+        "title": "Count The Paths",
+        "problem_statement": "<h1>Count The Paths</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>In a fantasy world, there are N magical locations scattered across the kingdom. Each location possesses unique powers and is represented by a positive integer in the list called \"locations.\" These integers symbolize the mystical energy associated with each place.</p>\r\n\r\n<p>You, as a skilled adventurer, have been entrusted with a vital quest. The kingdom's prosperity relies on the successful transportation of a precious artifact from the \"start\" location to the \"finish\" location. To undertake this journey, you possess a limited but potent magical power represented by the integer \"power.\"</p>\r\n\r\n<p>However, traversing through the mystical realms is not an easy feat. The magical energy required to travel from one location to another is determined by the absolute difference between the powers of the two locations. It is crucial to note that your magical power level (initially represented by \"power\") must never deplete to zero or below during the quest.</p>\r\n\r\n<p>Your mission is to determine the total number of viable paths from the \"start\" position to the \"finish\" position, taking into account the constraints of your magical power. You have the freedom to visit the same location multiple times during your journey, utilizing your power strategically to overcome the challenges encountered along the way.</p>\r\n\r\n<p>As answer can be very large, print ans%(10^9+7)</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "company_name": "unify",
+        "company_id": 598
+    }
+]
