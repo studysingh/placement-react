@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1770,
+        "title": "Form String from Words",
+        "problem_statement": "<h1>Form String from Words</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Given a string <code>s</code> and an array of words, check whether <code>s</code> can be formed by concatenating strings from array of words in any order.</p>\r\n<p><strong>Note:</strong> If you have used a word from words, then the same word cannot be used twice unless the same word is repeated in array of words</p>\r\n<p><strong>Return:</strong> true or false if we can form the input string <code>s</code>, by choosing some words in some order from given array words.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: s = \"ILoveIBM\", words = [\"I\", \"YOU\", \"IBM\", \"Love\", \"We\"]\r\nOutput: true</code></pre>\r\n<p><strong>Explanation:</strong> If we concat words[0], words[3], words[2], then string \"ILoveIBM\" can be formed.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: s = \"AllTheBest\", words = [\"best\", \"of\", \"Luck\", \"All\"]\r\nOutput: false</code></pre>\r\n<p><strong>Explanation:</strong> string \"AllTheBest\" cannot be formed any given words from the array \"words\".</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": "p\n#include <iostream>\n#include <vector>\n#include <string>\n#include <numeric>\n#include <algorithm>\n\nclass Solution {\npublic:\n    bool canFormString(const std::string& s, const std::vector<std::string>& words) {\n        // Core logic to solve the problem goes here\n        return false;\n    }\n};\n\nint main() {\n    std::ios_base::sync_with_stdio(false);\n    std::cin.tie(NULL);\n\n    std::string s;\n    std::cin >> s;\n\n    int n;\n    std::cin >> n;\n    std::vector<std::string> words(n);\n    for (int i = 0; i < n; ++i) {\n        std::cin >> words[i];\n    }\n\n    Solution solution;\n    bool result = solution.canFormString(s, words);\n\n    std::cout << std::boolalpha << result << std::endl;\n\n    return 0;\n}",
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "ibm_12oct",
+        "company_id": 623
+    },
+    {
+        "id": 1771,
+        "title": "Evaluate Prefix Expression",
+        "problem_statement": "<h1>Evaluate Prefix Expression</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A prefix expression is one which has the operator proceeding the operands.</p>\r\n<p>Write a function <code>evalPrefix()</code> to evaluate such prefix notations.</p>\r\n<p>You will be given an array of strings (<code>prefixExp</code>) as a function argument.</p>\r\n<p>Valid operators are <code>+</code>, <code>-</code>, <code>*</code>, and <code>/</code>. Each operand may be an integer or another expression.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: prefixExp = [\"/\", \"5\", \"3\"]\r\nOutput: 1</code></pre>\r\n<p><strong>Explanation:</strong> This evaluates to 5 / 3, which results in 1 (assuming integer division).</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: prefixExp = [\"+\", \"4\", \"*\", \"10\", \"-\", \"9\", \"3\"]\r\nOutput: 64</code></pre>\r\n<p><strong>Explanation:</strong> This expression can be broken down as follows:</p>\r\n<ul>\r\n    <li><code>- \"9\" \"3\"</code> evaluates to 9 - 3 = 6.</li>\r\n    <li><code>* \"10\" \"6\"</code> (where 6 is the result of the previous step) evaluates to 10 * 6 = 60.</li>\r\n    <li><code>+ \"4\" \"60\"</code> (where 60 is the result of the previous step) evaluates to 4 + 60 = 64.</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": "p\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\n#include <algorithm>\n#include <numeric>\n\nclass Solution {\npublic:\n    int evalPrefix(const std::vector<std::string>& prefixExp) {\n        // Core logic to evaluate the prefix expression will go here.\n        return 0;\n    }\n};\n\nint main() {\n    std::ios_base::sync_with_stdio(false);\n    std::cin.tie(NULL);\n\n    std::string line;\n    std::getline(std::cin, line);\n\n    std::stringstream ss(line);\n    std::vector<std::string> prefixExp;\n    std::string token;\n    while (ss >> token) {\n        prefixExp.push_back(token);\n    }\n\n    Solution solution;\n    int result = solution.evalPrefix(prefixExp);\n    std::cout << result << std::endl;\n\n    return 0;\n}",
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "ibm_12oct",
+        "company_id": 623
+    }
+]

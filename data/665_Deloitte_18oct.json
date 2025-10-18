@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1885,
+        "title": "Roman Numerals to Decimal",
+        "problem_statement": "<h1>Roman Numerals to Decimal</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>In a book store, the books are arranged using Roman Numeral values. Lata wants to issue some books for which she needs to know the Decimal Numeral values. Write a program to help Lata in issuing books by converting Roman Numerals to Decimal Format. The Roman numerals should be entered as per the stipulated rules.</p>\r\n\r\n<p>The mapping of Roman numerals to their decimal values is as follows:</p>\r\n<table>\r\n    <thead>\r\n        <tr><th>Roman</th><th>Decimal</th></tr>\r\n    </thead>\r\n    <tbody>\r\n        <tr><td>I</td><td>1</td></tr>\r\n        <tr><td>V</td><td>5</td></tr>\r\n        <tr><td>X</td><td>10</td></tr>\r\n        <tr><td>L</td><td>50</td></tr>\r\n        <tr><td>C</td><td>100</td></tr>\r\n        <tr><td>D</td><td>500</td></tr>\r\n        <tr><td>M</td><td>1000</td></tr>\r\n    </tbody>\r\n</table>\r\n\r\n<p>Read the Input from STDIN (standard input) and Print to STDOUT (standard output) with a trailing new line. You should not write arbitrary strings while reading the input and while printing as these contribute to the standard output.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>Input should be a valid Roman Numeral value.</li>\r\n</ul>\r\n\r\n<p><strong>Input Format:</strong> The input contains the Roman Numeral value.</p>\r\n<p><strong>Output Format:</strong> The output contains the Decimal Numeral value. Print 0 if the Roman number provided as input is invalid.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: XVII\r\nOutput: 17</code></pre>\r\n<p><strong>Explanation:</strong> XVII, Here, X is 10 and VII is 7. Thus, total is 17.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: CXLIX\r\nOutput: 149</code></pre>\r\n<p><strong>Explanation:</strong> CXLIX, Here, C is 100, XL is 40 and IX is 9. Thus, total is 149.</p>\r\n\r\n<h2>Starter Code</h2>\r\n<pre><code class='language-javascript'>#include &lt;iostream&gt;\r\nusing namespace std;\r\n\r\nint romanToDecimal(string roman) {\r\n    int dec = -1;\r\n    // WRITE YOUR CODE HERE\r\n    return dec;\r\n}\r\n\r\nint main() {\r\n    string roman;\r\n    cin >> roman;\r\n    cout << romanToDecimal(roman) << endl;\r\n    return 0;\r\n}\r\n</code></pre>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "Deloitte_18oct",
+        "company_id": 665
+    }
+]
