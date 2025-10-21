@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/placement-react/static/css/main.3b71cc2a.css",
-    "main.js": "/placement-react/static/js/main.f2f7b7e4.js",
+    "main.js": "/placement-react/static/js/main.1c43ebcd.js",
     "static/js/453.5c1fd578.chunk.js": "/placement-react/static/js/453.5c1fd578.chunk.js",
     "index.html": "/placement-react/index.html",
     "main.3b71cc2a.css.map": "/placement-react/static/css/main.3b71cc2a.css.map",
-    "main.f2f7b7e4.js.map": "/placement-react/static/js/main.f2f7b7e4.js.map",
+    "main.1c43ebcd.js.map": "/placement-react/static/js/main.1c43ebcd.js.map",
     "453.5c1fd578.chunk.js.map": "/placement-react/static/js/453.5c1fd578.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b71cc2a.css",
-    "static/js/main.f2f7b7e4.js"
+    "static/js/main.1c43ebcd.js"
   ]
 }
