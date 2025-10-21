@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1923,
+        "title": "Unchanged Characters in Reversed Stream",
+        "problem_statement": "<h1>Unchanged Characters in Reversed Stream</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A company is transmitting its data to another server. To secure the data against malicious activity, they plan to reverse the data before transmitting. They want to know the number of data characters that do not change position even after the data stream is reversed. The network administrator has been tasked with ensuring the smooth transmission of the data.</p>\r\n<p>Write an algorithm for the network administrator to help him find the number of data characters that do not change position even after the data stream is reversed.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The input consists of a string <code>dataStream</code> representing the data to be transmitted through the network (N).</p>\r\n\r\n<h2>Output</h2>\r\n<p>Print an integer representing the number of data characters that do not change position even after the data stream is reversed. If no such character is found or the input string is empty then print 0.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: dataStream = \"alphxddida\"\r\nOutput: 4</code></pre>\r\n<p><strong>Explanation:</strong> The original data stream is \"alphxddida\". The characters that do not change position after the data stream is reversed are 'a', 'h', 'd', 'a'.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>0 <= dataStream.length</code></li>\r\n    <li>The input string <code>dataStream</code> is case sensitive and made up of English letters only. Uppercase characters and lowercase characters are counted as different.</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "SHL_17oct",
+        "company_id": 677
+    }
+]

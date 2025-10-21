@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1945,
+        "title": "Maximize Followers",
+        "problem_statement": "<h1>Maximize Followers</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>N people are standing in a row, each initially having <code>money[i]</code> dollars. Bob has a fixed amount <code>K</code>. All those who have the same money as Bob become his followers. You want to perform the following task at most once to make the maximum number of people end up with the same money as Bob.</p>\r\n<ul>\r\n    <li>Choose a subarray of people <code>L, R</code> (<code>0 &le; L &le; R &le; N-1</code>) and an integer <code>X</code> (<code>-10<sup>9</sup> &le; X &le; 10<sup>9</sup></code>). Add the amount <code>X</code> to each person from index <code>L</code> to <code>R</code> (i.e., <code>money[j] = money[j] + X</code>). If <code>X</code> is negative, you are taking money from the person.</li>\r\n</ul>\r\n<p>Find the maximum number of followers of Bob after at most one such operation.</p>\r\n<p>The function to complete takes three parameters:</p>\r\n<ul>\r\n    <li><code>N</code>: Represents the number of people.</li>\r\n    <li><code>K</code>: Represents Bob's amount.</li>\r\n    <li><code>money[]</code>: Represents the initial money each person has.</li>\r\n</ul>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\nN = 3\r\nK = 2\r\nMoney = [6, 2, 6]\r\nOutput: 2</code></pre>\r\n<p><strong>Explanation:</strong> If you take L=0, R=2 and X=-4, you end up with money = [2, -2, 2]. Hence, 2 people become followers.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &le; N &le; 10<sup>5</sup></code></li>\r\n    <li><code>1 &le; K &le; 10<sup>9</sup></code></li>\r\n    <li><code>-10<sup>9</sup> &le; money[i] &le; 10<sup>9</sup></code></li>\r\n</ul>\r\n\r\n<h2>Notes</h2>\r\n<ul>\r\n    <li><code>money[i]</code> can become negative. This means the person is in debt.</li>\r\n    <li>Only the final value of <code>money[i]</code> matters.</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "PayU",
+        "company_id": 688
+    }
+]

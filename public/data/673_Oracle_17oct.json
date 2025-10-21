@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1914,
+        "title": "Roll the String",
+        "problem_statement": "<h1>Roll the String</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A single roll operation increments each character by one in a circular manner within the English alphabet (a-z). For example, 'a' becomes 'b', 'b' becomes 'c', and 'z' becomes 'a'.</p>\r\n<p>Given a string <code>s</code> and an array of integers <code>roll</code>, perform a roll operation on the first <code>roll[i]</code> characters of <code>s</code> for each element <code>i</code> in the array.</p>\r\n<p>Complete the function <code>rollTheString</code> in the editor with the following parameter(s):</p>\r\n<ul>\r\n    <li><code>string s</code>: the string to operate on</li>\r\n    <li><code>int roll[n]</code>: the number of items in <code>s</code> to roll</li>\r\n</ul>\r\n<p><strong>Returns:</strong></p>\r\n<ul>\r\n    <li><code>string</code>: the resulting string after all roll operations have been performed</li>\r\n</ul>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: s = 'abz', roll = [3, 2, 1]\r\nOutput: 'dda'</code></pre>\r\n<p><strong>Explanation:</strong></p>\r\n<p>Initial string: <code>'abz'</code></p>\r\n<ol>\r\n    <li><code>roll[0] = 3</code>: Roll all three characters. <code>'abz'</code> becomes <code>'bca'</code></li>\r\n    <li><code>roll[1] = 2</code>: Roll the first two characters. <code>'bca'</code> becomes <code>'cda'</code></li>\r\n    <li><code>roll[2] = 1</code>: Roll the first character. <code>'cda'</code> becomes <code>'dda'</code></li>\r\n</ol>\r\n<p>The final value of <code>s</code> is <code>'dda'</code>.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>Each character in <code>s</code> is in the range ascii[a-z].</li>\r\n    <li><code>1 &lt;= length of s &lt;= 10<sup>5</sup></code></li>\r\n    <li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\r\n    <li><code>1 &lt;= roll[i] &lt;= length of s</code>, where <code>0 &lt;= i &lt; n</code>.</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "Oracle_17oct",
+        "company_id": 673
+    },
+    {
+        "id": 1915,
+        "title": "Bullish Trend Detection",
+        "problem_statement": "<h1>Bullish Trend Detection</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are building a backend service for a stock analytics platform. You have an array named <code>stockPrices</code> where <code>stockPrices[i]</code> denotes the price of the stock in the <code>i<sup>th</sup></code> month. A bullish trend of size <code>k</code> is an interval of <code>k</code> months such that the stock prices increase strictly throughout those months.</p>\r\n<p>Implement a function that calculates the number of bullish trends of size <code>k</code>.</p>\r\n<p>The function <code>calculateBullishTrends</code> takes the following inputs:</p>\r\n<ul>\r\n    <li><code>int stockPrices[n]</code>: the stock prices for <code>n</code> months</li>\r\n    <li><code>int k</code>: the analysis parameter</li>\r\n</ul>\r\n<p>The function should return an integer, the number of bullish trends of size <code>k</code>.</p>\r\n<p><strong>Note:</strong> If the interval length is 1, each subarray of length 1 is highly profitable.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: stockPrices = [5, 3, 5, 7, 8], k = 3\r\nOutput: 2</code></pre>\r\n<p><strong>Explanation:</strong> We need to find intervals of <code>k=3</code> months where prices strictly increase.</p>\r\n<ul>\r\n    <li>For the interval starting at index 0: <code>[5, 3, 5]</code>. Prices are not strictly increasing (5 is not less than 3).</li>\r\n    <li>For the interval starting at index 1: <code>[3, 5, 7]</code>. Prices are strictly increasing (3 &lt; 5 and 5 &lt; 7). This is a bullish trend.</li>\r\n    <li>For the interval starting at index 2: <code>[5, 7, 8]</code>. Prices are strictly increasing (5 &lt; 7 and 7 &lt; 8). This is a bullish trend.</li>\r\n</ul>\r\n<p>There are 2 such intervals, so the answer is 2.</p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "Oracle_17oct",
+        "company_id": 673
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1894,
+        "title": "StringChallenge",
+        "problem_statement": "<h1>StringChallenge</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Have the function <code>StringChallenge(str)</code> take the <code>str</code> parameter being passed and determine if a palindrome can be created by swapping two adjacent characters in the string. If it is possible to create a palindrome, then your program should return the palindrome. If it is not possible, then return the string <code>-1</code>.</p>\r\n<p>For example, if <code>str</code> is \"raccear\", then you can create a palindrome by swapping the second and third characters, so your program should return \"racecar\".</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: str = \"anna\"\r\nOutput: \"anna\"\r\nFinal Output: anna:a7Zjdky4c</code></pre>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: str = \"kyaak\"\r\nOutput: \"kayak\"\r\nFinal Output: kayak:a7Zjdky4c</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>The input string will only contain alphabetic characters.</li>\r\n</ul>\r\n\r\n<h2>Follow-up</h2>\r\n<p><strong>Final Output Requirement:</strong> Once your function is working, take the final function output (the palindrome or <code>\"-1\"</code>) and combine it with your ChallengeToken, both in reverse order and separated by a colon.</p>\r\n<p>Your ChallengeToken: <code>c4kydjZ7a</code></p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "Jupiter money",
+        "company_id": 669
+    }
+]

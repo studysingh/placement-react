@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1890,
+        "title": "Tree Node Stones - Make Adjacent Difference Exactly 1",
+        "problem_statement": "<h1>Tree Node Stones - Make Adjacent Difference Exactly 1</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You're given a tree with n nodes.</p>\r\n<p>Each node already has a number of stones assigned (some may be zero).</p>\r\n<p>You can only add stones (not remove).</p>\r\n<p><strong>Goal:</strong> Add the minimum total number of extra stones so that for every edge (u, v):</p>\r\n<p><code>|stones[u] - stones[v]| == 1</code></p>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "Ethos",
+        "company_id": 667
+    }
+]
