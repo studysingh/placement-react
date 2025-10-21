@@ -1,648 +1,2582 @@
 [
-  "100_Zeta.json",
-  "101_Samsung R&D.json",
-  "102_Fractal.json",
-  "103_Bajaj Finserv.json",
-  "104_IBM.json",
-  "105_Placewit.json",
-  "106_Coredge.io.json",
-  "107_Coinbase.json",
-  "108_MetLife.json",
-  "109_Infosys SP.json",
-  "10_Agoda.json",
-  "111_Typeface.json",
-  "112_Tiger Analytics.json",
-  "113_Coderbyte.json",
-  "114_PepsiCo.json",
-  "115_CARS24.json",
-  "116_Edelweiss.json",
-  "117_Netcore.json",
-  "118_Meril.json",
-  "119_Ziprecruiter.json",
-  "11_Goldman Sachs OA.json",
-  "120_Fantasy Premier League.json",
-  "121_Nexstem.json",
-  "122_Silvermine.json",
-  "123_Razorpay.json",
-  "124_CoinSwitch.json",
-  "125_Tredence.json",
-  "126_Atomicwork.json",
-  "127_L&T Finance.json",
-  "128_Tik Tok.json",
-  "129_ConsultAdd.json",
-  "12_Denso oa.json",
-  "130_Coding Blocks.json",
-  "131_Convin.json",
-  "132_Optiver.json",
-  "133_Epam.json",
-  "134_Microsoft.json",
-  "135_ANZ Bank.json",
-  "136_Nexcus.json",
-  "137_Embitel.json",
-  "138_ZL Technologies.json",
-  "139_Stealth Health.json",
-  "13_Thoughtspot.json",
-  "141_NxtWave.json",
-  "142_RedDoorz.json",
-  "143_Uniqode.json",
-  "145_JK Tech.json",
-  "14_Media.net.json",
-  "15_Nobroker.json",
-  "16_Wayfair.json",
-  "170_IBM_21july.json",
-  "171_D.E.Shaw_19july.json",
-  "172_JPMC_21july.json",
-  "173_sprinklr_21july.json",
-  "174_MediaNet_21july.json",
-  "175_Meesho_29june.json",
-  "177_Flipkart_13july.json",
-  "178_Flipkart_19july.json",
-  "179_Amazon_july.json",
-  "17_Rapidue.json",
-  "180_Visa_7july.json",
-  "181_Fast retailing_20july.json",
-  "182_Publicis Sapient_26march.json",
-  "183_Gartner_10march.json",
-  "184_Morgan stanley_21feb.json",
-  "185_Linkdin_2feb.json",
-  "186_Microsoft_17july.json",
-  "187_Codenation_23june.json",
-  "188_Stripe_16july.json",
-  "189_Infosys_12july.json",
-  "18_Yahoo.json",
-  "190_Adobe_11july.json",
-  "191_MediaNet_7july.json",
-  "192_DeShaw_5july.json",
-  "193_Google_5july.json",
-  "194_DeShaw_30june.json",
-  "195_Tower Research_22july.json",
-  "196_Auxia_22july.json",
-  "198_IBM_15june.json",
-  "19_TCS codevita.json",
-  "1_amazon  oa.json",
-  "202_Goldman Sachs_22july.json",
-  "203_Goldman Sachs_15 july.json",
-  "204_Goldman Sachs_10july.json",
-  "205_StoneX_22july.json",
-  "207_Josh technology_15july.json",
-  "208_Phonepe_4july.json",
-  "209_Microsoft_18july.json",
-  "20_Oracle.json",
-  "210_Microsoft_12july.json",
-  "211_Microsoft_10july.json",
-  "212_Microsoft_18march.json",
-  "213_Google_19july.json",
-  "214_MediaNet_july.json",
-  "215_Flipkart_20july.json",
-  "216_Flipkart_12july.json",
-  "217_UKG_20july.json",
-  "218_OPTIVER_20july.json",
-  "219_UKG_19july.json",
-  "21_Sprinklr.json",
-  "220_Meesho_17july.json",
-  "221_Mathworks_17july.json",
-  "222_Mathworks_12july.json",
-  "223_Uber_14july.json",
-  "224_Nutanix_17july.json",
-  "225_Ion Group_15july.json",
-  "226_Zomato_21july.json",
-  "227_Adobe_12july.json",
-  "228_Eqifax_23july.json",
-  "229_Barclays_24july.json",
-  "22_IBM.json",
-  "230_Ion Group_24july.json",
-  "231_MediaNet_23july.json",
-  "232_Amex_24july.json",
-  "233_Tally_24july.json",
-  "234_Virtusa_24july.json",
-  "235_Uber_23july.json",
-  "236_Amazon_23july.json",
-  "237_Amex_23july.json",
-  "238_Meesho_23july.json",
-  "239_Atlassian_24july.json",
-  "23_Wells Fargo.json",
-  "240_Intuit_8feb.json",
-  "241_Algo university_2june.json",
-  "242_Bny_1march.json",
-  "243_DeShaw_24july.json",
-  "244_Zscalar_2march.json",
-  "245_Ethos_2march.json",
-  "246_Mthree _6march.json",
-  "247_Mthree _23feb.json",
-  "248_Nokia_23march.json",
-  "249_Nokia_9march.json",
-  "24_Rippling.json",
-  "250_Nokia_8march.json",
-  "251_Tally_14march.json",
-  "252_Walmart_12march.json",
-  "253_philips_14march.json",
-  "254_Atlan_21march.json",
-  "255_Namma yatri_12april.json",
-  "256_Idfc_29march.json",
-  "257_Buyhatke_15july.json",
-  "258_Buyhatke_30march.json",
-  "259_DocuSign_6april.json",
-  "25_Meesho.json",
-  "260_DocuSign_5april.json",
-  "261_Microsoft_25july.json",
-  "263_Ring central_25july.json",
-  "264_Autodesk_10april.json",
-  "265_Autodesk_11april.json",
-  "266_Agoda_20april.json",
-  "267_Infoedge_27april.json",
-  "268_Infoedge_26april.json",
-  "269_Infoedge_5april.json",
-  "26_Service Now.json",
-  "270_Bookings holding_25july.json",
-  "271_Typeface_12july.json",
-  "272_Agoda_25july.json",
-  "273_Goldman sachs_25july.json",
-  "274_Toast_27april.json",
-  "275_Myntra_7may.json",
-  "276_Nvidia_30may.json",
-  "277_Nvidia_23april.json",
-  "278_Nvidia_7feb.json",
-  "279_Tech Mahindra_.json",
-  "27_American express.json",
-  "280_Tech Mahindra_22may.json",
-  "281_Trilogy_10july.json",
-  "282_Trilogy_4july.json",
-  "283_Zeta_1july.json",
-  "284_Zeta_26june.json",
-  "285_Visa_1july.json",
-  "286_Visa_10june.json",
-  "287_Visa_30may.json",
-  "288_Probo_4july.json",
-  "289_Rippling_29march.json",
-  "28_KLA.json",
-  "290_Rippling_19july.json",
-  "291_Experian_1july.json",
-  "292_Experian_28june.json",
-  "293_Salesforce_24may.json",
-  "294_Turing_24may.json",
-  "295_Turing_7may.json",
-  "296_Turing_21april.json",
-  "297_Ubs_1july.json",
-  "298_google_26july.json",
-  "299_Ubs_30june.json",
-  "29_Factset.json",
-  "2_Microsoft intern.json",
-  "300_Ubs_10march.json",
-  "301_Cisco_18july.json",
-  "302_Cisco_24june.json",
-  "303_Servicenow_8june.json",
-  "304_Ion group_26july.json",
-  "305_Typeface_26july.json",
-  "306_Salesforce_26july.json",
-  "307_Makemytrip_26july.json",
-  "308_KFin technologies_26july.json",
-  "309_Flipkart_26july.json",
-  "30_Cohesity.json",
-  "310_Agoda_26july.json",
-  "311_Texas_26july.json",
-  "312_Oracle_22may.json",
-  "313_sprinklr_17july.json",
-  "314_sprinklr_13july.json",
-  "315_Juspay_13july.json",
-  "316_Juspay_7july.json",
-  "317_Juspay_3july.json",
-  "318_Juspay_28june.json",
-  "319_Capital One_3july.json",
-  "31_Zomato.json",
-  "320_Capital One_1july.json",
-  "321_Capital One_30june.json",
-  "322_Infosys_13july.json",
-  "323_Cognizant_20june.json",
-  "324_Cognizant_27may.json",
-  "325_Grow_2july.json",
-  "326_Morgan stanley_17july.json",
-  "327_Morgan stanley_12june.json",
-  "328_Morgan stanley_12may.json",
-  "329_JPMC_20july.json",
-  "32_Turing.json",
-  "330_JPMC_17july.json",
-  "331_JPMC_28june.json",
-  "332_Barclays_27july.json",
-  "333_Goldman sachs_27july.json",
-  "334_jpmc_27july.json",
-  "335_Curefit_27july.json",
-  "336_Agoda_27july.json",
-  "337_IDFC_27july.json",
-  "338_Trilogy_27july.json",
-  "339_Msci_28july.json",
-  "33_Dell.json",
-  "340_urban_29july.json",
-  "341_Samsung_29july.json",
-  "342_ubs_29july.json",
-  "343_Mathworks_29july.json",
-  "344_bny_30july.json",
-  "345_Msci_30july.json",
-  "346_iRageCapital_30july.json",
-  "347_Barclays_30july.json",
-  "348_Amazon_30july.json",
-  "349_Winzo_30july.json",
-  "34_UKG.json",
-  "350_MediaNet_30july.json",
-  "351_phonepe_30july.json",
-  "352_Trilogy_31july.json",
-  "353_Mathworks_31july.json",
-  "354_Hilti_31july.json",
-  "356_Amazon_31july.json",
-  "357_jpmc_31july.json",
-  "358_Atlassian_31july.json",
-  "359_oracle_31july.json",
-  "35_Infosys.json",
-  "360_phonepe_1aug.json",
-  "361_Zomato_1aug.json",
-  "362_Ibm_1aug.json",
-  "363_citadel_1aug.json",
-  "364_Meesho_1aug.json",
-  "365_Amazon_Ml_challenge.json",
-  "366_Zeta_4August.json",
-  "367_Meesho_6aug.json",
-  "368_Trade desk_6aug.json",
-  "369_Microsoft_6Aug.json",
-  "36_TSMC.json",
-  "370_HackerEarth_Intern_6aug.json",
-  "371_Natwest_7aug.json",
-  "372_Lam Research_7aug.json",
-  "373_Lam Research_7aug.json",
-  "374_Intuit_7aug.json",
-  "376_UBS_7aug.json",
-  "377_Mastercard_7aug.json",
-  "378_Amazon_7aug.json",
-  "379_Deutsche bank_7aug.json",
-  "37_AT and T.json",
-  "380_Makemytrip_3aug.json",
-  "381_eqtechnologic_4aug.json",
-  "382_Amazon Ml school_3aug.json",
-  "383_Turing_7aug.json",
-  "384_Amex_7aug.json",
-  "385_Flipkart_3aug.json",
-  "386_Imc_7aug.json",
-  "387_ibm_7aug.json",
-  "388_Trilogy_7aug.json",
-  "389_Trs_5aug.json",
-  "38_Byte Dance.json",
-  "390_Barclays_4aug.json",
-  "391_Flipkart_4aug.json",
-  "392_Lumber_4aug.json",
-  "393_Tvs_6aug.json",
-  "394_Tekion_4aug.json",
-  "395_Amazon_6july.json",
-  "396_Mathworks_8aug.json",
-  "397_Tata digital_8aug.json",
-  "398_Tridence_8aug.json",
-  "399_Zeta_8aug.json",
-  "39_Eurofins.json",
-  "3_Amazon Intern.json",
-  "400_Trilogy_8aug.json",
-  "401_Rippling_6aug.json",
-  "402_High radius_6aug.json",
-  "403_Mathworks_6aug.json",
-  "404_Texas_5aug.json",
-  "405_idfc_6aug.json",
-  "406_jpmc_9aug.json",
-  "407_Goldman sachs_9aug.json",
-  "408_oracle_9aug.json",
-  "409_Booking holdings_9aug.json",
-  "40_Uber.json",
-  "410_flipkart_8aug.json",
-  "411_LeadSquared_8aug.json",
-  "412_Amazon_8aug.json",
-  "414_Amazon_26aug.json",
-  "415_Oracle_19aug.json",
-  "416_Oracle22aug.json",
-  "417_Go Daddy_27aug.json",
-  "418_Visa_28aug.json",
-  "419_Dp World_28aug.json",
-  "41_HashedIn.json",
-  "420_Cohesity_28aug.json",
-  "421_Juspay_29aug.json",
-  "422_HSBC_29aug.json",
-  "423_KKR_Bank.json",
-  "424_PharmEasy_22aug.json",
-  "426_Amazon_30Aug.json",
-  "427_Visa_29Aug.json",
-  "428_deloitte_26aug.json",
-  "429_Microsoft_30Aug.json",
-  "42_Z Scaler.json",
-  "430_Amazon_29Aug.json",
-  "431_Amazon_23Aug.json",
-  "432_paypal_26aug.json",
-  "433_Natwest_29aug.json",
-  "434_oracle_28aug.json",
-  "435_UBS_14aug.json",
-  "436_Amazon_29july.json",
-  "437_Infoedge_23aug.json",
-  "438_ZS_21aug.json",
-  "439_McKinsey_28sept.json",
-  "440_Teradata.json",
-  "441_Zscalar.json",
-  "442_LinkedIn_9Aug.json",
-  "443_Microsoft_14Aug.json",
-  "444_Adobe_15Aug.json",
-  "445_Linkedin_31aug.json",
-  "446_flipkart_20aug.json",
-  "447_jpmc_12aug.json",
-  "448_citadel_23aug.json",
-  "449_High Radius_23aug.json",
-  "44_Josh Technology.json",
-  "450_Godaddy_27aug.json",
-  "451_Goldman sachs_19aug.json",
-  "452_DevRev_24aug.json",
-  "453_CRED_23aug.json",
-  "454_expedia_26aug.json",
-  "455_jubilant_31aug.json",
-  "456_Wells fargo_1sep.json",
-  "457_Apple_1sep.json",
-  "458_Uber_13aug.json",
-  "459_MediaNet_1sep.json",
-  "460_Microsoft_1sep.json",
-  "461_uber_3sep.json",
-  "462_citadel_3aug.json",
-  "463_HSBC_3sep.json",
-  "464_Apple_3sep.json",
-  "465_Commvault_3sep.json",
-  "466_Cisco_3sep.json",
-  "467_Flipkart_3sep.json",
-  "468_Trilogy_4sep.json",
-  "469_Razorpay_4sep.json",
-  "46_MakeMyTrip.json",
-  "470_Ukg_5sep.json",
-  "471_Rippling_4sep.json",
-  "472_Amazon_4sep.json",
-  "473_HSBC_5sep.json",
-  "474_exxonmobil_5sep.json",
-  "475_Amazon_5sep.json",
-  "476_MediaNet_5sep.json",
-  "477_Tower research_5sep.json",
-  "478_Visa_5sep.json",
-  "479_SAP Labs_5sep.json",
-  "47_Trilogy.json",
-  "480_UIpath_5sep.json",
-  "481_Goldman sachs_5sep.json",
-  "482_cockroach labs_6sep.json",
-  "484_HSBC_9sep.json",
-  "485_ibm_10sep.json",
-  "486_Typeface_10sep.json",
-  "487_Amazon_10sep.json",
-  "488_GP_10sep.json",
-  "489_Oracle_8sep.json",
-  "48_GigSky.json",
-  "490_oracle_8sep.json",
-  "491_MediaNet_12sep.json",
-  "492_UKG_12sep.json",
-  "493_Headout_12sep.json",
-  "494_Coursera_16sep.json",
-  "495_SAP Labs_16sep.json",
-  "496_UKG_15sep.json",
-  "497_IBM_14sep.json",
-  "498_Titan_16sep.json",
-  "499_Deshaw_16sep.json",
-  "49_MAQ.json",
-  "4_PhonePe.json",
-  "500_Amazon_13sep.json",
-  "501_Meesho_14sep.json",
-  "502_bank of Australia_15sep.json",
-  "503_Quadeye_17sep.json",
-  "504_Amazon_17sep.json",
-  "505_Visa_17sep.json",
-  "506_Kickdrum_17sep.json",
-  "507_trading tech_17sep.json",
-  "508_Citadel_19sep.json",
-  "509_HashedIn_19sep.json",
-  "50_Swiggy.json",
-  "510_jubliant_19sep.json",
-  "511_Amazon_19sep.json",
-  "512_Samsung_18sep.json",
-  "513_Myntra_20sep.json",
-  "514_Amazon_20sep.json",
-  "515_ethos_20sep.json",
-  "516_nvidia_22sep.json",
-  "517_Ibm_22sep.json",
-  "518_Amazon_22sep.json",
-  "519_Ibm_23sep.json",
-  "51_Onix.json",
-  "520_Kickdrum_24sep.json",
-  "521_Oracle_23sep.json",
-  "522_Juspay_24sep.json",
-  "523_Amazon_24sep.json",
-  "524_ZS_24sep.json",
-  "525_Airtel_24sep.json",
-  "526_nvidia_25sep.json",
-  "527_Josh Technology_25july.json",
-  "528_Amazon_25july.json",
-  "529_Tredence_25july.json",
-  "52_Netradyne.json",
-  "530_grow_25sep.json",
-  "531_Amazon_26sep.json",
-  "532_Titan_27sep.json",
-  "533_pepciso_27sep.json",
-  "534_Amazon_Scientist_27sep.json",
-  "535_Amaozn_27sep.json",
-  "536_sapient_27sep.json",
-  "537_ge vernova_27sep.json",
-  "538_HPE_28sep.json",
-  "539_ibm_29sep.json",
-  "53_kickdrum.json",
-  "540_Amazon_29sep.json",
-  "541_Accenture_29sep.json",
-  "542_samsung_29sep.json",
-  "543_Autodesk_30sep.json",
-  "544_Stripe_30sep.json",
-  "545_Citadel_30sep.json",
-  "546_Zomato_1oct.json",
-  "547_Amazon_1oct.json",
-  "548_Sprinkler_1oct.json",
-  "549_Amazon_3oct.json",
-  "54_ICICI.json",
-  "550_rubrik_4oct.json",
-  "551_Amazon_3oct.json",
-  "552_rubrik_4oct.json",
-  "553_Paytm_3oct.json",
-  "554_Altimetrik_3oct.json",
-  "555_HPE_3oct.json",
-  "556_Uber_all.json",
-  "557_DealShare.json",
-  "558_Squarepoint.json",
-  "559_ZS_4oct.json",
-  "55_Flipkart.json",
-  "560_Rubrik_5oct.json",
-  "561_citadel_3oct.json",
-  "562_Tech Mahindra_6oct.json",
-  "563_serion lab_5oct.json",
-  "564_Cargill_5oct.json",
-  "565_Tech Mahindra.json",
-  "566_uber_6oct.json",
-  "567_Dealshare_7oct.json",
-  "568_Amazon_7oct.json",
-  "569_stripe_6oct.json",
-  "56_Intuit.json",
-  "570_visa_6oct.json",
-  "571_nvidia_7oct.json",
-  "572_Oracle_7oct.json",
-  "573_Publicis Sapient_27sept.json",
-  "574_Publicis Sapient_2Sept.json",
-  "575_Mathworks_7Oct.json",
-  "576_Societe_Generale_7Oct.json",
-  "577_Bree_7oct.json",
-  "578_Ola.json",
-  "579_Publicis Sapient.json",
-  "57_paypal.json",
-  "580_Unicult_8oct.json",
-  "581_Amazon_8oct.json",
-  "582_Uber Data science_8oct.json",
-  "583_MediBuddy_8oct.json",
-  "584_Publicis Sapient_8oct.json",
-  "585_MediaNet_8oct.json",
-  "586_nagarro_18aug.json",
-  "587_SIXT.json",
-  "588_Nucleus Software.json",
-  "589_Freecharge.json",
-  "58_Samsung Research.json",
-  "590_InMobi.json",
-  "591_Factset_9oct.json",
-  "592_Komprise.json",
-  "593_Trimble.json",
-  "594_Navi Technologies.json",
-  "595_Growth jockey_9oct.json",
-  "596_OpenText_9oct.json",
-  "597_visa_9oct.json",
-  "598_unify.json",
-  "599_ethos life_9oct.json",
-  "59_Google.json",
-  "5_LG ads.json",
-  "600_Optum_9oct.json",
-  "601_Accolite_9oct.json",
-  "602_Inmobi_10oct.json",
-  "603_thoughtworks_9oct.json",
-  "604_ubs.json",
-  "605_Nk securities.json",
-  "606_Growth jockey_10oct.json",
-  "607_Rapido_10oct.json",
-  "608_commonwealth.json",
-  "609_Bank of Australia.json",
-  "60_Deshaw.json",
-  "610_Accenture Japan.json",
-  "611_Accolite_11oct.json",
-  "612_Epam_11oct.json",
-  "613_Virtusa_11oct.json",
-  "614_Scienaptic AI_11oct.json",
-  "615_ibm_11oct.json",
-  "616_infosys_11oct.json",
-  "617_wex.json",
-  "618_Virtusa..._11oct.json",
-  "619_Sprinklr_11oct.json",
-  "61_Nutanix.json",
-  "620_Algo university_11oct.json",
-  "621_Infoedge_12oct.json",
-  "622_hackerrank.json",
-  "623_ibm_12oct.json",
-  "624_Adobe_12oct.json",
-  "625_Rippling_12oct.json",
-  "626_Citi_12oct.json",
-  "627_Amazon_12oct.json",
-  "628_Razorpay_12oct.json",
-  "629_SDET_12oct.json",
-  "62_Visa fte.json",
-  "630_Kickdrum_13oct.json",
-  "631_Deshaw_13oct.json",
-  "632_Boomi_13oct.json",
-  "633_uber_13oct.json",
-  "634_Statestreet_13oct.json",
-  "635_ibm_13oct.json",
-  "636_Hitachi_13oct.json",
-  "637_opentext_13oct.json",
-  "638_Mercer _ Mettl_13oct.json",
-  "639_citi_14oct.json",
-  "63_Greyorange.json",
-  "640_Amazon_14oct.json",
-  "641_Autodesk_14oct.json",
-  "642_optiver_14oct.json",
-  "643_curefir_14oct.json",
-  "644_stripe_14oct.json",
-  "645_uber_14oct.json",
-  "646_ZS_14oct.json",
-  "647_HiLabs_SDE.json",
-  "648_Sharechat_15oct.json",
-  "649_juspay_15oct.json",
-  "64_SAP Labs.json",
-  "650_Amazon_15oct.json",
-  "651_virtusa_15oct.json",
-  "652_Bounteous × Accolite_15oct.json",
-  "653_Hushh Ai_15oct.json",
-  "654_Dezerv.json",
-  "655_citi_16oct.json",
-  "656_opentext_16oct.json",
-  "657_Amazon_16oct.json",
-  "658_oracle_16oct.json",
-  "659_Swiggy_16oct.json",
-  "65_Emerson.json",
-  "660_Arcesium_16oct.json",
-  "661_Oracle_16nov.json",
-  "662_kotak.json",
-  "663_Kotak_16oct.json",
-  "664_Walmart_1sept.json",
-  "665_Deloitte_18oct.json",
-  "666_Ivyleague csforall_18oct.json",
-  "667_Ethos.json",
-  "668_Arcesium_18oct.json",
-  "669_Jupiter money.json",
-  "66_Axis bank fte.json",
-  "670_Societe Generale_18oct.json",
-  "671_Nasdaq_18oct.json",
-  "672_StateStreet_18oct.json",
-  "673_Oracle_17oct.json",
-  "674_visa_18oct.json",
-  "675_Thoughtworks_17oct.json",
-  "676_virtusa_17oct.json",
-  "677_SHL_17oct.json",
-  "678_Arcesium_17oct.json",
-  "679_infoedge_18oct.json",
-  "67_Axis Bank fte.json",
-  "680_juspay_17oct.json",
-  "681_Accolite_17oct.json",
-  "682_Amazon_17oct.json",
-  "683_Amgen technology_17oct.json",
-  "684_Pepsico_17oct.json",
-  "685_Kotak_17oct.json",
-  "686_Ernst and young_18oct.json",
-  "687_NXT wave_18oct.json",
-  "688_PayU.json",
-  "689_Coupa.json",
-  "69_Barclays.json",
-  "6_Walmart sparkplug.json",
-  "70_Quadric.json",
-  "71_Airtel.json",
-  "72_Amazon.json",
-  "73_Amazon.json",
-  "74_Udaan.json",
-  "75_Hsbc.json",
-  "76_Flipkart.json",
-  "77_Udaan.json",
-  "78_Myntra.json",
-  "79_Vmock.json",
-  "7_Common Wealth.json",
-  "80_Gameberry labs.json",
-  "81_Gameberry labs.json",
-  "82_Vmock.json",
-  "83_Barclays.json",
-  "84_Barclays.json",
-  "85_Shaadi.com.json",
-  "86_Media net.json",
-  "87_Bolt.earth.json",
-  "88_Amazon.json",
-  "89_ClearTax.json",
-  "8_Twilio.json",
-  "90_Chargebee.json",
-  "91_SCS Global Services.json",
-  "92_Saks.json",
-  "93_Cashfree.json",
-  "94_Pocketpills.json",
-  "96_Pocketpills.json",
-  "97_CDK Global.json",
-  "98_Axis Bank.json",
-  "9_OPTUM.json",
-  "files_index.json"
+  {
+    "fileName": "100_Zeta.json",
+    "updatedAt": "2025-10-08T21:18:26.860684+00:00"
+  },
+  {
+    "fileName": "101_Samsung R&D.json",
+    "updatedAt": "2025-10-08T21:18:27.349502+00:00"
+  },
+  {
+    "fileName": "102_Fractal.json",
+    "updatedAt": "2025-10-08T21:18:27.832290+00:00"
+  },
+  {
+    "fileName": "103_Bajaj Finserv.json",
+    "updatedAt": "2025-10-08T21:18:28.298443+00:00"
+  },
+  {
+    "fileName": "104_IBM.json",
+    "updatedAt": "2025-10-08T21:18:28.833575+00:00"
+  },
+  {
+    "fileName": "105_Placewit.json",
+    "updatedAt": "2025-10-08T21:18:29.304616+00:00"
+  },
+  {
+    "fileName": "106_Coredge.io.json",
+    "updatedAt": "2025-10-08T21:18:29.776438+00:00"
+  },
+  {
+    "fileName": "107_Coinbase.json",
+    "updatedAt": "2025-10-08T21:18:30.259396+00:00"
+  },
+  {
+    "fileName": "108_MetLife.json",
+    "updatedAt": "2025-10-08T21:18:30.749757+00:00"
+  },
+  {
+    "fileName": "109_Infosys SP.json",
+    "updatedAt": "2025-10-08T21:18:31.252330+00:00"
+  },
+  {
+    "fileName": "10_Agoda.json",
+    "updatedAt": "2025-10-08T21:17:42.730669+00:00"
+  },
+  {
+    "fileName": "111_Typeface.json",
+    "updatedAt": "2025-10-08T21:18:32.059759+00:00"
+  },
+  {
+    "fileName": "112_Tiger Analytics.json",
+    "updatedAt": "2025-10-08T21:18:32.536609+00:00"
+  },
+  {
+    "fileName": "113_Coderbyte.json",
+    "updatedAt": "2025-10-08T21:18:33.005413+00:00"
+  },
+  {
+    "fileName": "114_PepsiCo.json",
+    "updatedAt": "2025-10-08T21:18:33.468203+00:00"
+  },
+  {
+    "fileName": "115_CARS24.json",
+    "updatedAt": "2025-10-08T21:18:33.952212+00:00"
+  },
+  {
+    "fileName": "116_Edelweiss.json",
+    "updatedAt": "2025-10-08T21:18:34.418462+00:00"
+  },
+  {
+    "fileName": "117_Netcore.json",
+    "updatedAt": "2025-10-08T21:18:34.943860+00:00"
+  },
+  {
+    "fileName": "118_Meril.json",
+    "updatedAt": "2025-10-08T21:18:35.417261+00:00"
+  },
+  {
+    "fileName": "119_Ziprecruiter.json",
+    "updatedAt": "2025-10-08T21:18:35.883336+00:00"
+  },
+  {
+    "fileName": "11_Goldman Sachs OA.json",
+    "updatedAt": "2025-10-08T21:17:43.207349+00:00"
+  },
+  {
+    "fileName": "120_Fantasy Premier League.json",
+    "updatedAt": "2025-10-08T21:18:36.348816+00:00"
+  },
+  {
+    "fileName": "121_Nexstem.json",
+    "updatedAt": "2025-10-08T21:18:36.791521+00:00"
+  },
+  {
+    "fileName": "122_Silvermine.json",
+    "updatedAt": "2025-10-08T21:18:37.269981+00:00"
+  },
+  {
+    "fileName": "123_Razorpay.json",
+    "updatedAt": "2025-10-08T21:18:37.750571+00:00"
+  },
+  {
+    "fileName": "124_CoinSwitch.json",
+    "updatedAt": "2025-10-08T21:18:38.218437+00:00"
+  },
+  {
+    "fileName": "125_Tredence.json",
+    "updatedAt": "2025-10-08T21:18:38.756587+00:00"
+  },
+  {
+    "fileName": "126_Atomicwork.json",
+    "updatedAt": "2025-10-08T21:18:39.248285+00:00"
+  },
+  {
+    "fileName": "127_L&T Finance.json",
+    "updatedAt": "2025-10-08T21:18:39.693083+00:00"
+  },
+  {
+    "fileName": "128_Tik Tok.json",
+    "updatedAt": "2025-10-08T21:18:40.150630+00:00"
+  },
+  {
+    "fileName": "129_ConsultAdd.json",
+    "updatedAt": "2025-10-08T21:18:40.611366+00:00"
+  },
+  {
+    "fileName": "12_Denso oa.json",
+    "updatedAt": "2025-10-08T21:17:43.658161+00:00"
+  },
+  {
+    "fileName": "130_Coding Blocks.json",
+    "updatedAt": "2025-10-08T21:18:41.100440+00:00"
+  },
+  {
+    "fileName": "131_Convin.json",
+    "updatedAt": "2025-10-08T21:18:41.564721+00:00"
+  },
+  {
+    "fileName": "132_Optiver.json",
+    "updatedAt": "2025-10-08T21:18:42.148268+00:00"
+  },
+  {
+    "fileName": "133_Epam.json",
+    "updatedAt": "2025-10-08T21:18:42.616334+00:00"
+  },
+  {
+    "fileName": "134_Microsoft.json",
+    "updatedAt": "2025-10-08T21:18:43.079122+00:00"
+  },
+  {
+    "fileName": "135_ANZ Bank.json",
+    "updatedAt": "2025-10-08T21:18:43.598251+00:00"
+  },
+  {
+    "fileName": "136_Nexcus.json",
+    "updatedAt": "2025-10-08T21:18:44.060616+00:00"
+  },
+  {
+    "fileName": "137_Embitel.json",
+    "updatedAt": "2025-10-08T21:18:44.530528+00:00"
+  },
+  {
+    "fileName": "138_ZL Technologies.json",
+    "updatedAt": "2025-10-08T21:18:44.986496+00:00"
+  },
+  {
+    "fileName": "139_Stealth Health.json",
+    "updatedAt": "2025-10-08T21:18:45.448430+00:00"
+  },
+  {
+    "fileName": "13_Thoughtspot.json",
+    "updatedAt": "2025-10-08T21:17:44.150834+00:00"
+  },
+  {
+    "fileName": "141_NxtWave.json",
+    "updatedAt": "2025-10-08T21:18:46.162302+00:00"
+  },
+  {
+    "fileName": "142_RedDoorz.json",
+    "updatedAt": "2025-10-08T21:18:46.626606+00:00"
+  },
+  {
+    "fileName": "143_Uniqode.json",
+    "updatedAt": "2025-10-08T21:18:47.091598+00:00"
+  },
+  {
+    "fileName": "145_JK Tech.json",
+    "updatedAt": "2025-10-08T21:18:47.798690+00:00"
+  },
+  {
+    "fileName": "14_Media.net.json",
+    "updatedAt": "2025-10-08T21:17:44.645342+00:00"
+  },
+  {
+    "fileName": "15_Nobroker.json",
+    "updatedAt": "2025-10-08T21:17:45.150668+00:00"
+  },
+  {
+    "fileName": "16_Wayfair.json",
+    "updatedAt": "2025-10-08T21:17:45.632391+00:00"
+  },
+  {
+    "fileName": "170_IBM_21july.json",
+    "updatedAt": "2025-10-08T21:18:54.689769+00:00"
+  },
+  {
+    "fileName": "171_D.E.Shaw_19july.json",
+    "updatedAt": "2025-10-08T21:18:55.245536+00:00"
+  },
+  {
+    "fileName": "172_JPMC_21july.json",
+    "updatedAt": "2025-10-08T21:18:55.745061+00:00"
+  },
+  {
+    "fileName": "173_sprinklr_21july.json",
+    "updatedAt": "2025-10-08T21:18:56.246697+00:00"
+  },
+  {
+    "fileName": "174_MediaNet_21july.json",
+    "updatedAt": "2025-10-08T21:18:56.750260+00:00"
+  },
+  {
+    "fileName": "175_Meesho_29june.json",
+    "updatedAt": "2025-10-08T21:18:57.202079+00:00"
+  },
+  {
+    "fileName": "177_Flipkart_13july.json",
+    "updatedAt": "2025-10-08T21:18:58.008056+00:00"
+  },
+  {
+    "fileName": "178_Flipkart_19july.json",
+    "updatedAt": "2025-10-08T21:18:58.547437+00:00"
+  },
+  {
+    "fileName": "179_Amazon_july.json",
+    "updatedAt": "2025-10-08T21:18:59.088966+00:00"
+  },
+  {
+    "fileName": "17_Rapidue.json",
+    "updatedAt": "2025-10-08T21:17:46.106244+00:00"
+  },
+  {
+    "fileName": "180_Visa_7july.json",
+    "updatedAt": "2025-10-08T21:18:59.551038+00:00"
+  },
+  {
+    "fileName": "181_Fast retailing_20july.json",
+    "updatedAt": "2025-10-08T21:19:00.054800+00:00"
+  },
+  {
+    "fileName": "182_Publicis Sapient_26march.json",
+    "updatedAt": "2025-10-08T21:19:00.652370+00:00"
+  },
+  {
+    "fileName": "183_Gartner_10march.json",
+    "updatedAt": "2025-10-08T21:19:01.125499+00:00"
+  },
+  {
+    "fileName": "184_Morgan stanley_21feb.json",
+    "updatedAt": "2025-10-08T21:19:01.588555+00:00"
+  },
+  {
+    "fileName": "185_Linkdin_2feb.json",
+    "updatedAt": "2025-10-08T21:19:02.051265+00:00"
+  },
+  {
+    "fileName": "186_Microsoft_17july.json",
+    "updatedAt": "2025-10-08T21:19:02.518458+00:00"
+  },
+  {
+    "fileName": "187_Codenation_23june.json",
+    "updatedAt": "2025-10-08T21:19:02.990477+00:00"
+  },
+  {
+    "fileName": "188_Stripe_16july.json",
+    "updatedAt": "2025-10-08T21:19:03.446557+00:00"
+  },
+  {
+    "fileName": "189_Infosys_12july.json",
+    "updatedAt": "2025-10-08T21:19:03.949778+00:00"
+  },
+  {
+    "fileName": "18_Yahoo.json",
+    "updatedAt": "2025-10-08T21:17:46.579951+00:00"
+  },
+  {
+    "fileName": "190_Adobe_11july.json",
+    "updatedAt": "2025-10-08T21:19:04.590042+00:00"
+  },
+  {
+    "fileName": "191_MediaNet_7july.json",
+    "updatedAt": "2025-10-08T21:19:05.080525+00:00"
+  },
+  {
+    "fileName": "192_DeShaw_5july.json",
+    "updatedAt": "2025-10-08T21:19:05.553837+00:00"
+  },
+  {
+    "fileName": "193_Google_5july.json",
+    "updatedAt": "2025-10-08T21:19:06.021211+00:00"
+  },
+  {
+    "fileName": "194_DeShaw_30june.json",
+    "updatedAt": "2025-10-08T21:19:06.479479+00:00"
+  },
+  {
+    "fileName": "195_Tower Research_22july.json",
+    "updatedAt": "2025-10-08T21:19:06.957174+00:00"
+  },
+  {
+    "fileName": "196_Auxia_22july.json",
+    "updatedAt": "2025-10-08T21:19:07.416437+00:00"
+  },
+  {
+    "fileName": "198_IBM_15june.json",
+    "updatedAt": "2025-10-08T21:19:08.148112+00:00"
+  },
+  {
+    "fileName": "19_TCS codevita.json",
+    "updatedAt": "2025-10-08T21:17:47.055548+00:00"
+  },
+  {
+    "fileName": "1_amazon  oa.json",
+    "updatedAt": "2025-10-08T21:17:37.247602+00:00"
+  },
+  {
+    "fileName": "202_Goldman Sachs_22july.json",
+    "updatedAt": "2025-10-08T21:19:09.553055+00:00"
+  },
+  {
+    "fileName": "203_Goldman Sachs_15 july.json",
+    "updatedAt": "2025-10-08T21:19:10.010203+00:00"
+  },
+  {
+    "fileName": "204_Goldman Sachs_10july.json",
+    "updatedAt": "2025-10-08T21:19:10.491381+00:00"
+  },
+  {
+    "fileName": "205_StoneX_22july.json",
+    "updatedAt": "2025-10-08T21:19:10.969673+00:00"
+  },
+  {
+    "fileName": "207_Josh technology_15july.json",
+    "updatedAt": "2025-10-08T21:19:11.712413+00:00"
+  },
+  {
+    "fileName": "208_Phonepe_4july.json",
+    "updatedAt": "2025-10-08T21:19:12.249652+00:00"
+  },
+  {
+    "fileName": "209_Microsoft_18july.json",
+    "updatedAt": "2025-10-08T21:19:12.760759+00:00"
+  },
+  {
+    "fileName": "20_Oracle.json",
+    "updatedAt": "2025-10-08T21:17:47.513572+00:00"
+  },
+  {
+    "fileName": "210_Microsoft_12july.json",
+    "updatedAt": "2025-10-08T21:19:13.232306+00:00"
+  },
+  {
+    "fileName": "211_Microsoft_10july.json",
+    "updatedAt": "2025-10-08T21:19:13.748723+00:00"
+  },
+  {
+    "fileName": "212_Microsoft_18march.json",
+    "updatedAt": "2025-10-08T21:19:14.252491+00:00"
+  },
+  {
+    "fileName": "213_Google_19july.json",
+    "updatedAt": "2025-10-08T21:19:14.756767+00:00"
+  },
+  {
+    "fileName": "214_MediaNet_july.json",
+    "updatedAt": "2025-10-08T21:19:15.219259+00:00"
+  },
+  {
+    "fileName": "215_Flipkart_20july.json",
+    "updatedAt": "2025-10-08T21:19:15.685008+00:00"
+  },
+  {
+    "fileName": "216_Flipkart_12july.json",
+    "updatedAt": "2025-10-08T21:19:16.142359+00:00"
+  },
+  {
+    "fileName": "217_UKG_20july.json",
+    "updatedAt": "2025-10-08T21:19:16.607372+00:00"
+  },
+  {
+    "fileName": "218_OPTIVER_20july.json",
+    "updatedAt": "2025-10-08T21:19:17.069867+00:00"
+  },
+  {
+    "fileName": "219_UKG_19july.json",
+    "updatedAt": "2025-10-08T21:19:17.557894+00:00"
+  },
+  {
+    "fileName": "21_Sprinklr.json",
+    "updatedAt": "2025-10-08T21:17:47.982709+00:00"
+  },
+  {
+    "fileName": "220_Meesho_17july.json",
+    "updatedAt": "2025-10-08T21:19:18.022084+00:00"
+  },
+  {
+    "fileName": "221_Mathworks_17july.json",
+    "updatedAt": "2025-10-08T21:19:18.469200+00:00"
+  },
+  {
+    "fileName": "222_Mathworks_12july.json",
+    "updatedAt": "2025-10-08T21:19:18.961978+00:00"
+  },
+  {
+    "fileName": "223_Uber_14july.json",
+    "updatedAt": "2025-10-08T21:19:19.432208+00:00"
+  },
+  {
+    "fileName": "224_Nutanix_17july.json",
+    "updatedAt": "2025-10-08T21:19:19.893304+00:00"
+  },
+  {
+    "fileName": "225_Ion Group_15july.json",
+    "updatedAt": "2025-10-08T21:19:20.362486+00:00"
+  },
+  {
+    "fileName": "226_Zomato_21july.json",
+    "updatedAt": "2025-10-08T21:19:20.846675+00:00"
+  },
+  {
+    "fileName": "227_Adobe_12july.json",
+    "updatedAt": "2025-10-08T21:19:21.316113+00:00"
+  },
+  {
+    "fileName": "228_Eqifax_23july.json",
+    "updatedAt": "2025-10-08T21:19:21.789339+00:00"
+  },
+  {
+    "fileName": "229_Barclays_24july.json",
+    "updatedAt": "2025-10-08T21:19:22.263603+00:00"
+  },
+  {
+    "fileName": "22_IBM.json",
+    "updatedAt": "2025-10-08T21:17:48.457026+00:00"
+  },
+  {
+    "fileName": "230_Ion Group_24july.json",
+    "updatedAt": "2025-10-08T21:19:22.749561+00:00"
+  },
+  {
+    "fileName": "231_MediaNet_23july.json",
+    "updatedAt": "2025-10-08T21:19:23.252414+00:00"
+  },
+  {
+    "fileName": "232_Amex_24july.json",
+    "updatedAt": "2025-10-08T21:19:23.749128+00:00"
+  },
+  {
+    "fileName": "233_Tally_24july.json",
+    "updatedAt": "2025-10-08T21:19:24.226100+00:00"
+  },
+  {
+    "fileName": "234_Virtusa_24july.json",
+    "updatedAt": "2025-10-08T21:19:24.695395+00:00"
+  },
+  {
+    "fileName": "235_Uber_23july.json",
+    "updatedAt": "2025-10-08T21:19:25.160859+00:00"
+  },
+  {
+    "fileName": "236_Amazon_23july.json",
+    "updatedAt": "2025-10-08T21:19:25.656428+00:00"
+  },
+  {
+    "fileName": "237_Amex_23july.json",
+    "updatedAt": "2025-10-08T21:19:26.148673+00:00"
+  },
+  {
+    "fileName": "238_Meesho_23july.json",
+    "updatedAt": "2025-10-08T21:19:26.616276+00:00"
+  },
+  {
+    "fileName": "239_Atlassian_24july.json",
+    "updatedAt": "2025-10-08T21:19:27.088662+00:00"
+  },
+  {
+    "fileName": "23_Wells Fargo.json",
+    "updatedAt": "2025-10-08T21:17:48.949244+00:00"
+  },
+  {
+    "fileName": "240_Intuit_8feb.json",
+    "updatedAt": "2025-10-08T21:19:27.590766+00:00"
+  },
+  {
+    "fileName": "241_Algo university_2june.json",
+    "updatedAt": "2025-10-08T21:19:28.061491+00:00"
+  },
+  {
+    "fileName": "242_Bny_1march.json",
+    "updatedAt": "2025-10-08T21:19:28.531102+00:00"
+  },
+  {
+    "fileName": "243_DeShaw_24july.json",
+    "updatedAt": "2025-10-08T21:19:28.996438+00:00"
+  },
+  {
+    "fileName": "244_Zscalar_2march.json",
+    "updatedAt": "2025-10-08T21:19:29.460884+00:00"
+  },
+  {
+    "fileName": "245_Ethos_2march.json",
+    "updatedAt": "2025-10-08T21:19:29.949830+00:00"
+  },
+  {
+    "fileName": "246_Mthree _6march.json",
+    "updatedAt": "2025-10-08T21:19:30.417149+00:00"
+  },
+  {
+    "fileName": "247_Mthree _23feb.json",
+    "updatedAt": "2025-10-08T21:19:30.882970+00:00"
+  },
+  {
+    "fileName": "248_Nokia_23march.json",
+    "updatedAt": "2025-10-08T21:19:31.350271+00:00"
+  },
+  {
+    "fileName": "249_Nokia_9march.json",
+    "updatedAt": "2025-10-08T21:19:31.830729+00:00"
+  },
+  {
+    "fileName": "24_Rippling.json",
+    "updatedAt": "2025-10-08T21:17:49.446730+00:00"
+  },
+  {
+    "fileName": "250_Nokia_8march.json",
+    "updatedAt": "2025-10-08T21:19:32.301595+00:00"
+  },
+  {
+    "fileName": "251_Tally_14march.json",
+    "updatedAt": "2025-10-08T21:19:32.858895+00:00"
+  },
+  {
+    "fileName": "252_Walmart_12march.json",
+    "updatedAt": "2025-10-08T21:19:33.390650+00:00"
+  },
+  {
+    "fileName": "253_philips_14march.json",
+    "updatedAt": "2025-10-08T21:19:33.858531+00:00"
+  },
+  {
+    "fileName": "254_Atlan_21march.json",
+    "updatedAt": "2025-10-08T21:19:34.349116+00:00"
+  },
+  {
+    "fileName": "255_Namma yatri_12april.json",
+    "updatedAt": "2025-10-08T21:19:34.800461+00:00"
+  },
+  {
+    "fileName": "256_Idfc_29march.json",
+    "updatedAt": "2025-10-08T21:19:35.266903+00:00"
+  },
+  {
+    "fileName": "257_Buyhatke_15july.json",
+    "updatedAt": "2025-10-08T21:19:35.764030+00:00"
+  },
+  {
+    "fileName": "258_Buyhatke_30march.json",
+    "updatedAt": "2025-10-08T21:19:36.235257+00:00"
+  },
+  {
+    "fileName": "259_DocuSign_6april.json",
+    "updatedAt": "2025-10-08T21:19:36.702281+00:00"
+  },
+  {
+    "fileName": "25_Meesho.json",
+    "updatedAt": "2025-10-08T21:17:49.901283+00:00"
+  },
+  {
+    "fileName": "260_DocuSign_5april.json",
+    "updatedAt": "2025-10-08T21:19:37.207525+00:00"
+  },
+  {
+    "fileName": "261_Microsoft_25july.json",
+    "updatedAt": "2025-10-08T21:19:37.680707+00:00"
+  },
+  {
+    "fileName": "263_Ring central_25july.json",
+    "updatedAt": "2025-10-08T21:19:38.399596+00:00"
+  },
+  {
+    "fileName": "264_Autodesk_10april.json",
+    "updatedAt": "2025-10-08T21:19:38.875845+00:00"
+  },
+  {
+    "fileName": "265_Autodesk_11april.json",
+    "updatedAt": "2025-10-08T21:19:39.325436+00:00"
+  },
+  {
+    "fileName": "266_Agoda_20april.json",
+    "updatedAt": "2025-10-08T21:19:39.786947+00:00"
+  },
+  {
+    "fileName": "267_Infoedge_27april.json",
+    "updatedAt": "2025-10-08T21:19:40.346092+00:00"
+  },
+  {
+    "fileName": "268_Infoedge_26april.json",
+    "updatedAt": "2025-10-08T21:19:40.821489+00:00"
+  },
+  {
+    "fileName": "269_Infoedge_5april.json",
+    "updatedAt": "2025-10-08T21:19:41.302426+00:00"
+  },
+  {
+    "fileName": "26_Service Now.json",
+    "updatedAt": "2025-10-08T21:17:50.373199+00:00"
+  },
+  {
+    "fileName": "270_Bookings holding_25july.json",
+    "updatedAt": "2025-10-08T21:19:41.771003+00:00"
+  },
+  {
+    "fileName": "271_Typeface_12july.json",
+    "updatedAt": "2025-10-08T21:19:42.246451+00:00"
+  },
+  {
+    "fileName": "272_Agoda_25july.json",
+    "updatedAt": "2025-10-08T21:19:42.758666+00:00"
+  },
+  {
+    "fileName": "273_Goldman sachs_25july.json",
+    "updatedAt": "2025-10-08T21:19:43.229406+00:00"
+  },
+  {
+    "fileName": "274_Toast_27april.json",
+    "updatedAt": "2025-10-08T21:19:43.692148+00:00"
+  },
+  {
+    "fileName": "275_Myntra_7may.json",
+    "updatedAt": "2025-10-08T21:19:44.146923+00:00"
+  },
+  {
+    "fileName": "276_Nvidia_30may.json",
+    "updatedAt": "2025-10-08T21:19:44.622166+00:00"
+  },
+  {
+    "fileName": "277_Nvidia_23april.json",
+    "updatedAt": "2025-10-08T21:19:45.098275+00:00"
+  },
+  {
+    "fileName": "278_Nvidia_7feb.json",
+    "updatedAt": "2025-10-08T21:19:45.573524+00:00"
+  },
+  {
+    "fileName": "279_Tech Mahindra_.json",
+    "updatedAt": "2025-10-08T21:19:46.038862+00:00"
+  },
+  {
+    "fileName": "27_American express.json",
+    "updatedAt": "2025-10-08T21:17:50.837989+00:00"
+  },
+  {
+    "fileName": "280_Tech Mahindra_22may.json",
+    "updatedAt": "2025-10-08T21:19:46.512542+00:00"
+  },
+  {
+    "fileName": "281_Trilogy_10july.json",
+    "updatedAt": "2025-10-08T21:19:46.986795+00:00"
+  },
+  {
+    "fileName": "282_Trilogy_4july.json",
+    "updatedAt": "2025-10-08T21:19:47.465449+00:00"
+  },
+  {
+    "fileName": "283_Zeta_1july.json",
+    "updatedAt": "2025-10-08T21:19:47.940935+00:00"
+  },
+  {
+    "fileName": "284_Zeta_26june.json",
+    "updatedAt": "2025-10-08T21:19:48.409368+00:00"
+  },
+  {
+    "fileName": "285_Visa_1july.json",
+    "updatedAt": "2025-10-08T21:19:48.885380+00:00"
+  },
+  {
+    "fileName": "286_Visa_10june.json",
+    "updatedAt": "2025-10-08T21:19:49.380135+00:00"
+  },
+  {
+    "fileName": "287_Visa_30may.json",
+    "updatedAt": "2025-10-08T21:19:49.863559+00:00"
+  },
+  {
+    "fileName": "288_Probo_4july.json",
+    "updatedAt": "2025-10-08T21:19:50.347358+00:00"
+  },
+  {
+    "fileName": "289_Rippling_29march.json",
+    "updatedAt": "2025-10-08T21:19:50.869431+00:00"
+  },
+  {
+    "fileName": "28_KLA.json",
+    "updatedAt": "2025-10-08T21:17:51.347467+00:00"
+  },
+  {
+    "fileName": "290_Rippling_19july.json",
+    "updatedAt": "2025-10-08T21:19:51.343317+00:00"
+  },
+  {
+    "fileName": "291_Experian_1july.json",
+    "updatedAt": "2025-10-08T21:19:51.817457+00:00"
+  },
+  {
+    "fileName": "292_Experian_28june.json",
+    "updatedAt": "2025-10-08T21:19:52.288519+00:00"
+  },
+  {
+    "fileName": "293_Salesforce_24may.json",
+    "updatedAt": "2025-10-08T21:19:52.772741+00:00"
+  },
+  {
+    "fileName": "294_Turing_24may.json",
+    "updatedAt": "2025-10-08T21:19:53.250669+00:00"
+  },
+  {
+    "fileName": "295_Turing_7may.json",
+    "updatedAt": "2025-10-08T21:19:53.705678+00:00"
+  },
+  {
+    "fileName": "296_Turing_21april.json",
+    "updatedAt": "2025-10-08T21:19:54.160293+00:00"
+  },
+  {
+    "fileName": "297_Ubs_1july.json",
+    "updatedAt": "2025-10-08T21:19:54.652246+00:00"
+  },
+  {
+    "fileName": "298_google_26july.json",
+    "updatedAt": "2025-10-08T21:19:55.156511+00:00"
+  },
+  {
+    "fileName": "299_Ubs_30june.json",
+    "updatedAt": "2025-10-08T21:19:55.653072+00:00"
+  },
+  {
+    "fileName": "29_Factset.json",
+    "updatedAt": "2025-10-08T21:17:51.928893+00:00"
+  },
+  {
+    "fileName": "2_Microsoft intern.json",
+    "updatedAt": "2025-10-08T21:17:37.761625+00:00"
+  },
+  {
+    "fileName": "300_Ubs_10march.json",
+    "updatedAt": "2025-10-08T21:19:56.132651+00:00"
+  },
+  {
+    "fileName": "301_Cisco_18july.json",
+    "updatedAt": "2025-10-08T21:19:56.596672+00:00"
+  },
+  {
+    "fileName": "302_Cisco_24june.json",
+    "updatedAt": "2025-10-08T21:19:57.050750+00:00"
+  },
+  {
+    "fileName": "303_Servicenow_8june.json",
+    "updatedAt": "2025-10-08T21:19:57.549679+00:00"
+  },
+  {
+    "fileName": "304_Ion group_26july.json",
+    "updatedAt": "2025-10-08T21:19:58.002446+00:00"
+  },
+  {
+    "fileName": "305_Typeface_26july.json",
+    "updatedAt": "2025-10-08T21:19:58.470603+00:00"
+  },
+  {
+    "fileName": "306_Salesforce_26july.json",
+    "updatedAt": "2025-10-08T21:19:58.939980+00:00"
+  },
+  {
+    "fileName": "307_Makemytrip_26july.json",
+    "updatedAt": "2025-10-08T21:19:59.403849+00:00"
+  },
+  {
+    "fileName": "308_KFin technologies_26july.json",
+    "updatedAt": "2025-10-08T21:19:59.858485+00:00"
+  },
+  {
+    "fileName": "309_Flipkart_26july.json",
+    "updatedAt": "2025-10-08T21:20:00.394784+00:00"
+  },
+  {
+    "fileName": "30_Cohesity.json",
+    "updatedAt": "2025-10-08T21:17:52.396123+00:00"
+  },
+  {
+    "fileName": "310_Agoda_26july.json",
+    "updatedAt": "2025-10-08T21:20:00.905929+00:00"
+  },
+  {
+    "fileName": "311_Texas_26july.json",
+    "updatedAt": "2025-10-08T21:20:01.371095+00:00"
+  },
+  {
+    "fileName": "312_Oracle_22may.json",
+    "updatedAt": "2025-10-08T21:20:01.950751+00:00"
+  },
+  {
+    "fileName": "313_sprinklr_17july.json",
+    "updatedAt": "2025-10-08T21:20:02.431189+00:00"
+  },
+  {
+    "fileName": "314_sprinklr_13july.json",
+    "updatedAt": "2025-10-08T21:20:02.949482+00:00"
+  },
+  {
+    "fileName": "315_Juspay_13july.json",
+    "updatedAt": "2025-10-08T21:20:03.446286+00:00"
+  },
+  {
+    "fileName": "316_Juspay_7july.json",
+    "updatedAt": "2025-10-08T21:20:03.926971+00:00"
+  },
+  {
+    "fileName": "317_Juspay_3july.json",
+    "updatedAt": "2025-10-08T21:20:04.444085+00:00"
+  },
+  {
+    "fileName": "318_Juspay_28june.json",
+    "updatedAt": "2025-10-08T21:20:04.956176+00:00"
+  },
+  {
+    "fileName": "319_Capital One_3july.json",
+    "updatedAt": "2025-10-08T21:20:05.420264+00:00"
+  },
+  {
+    "fileName": "31_Zomato.json",
+    "updatedAt": "2025-10-08T21:17:52.906728+00:00"
+  },
+  {
+    "fileName": "320_Capital One_1july.json",
+    "updatedAt": "2025-10-08T21:20:05.906789+00:00"
+  },
+  {
+    "fileName": "321_Capital One_30june.json",
+    "updatedAt": "2025-10-08T21:20:06.451321+00:00"
+  },
+  {
+    "fileName": "322_Infosys_13july.json",
+    "updatedAt": "2025-10-08T21:20:06.970916+00:00"
+  },
+  {
+    "fileName": "323_Cognizant_20june.json",
+    "updatedAt": "2025-10-08T21:20:07.548997+00:00"
+  },
+  {
+    "fileName": "324_Cognizant_27may.json",
+    "updatedAt": "2025-10-08T21:20:08.257195+00:00"
+  },
+  {
+    "fileName": "325_Grow_2july.json",
+    "updatedAt": "2025-10-08T21:20:09.002453+00:00"
+  },
+  {
+    "fileName": "326_Morgan stanley_17july.json",
+    "updatedAt": "2025-10-08T21:20:10.070229+00:00"
+  },
+  {
+    "fileName": "327_Morgan stanley_12june.json",
+    "updatedAt": "2025-10-08T21:20:10.568584+00:00"
+  },
+  {
+    "fileName": "328_Morgan stanley_12may.json",
+    "updatedAt": "2025-10-08T21:20:11.025658+00:00"
+  },
+  {
+    "fileName": "329_JPMC_20july.json",
+    "updatedAt": "2025-10-08T21:20:12.227241+00:00"
+  },
+  {
+    "fileName": "32_Turing.json",
+    "updatedAt": "2025-10-08T21:17:53.358227+00:00"
+  },
+  {
+    "fileName": "330_JPMC_17july.json",
+    "updatedAt": "2025-10-08T21:20:12.693285+00:00"
+  },
+  {
+    "fileName": "331_JPMC_28june.json",
+    "updatedAt": "2025-10-08T21:20:13.265352+00:00"
+  },
+  {
+    "fileName": "332_Barclays_27july.json",
+    "updatedAt": "2025-10-08T21:20:13.760741+00:00"
+  },
+  {
+    "fileName": "333_Goldman sachs_27july.json",
+    "updatedAt": "2025-10-08T21:20:14.267854+00:00"
+  },
+  {
+    "fileName": "334_jpmc_27july.json",
+    "updatedAt": "2025-10-08T21:20:14.743440+00:00"
+  },
+  {
+    "fileName": "335_Curefit_27july.json",
+    "updatedAt": "2025-10-08T21:20:15.226453+00:00"
+  },
+  {
+    "fileName": "336_Agoda_27july.json",
+    "updatedAt": "2025-10-08T21:20:15.746581+00:00"
+  },
+  {
+    "fileName": "337_IDFC_27july.json",
+    "updatedAt": "2025-10-08T21:20:16.220925+00:00"
+  },
+  {
+    "fileName": "338_Trilogy_27july.json",
+    "updatedAt": "2025-10-08T21:20:16.683949+00:00"
+  },
+  {
+    "fileName": "339_Msci_28july.json",
+    "updatedAt": "2025-10-08T21:20:17.160281+00:00"
+  },
+  {
+    "fileName": "33_Dell.json",
+    "updatedAt": "2025-10-08T21:17:53.976134+00:00"
+  },
+  {
+    "fileName": "340_urban_29july.json",
+    "updatedAt": "2025-10-08T21:20:17.648989+00:00"
+  },
+  {
+    "fileName": "341_Samsung_29july.json",
+    "updatedAt": "2025-10-08T21:20:18.121362+00:00"
+  },
+  {
+    "fileName": "342_ubs_29july.json",
+    "updatedAt": "2025-10-08T21:20:18.653513+00:00"
+  },
+  {
+    "fileName": "343_Mathworks_29july.json",
+    "updatedAt": "2025-10-08T21:20:19.152421+00:00"
+  },
+  {
+    "fileName": "344_bny_30july.json",
+    "updatedAt": "2025-10-08T21:20:19.643695+00:00"
+  },
+  {
+    "fileName": "345_Msci_30july.json",
+    "updatedAt": "2025-10-08T21:20:20.161530+00:00"
+  },
+  {
+    "fileName": "346_iRageCapital_30july.json",
+    "updatedAt": "2025-10-08T21:20:20.638985+00:00"
+  },
+  {
+    "fileName": "347_Barclays_30july.json",
+    "updatedAt": "2025-10-08T21:20:21.104816+00:00"
+  },
+  {
+    "fileName": "348_Amazon_30july.json",
+    "updatedAt": "2025-10-08T21:20:21.658796+00:00"
+  },
+  {
+    "fileName": "349_Winzo_30july.json",
+    "updatedAt": "2025-10-08T21:20:22.650383+00:00"
+  },
+  {
+    "fileName": "34_UKG.json",
+    "updatedAt": "2025-10-08T21:17:54.465902+00:00"
+  },
+  {
+    "fileName": "350_MediaNet_30july.json",
+    "updatedAt": "2025-10-08T21:20:23.128132+00:00"
+  },
+  {
+    "fileName": "351_phonepe_30july.json",
+    "updatedAt": "2025-10-08T21:20:23.619913+00:00"
+  },
+  {
+    "fileName": "352_Trilogy_31july.json",
+    "updatedAt": "2025-10-08T21:20:24.154364+00:00"
+  },
+  {
+    "fileName": "353_Mathworks_31july.json",
+    "updatedAt": "2025-10-08T21:20:24.626571+00:00"
+  },
+  {
+    "fileName": "354_Hilti_31july.json",
+    "updatedAt": "2025-10-08T21:20:25.155893+00:00"
+  },
+  {
+    "fileName": "356_Amazon_31july.json",
+    "updatedAt": "2025-10-08T21:20:26.068339+00:00"
+  },
+  {
+    "fileName": "357_jpmc_31july.json",
+    "updatedAt": "2025-10-08T21:20:26.561478+00:00"
+  },
+  {
+    "fileName": "358_Atlassian_31july.json",
+    "updatedAt": "2025-10-08T21:20:27.029595+00:00"
+  },
+  {
+    "fileName": "359_oracle_31july.json",
+    "updatedAt": "2025-10-08T21:20:27.510382+00:00"
+  },
+  {
+    "fileName": "35_Infosys.json",
+    "updatedAt": "2025-10-08T21:17:54.948415+00:00"
+  },
+  {
+    "fileName": "360_phonepe_1aug.json",
+    "updatedAt": "2025-10-08T21:20:27.975784+00:00"
+  },
+  {
+    "fileName": "361_Zomato_1aug.json",
+    "updatedAt": "2025-10-08T21:20:28.441551+00:00"
+  },
+  {
+    "fileName": "362_Ibm_1aug.json",
+    "updatedAt": "2025-10-08T21:20:28.953933+00:00"
+  },
+  {
+    "fileName": "363_citadel_1aug.json",
+    "updatedAt": "2025-10-08T21:20:29.455305+00:00"
+  },
+  {
+    "fileName": "364_Meesho_1aug.json",
+    "updatedAt": "2025-10-08T21:20:29.942969+00:00"
+  },
+  {
+    "fileName": "365_Amazon_Ml_challenge.json",
+    "updatedAt": "2025-10-08T21:20:30.458675+00:00"
+  },
+  {
+    "fileName": "366_Zeta_4August.json",
+    "updatedAt": "2025-10-08T21:20:30.929344+00:00"
+  },
+  {
+    "fileName": "367_Meesho_6aug.json",
+    "updatedAt": "2025-10-08T21:20:31.460574+00:00"
+  },
+  {
+    "fileName": "368_Trade desk_6aug.json",
+    "updatedAt": "2025-10-08T21:20:32.078320+00:00"
+  },
+  {
+    "fileName": "369_Microsoft_6Aug.json",
+    "updatedAt": "2025-10-08T21:20:32.535412+00:00"
+  },
+  {
+    "fileName": "36_TSMC.json",
+    "updatedAt": "2025-10-08T21:17:55.430991+00:00"
+  },
+  {
+    "fileName": "370_HackerEarth_Intern_6aug.json",
+    "updatedAt": "2025-10-08T21:20:33.047770+00:00"
+  },
+  {
+    "fileName": "371_Natwest_7aug.json",
+    "updatedAt": "2025-10-08T21:20:33.548890+00:00"
+  },
+  {
+    "fileName": "372_Lam Research_7aug.json",
+    "updatedAt": "2025-10-08T21:20:34.016003+00:00"
+  },
+  {
+    "fileName": "373_Lam Research_7aug.json",
+    "updatedAt": "2025-10-08T21:20:34.484723+00:00"
+  },
+  {
+    "fileName": "374_Intuit_7aug.json",
+    "updatedAt": "2025-10-08T21:20:34.952114+00:00"
+  },
+  {
+    "fileName": "376_UBS_7aug.json",
+    "updatedAt": "2025-10-08T21:20:35.753539+00:00"
+  },
+  {
+    "fileName": "377_Mastercard_7aug.json",
+    "updatedAt": "2025-10-08T21:20:36.349014+00:00"
+  },
+  {
+    "fileName": "378_Amazon_7aug.json",
+    "updatedAt": "2025-10-08T21:20:36.821380+00:00"
+  },
+  {
+    "fileName": "379_Deutsche bank_7aug.json",
+    "updatedAt": "2025-10-08T21:20:37.286272+00:00"
+  },
+  {
+    "fileName": "37_AT and T.json",
+    "updatedAt": "2025-10-08T21:17:55.922463+00:00"
+  },
+  {
+    "fileName": "380_Makemytrip_3aug.json",
+    "updatedAt": "2025-10-08T21:20:37.769660+00:00"
+  },
+  {
+    "fileName": "381_eqtechnologic_4aug.json",
+    "updatedAt": "2025-10-08T21:20:38.262489+00:00"
+  },
+  {
+    "fileName": "382_Amazon Ml school_3aug.json",
+    "updatedAt": "2025-10-08T21:20:38.748189+00:00"
+  },
+  {
+    "fileName": "383_Turing_7aug.json",
+    "updatedAt": "2025-10-08T21:20:39.248608+00:00"
+  },
+  {
+    "fileName": "384_Amex_7aug.json",
+    "updatedAt": "2025-10-08T21:20:39.715433+00:00"
+  },
+  {
+    "fileName": "385_Flipkart_3aug.json",
+    "updatedAt": "2025-10-08T21:20:40.187080+00:00"
+  },
+  {
+    "fileName": "386_Imc_7aug.json",
+    "updatedAt": "2025-10-08T21:20:40.719171+00:00"
+  },
+  {
+    "fileName": "387_ibm_7aug.json",
+    "updatedAt": "2025-10-08T21:20:41.190702+00:00"
+  },
+  {
+    "fileName": "388_Trilogy_7aug.json",
+    "updatedAt": "2025-10-08T21:20:41.669734+00:00"
+  },
+  {
+    "fileName": "389_Trs_5aug.json",
+    "updatedAt": "2025-10-08T21:20:42.186639+00:00"
+  },
+  {
+    "fileName": "38_Byte Dance.json",
+    "updatedAt": "2025-10-08T21:17:56.449560+00:00"
+  },
+  {
+    "fileName": "390_Barclays_4aug.json",
+    "updatedAt": "2025-10-08T21:20:42.665123+00:00"
+  },
+  {
+    "fileName": "391_Flipkart_4aug.json",
+    "updatedAt": "2025-10-08T21:20:43.159645+00:00"
+  },
+  {
+    "fileName": "392_Lumber_4aug.json",
+    "updatedAt": "2025-10-08T21:20:43.752698+00:00"
+  },
+  {
+    "fileName": "393_Tvs_6aug.json",
+    "updatedAt": "2025-10-08T21:20:44.229935+00:00"
+  },
+  {
+    "fileName": "394_Tekion_4aug.json",
+    "updatedAt": "2025-10-08T21:20:44.754585+00:00"
+  },
+  {
+    "fileName": "395_Amazon_6july.json",
+    "updatedAt": "2025-10-08T21:20:45.252556+00:00"
+  },
+  {
+    "fileName": "396_Mathworks_8aug.json",
+    "updatedAt": "2025-10-08T21:20:45.717509+00:00"
+  },
+  {
+    "fileName": "397_Tata digital_8aug.json",
+    "updatedAt": "2025-10-08T21:20:46.197804+00:00"
+  },
+  {
+    "fileName": "398_Tridence_8aug.json",
+    "updatedAt": "2025-10-08T21:20:46.668097+00:00"
+  },
+  {
+    "fileName": "399_Zeta_8aug.json",
+    "updatedAt": "2025-10-08T21:20:47.253426+00:00"
+  },
+  {
+    "fileName": "39_Eurofins.json",
+    "updatedAt": "2025-10-08T21:17:56.915901+00:00"
+  },
+  {
+    "fileName": "3_Amazon Intern.json",
+    "updatedAt": "2025-10-08T21:17:38.238933+00:00"
+  },
+  {
+    "fileName": "400_Trilogy_8aug.json",
+    "updatedAt": "2025-10-08T21:20:47.735393+00:00"
+  },
+  {
+    "fileName": "401_Rippling_6aug.json",
+    "updatedAt": "2025-10-08T21:20:48.253140+00:00"
+  },
+  {
+    "fileName": "402_High radius_6aug.json",
+    "updatedAt": "2025-10-08T21:20:48.710482+00:00"
+  },
+  {
+    "fileName": "403_Mathworks_6aug.json",
+    "updatedAt": "2025-10-08T21:20:49.192657+00:00"
+  },
+  {
+    "fileName": "404_Texas_5aug.json",
+    "updatedAt": "2025-10-08T21:20:49.648384+00:00"
+  },
+  {
+    "fileName": "405_idfc_6aug.json",
+    "updatedAt": "2025-10-08T21:20:50.246585+00:00"
+  },
+  {
+    "fileName": "406_jpmc_9aug.json",
+    "updatedAt": "2025-10-08T21:20:50.758032+00:00"
+  },
+  {
+    "fileName": "407_Goldman sachs_9aug.json",
+    "updatedAt": "2025-10-08T21:20:51.257076+00:00"
+  },
+  {
+    "fileName": "408_oracle_9aug.json",
+    "updatedAt": "2025-10-08T21:20:51.729886+00:00"
+  },
+  {
+    "fileName": "409_Booking holdings_9aug.json",
+    "updatedAt": "2025-10-08T21:20:52.192325+00:00"
+  },
+  {
+    "fileName": "40_Uber.json",
+    "updatedAt": "2025-10-08T21:17:57.447426+00:00"
+  },
+  {
+    "fileName": "410_flipkart_8aug.json",
+    "updatedAt": "2025-10-08T21:20:52.756085+00:00"
+  },
+  {
+    "fileName": "411_LeadSquared_8aug.json",
+    "updatedAt": "2025-10-08T21:20:53.260533+00:00"
+  },
+  {
+    "fileName": "412_Amazon_8aug.json",
+    "updatedAt": "2025-10-08T21:20:53.728221+00:00"
+  },
+  {
+    "fileName": "414_Amazon_26aug.json",
+    "updatedAt": "2025-10-08T21:20:54.549295+00:00"
+  },
+  {
+    "fileName": "415_Oracle_19aug.json",
+    "updatedAt": "2025-10-08T21:20:55.019264+00:00"
+  },
+  {
+    "fileName": "416_Oracle22aug.json",
+    "updatedAt": "2025-10-08T21:20:55.498600+00:00"
+  },
+  {
+    "fileName": "417_Go Daddy_27aug.json",
+    "updatedAt": "2025-10-08T21:20:56.062514+00:00"
+  },
+  {
+    "fileName": "418_Visa_28aug.json",
+    "updatedAt": "2025-10-08T21:20:56.589725+00:00"
+  },
+  {
+    "fileName": "419_Dp World_28aug.json",
+    "updatedAt": "2025-10-08T21:20:57.077641+00:00"
+  },
+  {
+    "fileName": "41_HashedIn.json",
+    "updatedAt": "2025-10-08T21:17:57.910660+00:00"
+  },
+  {
+    "fileName": "420_Cohesity_28aug.json",
+    "updatedAt": "2025-10-08T21:20:57.548701+00:00"
+  },
+  {
+    "fileName": "421_Juspay_29aug.json",
+    "updatedAt": "2025-10-08T21:20:58.007042+00:00"
+  },
+  {
+    "fileName": "422_HSBC_29aug.json",
+    "updatedAt": "2025-10-08T21:20:58.498178+00:00"
+  },
+  {
+    "fileName": "423_KKR_Bank.json",
+    "updatedAt": "2025-10-08T21:20:58.970000+00:00"
+  },
+  {
+    "fileName": "424_PharmEasy_22aug.json",
+    "updatedAt": "2025-10-08T21:20:59.562457+00:00"
+  },
+  {
+    "fileName": "426_Amazon_30Aug.json",
+    "updatedAt": "2025-10-08T21:21:00.378304+00:00"
+  },
+  {
+    "fileName": "427_Visa_29Aug.json",
+    "updatedAt": "2025-10-08T21:21:00.848953+00:00"
+  },
+  {
+    "fileName": "428_deloitte_26aug.json",
+    "updatedAt": "2025-10-08T21:21:01.328856+00:00"
+  },
+  {
+    "fileName": "429_Microsoft_30Aug.json",
+    "updatedAt": "2025-10-08T21:21:01.804520+00:00"
+  },
+  {
+    "fileName": "42_Z Scaler.json",
+    "updatedAt": "2025-10-08T21:17:58.448761+00:00"
+  },
+  {
+    "fileName": "430_Amazon_29Aug.json",
+    "updatedAt": "2025-10-08T21:21:02.287980+00:00"
+  },
+  {
+    "fileName": "431_Amazon_23Aug.json",
+    "updatedAt": "2025-10-08T21:21:02.782817+00:00"
+  },
+  {
+    "fileName": "432_paypal_26aug.json",
+    "updatedAt": "2025-10-08T21:21:03.247432+00:00"
+  },
+  {
+    "fileName": "433_Natwest_29aug.json",
+    "updatedAt": "2025-10-08T21:21:03.719753+00:00"
+  },
+  {
+    "fileName": "434_oracle_28aug.json",
+    "updatedAt": "2025-10-08T21:21:04.197418+00:00"
+  },
+  {
+    "fileName": "435_UBS_14aug.json",
+    "updatedAt": "2025-10-08T21:21:04.675426+00:00"
+  },
+  {
+    "fileName": "436_Amazon_29july.json",
+    "updatedAt": "2025-10-08T21:21:05.136755+00:00"
+  },
+  {
+    "fileName": "437_Infoedge_23aug.json",
+    "updatedAt": "2025-10-08T21:21:05.651027+00:00"
+  },
+  {
+    "fileName": "438_ZS_21aug.json",
+    "updatedAt": "2025-10-08T21:21:06.117591+00:00"
+  },
+  {
+    "fileName": "439_McKinsey_28sept.json",
+    "updatedAt": "2025-10-08T21:21:06.614331+00:00"
+  },
+  {
+    "fileName": "440_Teradata.json",
+    "updatedAt": "2025-10-08T21:21:07.082549+00:00"
+  },
+  {
+    "fileName": "441_Zscalar.json",
+    "updatedAt": "2025-10-08T21:21:07.550901+00:00"
+  },
+  {
+    "fileName": "442_LinkedIn_9Aug.json",
+    "updatedAt": "2025-10-08T21:21:08.050320+00:00"
+  },
+  {
+    "fileName": "443_Microsoft_14Aug.json",
+    "updatedAt": "2025-10-08T21:21:08.556212+00:00"
+  },
+  {
+    "fileName": "444_Adobe_15Aug.json",
+    "updatedAt": "2025-10-08T21:21:09.149714+00:00"
+  },
+  {
+    "fileName": "445_Linkedin_31aug.json",
+    "updatedAt": "2025-10-08T21:21:09.657851+00:00"
+  },
+  {
+    "fileName": "446_flipkart_20aug.json",
+    "updatedAt": "2025-10-08T21:21:10.122561+00:00"
+  },
+  {
+    "fileName": "447_jpmc_12aug.json",
+    "updatedAt": "2025-10-08T21:21:10.600424+00:00"
+  },
+  {
+    "fileName": "448_citadel_23aug.json",
+    "updatedAt": "2025-10-08T21:21:11.054342+00:00"
+  },
+  {
+    "fileName": "449_High Radius_23aug.json",
+    "updatedAt": "2025-10-08T21:21:11.752288+00:00"
+  },
+  {
+    "fileName": "44_Josh Technology.json",
+    "updatedAt": "2025-10-08T21:17:59.178451+00:00"
+  },
+  {
+    "fileName": "450_Godaddy_27aug.json",
+    "updatedAt": "2025-10-08T21:21:12.257733+00:00"
+  },
+  {
+    "fileName": "451_Goldman sachs_19aug.json",
+    "updatedAt": "2025-10-08T21:21:12.756569+00:00"
+  },
+  {
+    "fileName": "452_DevRev_24aug.json",
+    "updatedAt": "2025-10-08T21:21:13.257584+00:00"
+  },
+  {
+    "fileName": "453_CRED_23aug.json",
+    "updatedAt": "2025-10-08T21:21:13.752465+00:00"
+  },
+  {
+    "fileName": "454_expedia_26aug.json",
+    "updatedAt": "2025-10-08T21:21:14.218882+00:00"
+  },
+  {
+    "fileName": "455_jubilant_31aug.json",
+    "updatedAt": "2025-10-08T21:21:14.756145+00:00"
+  },
+  {
+    "fileName": "456_Wells fargo_1sep.json",
+    "updatedAt": "2025-10-08T21:21:15.360225+00:00"
+  },
+  {
+    "fileName": "457_Apple_1sep.json",
+    "updatedAt": "2025-10-08T21:21:15.827876+00:00"
+  },
+  {
+    "fileName": "458_Uber_13aug.json",
+    "updatedAt": "2025-10-08T21:21:16.356381+00:00"
+  },
+  {
+    "fileName": "459_MediaNet_1sep.json",
+    "updatedAt": "2025-10-08T21:21:16.808924+00:00"
+  },
+  {
+    "fileName": "460_Microsoft_1sep.json",
+    "updatedAt": "2025-10-08T21:21:17.279572+00:00"
+  },
+  {
+    "fileName": "461_uber_3sep.json",
+    "updatedAt": "2025-10-08T21:21:17.755517+00:00"
+  },
+  {
+    "fileName": "462_citadel_3aug.json",
+    "updatedAt": "2025-10-08T21:21:18.252583+00:00"
+  },
+  {
+    "fileName": "463_HSBC_3sep.json",
+    "updatedAt": "2025-10-08T21:21:18.752768+00:00"
+  },
+  {
+    "fileName": "464_Apple_3sep.json",
+    "updatedAt": "2025-10-08T21:21:19.349405+00:00"
+  },
+  {
+    "fileName": "465_Commvault_3sep.json",
+    "updatedAt": "2025-10-08T21:21:19.862267+00:00"
+  },
+  {
+    "fileName": "466_Cisco_3sep.json",
+    "updatedAt": "2025-10-08T21:21:20.333343+00:00"
+  },
+  {
+    "fileName": "467_Flipkart_3sep.json",
+    "updatedAt": "2025-10-08T21:21:20.818531+00:00"
+  },
+  {
+    "fileName": "468_Trilogy_4sep.json",
+    "updatedAt": "2025-10-08T21:21:21.349858+00:00"
+  },
+  {
+    "fileName": "469_Razorpay_4sep.json",
+    "updatedAt": "2025-10-08T21:21:21.824893+00:00"
+  },
+  {
+    "fileName": "46_MakeMyTrip.json",
+    "updatedAt": "2025-10-08T21:17:59.904665+00:00"
+  },
+  {
+    "fileName": "470_Ukg_5sep.json",
+    "updatedAt": "2025-10-08T21:21:22.351534+00:00"
+  },
+  {
+    "fileName": "471_Rippling_4sep.json",
+    "updatedAt": "2025-10-08T21:21:22.891013+00:00"
+  },
+  {
+    "fileName": "472_Amazon_4sep.json",
+    "updatedAt": "2025-10-08T21:21:23.449581+00:00"
+  },
+  {
+    "fileName": "473_HSBC_5sep.json",
+    "updatedAt": "2025-10-08T21:21:23.958429+00:00"
+  },
+  {
+    "fileName": "474_exxonmobil_5sep.json",
+    "updatedAt": "2025-10-08T21:21:24.445260+00:00"
+  },
+  {
+    "fileName": "475_Amazon_5sep.json",
+    "updatedAt": "2025-10-08T21:21:24.956687+00:00"
+  },
+  {
+    "fileName": "476_MediaNet_5sep.json",
+    "updatedAt": "2025-10-08T21:21:25.457045+00:00"
+  },
+  {
+    "fileName": "477_Tower research_5sep.json",
+    "updatedAt": "2025-10-08T21:21:25.917449+00:00"
+  },
+  {
+    "fileName": "478_Visa_5sep.json",
+    "updatedAt": "2025-10-08T21:21:26.394741+00:00"
+  },
+  {
+    "fileName": "479_SAP Labs_5sep.json",
+    "updatedAt": "2025-10-08T21:21:26.956688+00:00"
+  },
+  {
+    "fileName": "47_Trilogy.json",
+    "updatedAt": "2025-10-08T21:18:00.379050+00:00"
+  },
+  {
+    "fileName": "480_UIpath_5sep.json",
+    "updatedAt": "2025-10-08T21:21:27.449746+00:00"
+  },
+  {
+    "fileName": "481_Goldman sachs_5sep.json",
+    "updatedAt": "2025-10-08T21:21:27.955575+00:00"
+  },
+  {
+    "fileName": "482_cockroach labs_6sep.json",
+    "updatedAt": "2025-10-08T21:21:28.447763+00:00"
+  },
+  {
+    "fileName": "484_HSBC_9sep.json",
+    "updatedAt": "2025-10-08T21:21:29.249920+00:00"
+  },
+  {
+    "fileName": "485_ibm_10sep.json",
+    "updatedAt": "2025-10-08T21:21:29.730723+00:00"
+  },
+  {
+    "fileName": "486_Typeface_10sep.json",
+    "updatedAt": "2025-10-08T21:21:30.198643+00:00"
+  },
+  {
+    "fileName": "487_Amazon_10sep.json",
+    "updatedAt": "2025-10-08T21:21:30.756031+00:00"
+  },
+  {
+    "fileName": "488_GP_10sep.json",
+    "updatedAt": "2025-10-08T21:21:31.250322+00:00"
+  },
+  {
+    "fileName": "489_Oracle_8sep.json",
+    "updatedAt": "2025-10-08T21:21:31.734348+00:00"
+  },
+  {
+    "fileName": "48_GigSky.json",
+    "updatedAt": "2025-10-08T21:18:00.860231+00:00"
+  },
+  {
+    "fileName": "490_oracle_8sep.json",
+    "updatedAt": "2025-10-08T21:21:32.314623+00:00"
+  },
+  {
+    "fileName": "491_MediaNet_12sep.json",
+    "updatedAt": "2025-10-08T21:21:32.788449+00:00"
+  },
+  {
+    "fileName": "492_UKG_12sep.json",
+    "updatedAt": "2025-10-08T21:21:33.262174+00:00"
+  },
+  {
+    "fileName": "493_Headout_12sep.json",
+    "updatedAt": "2025-10-08T21:21:33.726216+00:00"
+  },
+  {
+    "fileName": "494_Coursera_16sep.json",
+    "updatedAt": "2025-10-08T21:21:34.181634+00:00"
+  },
+  {
+    "fileName": "495_SAP Labs_16sep.json",
+    "updatedAt": "2025-10-08T21:21:34.639025+00:00"
+  },
+  {
+    "fileName": "496_UKG_15sep.json",
+    "updatedAt": "2025-10-08T21:21:35.151216+00:00"
+  },
+  {
+    "fileName": "497_IBM_14sep.json",
+    "updatedAt": "2025-10-08T21:21:35.614350+00:00"
+  },
+  {
+    "fileName": "498_Titan_16sep.json",
+    "updatedAt": "2025-10-08T21:21:36.085884+00:00"
+  },
+  {
+    "fileName": "499_Deshaw_16sep.json",
+    "updatedAt": "2025-10-08T21:21:36.554984+00:00"
+  },
+  {
+    "fileName": "49_MAQ.json",
+    "updatedAt": "2025-10-08T21:18:01.453492+00:00"
+  },
+  {
+    "fileName": "4_PhonePe.json",
+    "updatedAt": "2025-10-08T21:17:38.747626+00:00"
+  },
+  {
+    "fileName": "500_Amazon_13sep.json",
+    "updatedAt": "2025-10-08T21:21:37.049637+00:00"
+  },
+  {
+    "fileName": "501_Meesho_14sep.json",
+    "updatedAt": "2025-10-08T21:21:37.505894+00:00"
+  },
+  {
+    "fileName": "502_bank of Australia_15sep.json",
+    "updatedAt": "2025-10-08T21:21:37.978474+00:00"
+  },
+  {
+    "fileName": "503_Quadeye_17sep.json",
+    "updatedAt": "2025-10-08T21:21:38.460473+00:00"
+  },
+  {
+    "fileName": "504_Amazon_17sep.json",
+    "updatedAt": "2025-10-08T21:21:38.972069+00:00"
+  },
+  {
+    "fileName": "505_Visa_17sep.json",
+    "updatedAt": "2025-10-08T21:21:39.460098+00:00"
+  },
+  {
+    "fileName": "506_Kickdrum_17sep.json",
+    "updatedAt": "2025-10-08T21:21:39.947210+00:00"
+  },
+  {
+    "fileName": "507_trading tech_17sep.json",
+    "updatedAt": "2025-10-08T21:21:40.448665+00:00"
+  },
+  {
+    "fileName": "508_Citadel_19sep.json",
+    "updatedAt": "2025-10-08T21:21:40.949508+00:00"
+  },
+  {
+    "fileName": "509_HashedIn_19sep.json",
+    "updatedAt": "2025-10-08T21:21:41.427209+00:00"
+  },
+  {
+    "fileName": "50_Swiggy.json",
+    "updatedAt": "2025-10-08T21:18:02.149819+00:00"
+  },
+  {
+    "fileName": "510_jubliant_19sep.json",
+    "updatedAt": "2025-10-08T21:21:42.098396+00:00"
+  },
+  {
+    "fileName": "511_Amazon_19sep.json",
+    "updatedAt": "2025-10-08T21:21:42.566448+00:00"
+  },
+  {
+    "fileName": "512_Samsung_18sep.json",
+    "updatedAt": "2025-10-08T21:21:43.032459+00:00"
+  },
+  {
+    "fileName": "513_Myntra_20sep.json",
+    "updatedAt": "2025-10-08T21:21:43.563577+00:00"
+  },
+  {
+    "fileName": "514_Amazon_20sep.json",
+    "updatedAt": "2025-10-08T21:21:44.021308+00:00"
+  },
+  {
+    "fileName": "515_ethos_20sep.json",
+    "updatedAt": "2025-10-08T21:21:44.476065+00:00"
+  },
+  {
+    "fileName": "516_nvidia_22sep.json",
+    "updatedAt": "2025-10-08T21:21:44.952344+00:00"
+  },
+  {
+    "fileName": "517_Ibm_22sep.json",
+    "updatedAt": "2025-10-08T21:21:45.420216+00:00"
+  },
+  {
+    "fileName": "518_Amazon_22sep.json",
+    "updatedAt": "2025-10-08T21:21:45.906304+00:00"
+  },
+  {
+    "fileName": "519_Ibm_23sep.json",
+    "updatedAt": "2025-10-08T21:21:46.386163+00:00"
+  },
+  {
+    "fileName": "51_Onix.json",
+    "updatedAt": "2025-10-08T21:18:02.630103+00:00"
+  },
+  {
+    "fileName": "520_Kickdrum_24sep.json",
+    "updatedAt": "2025-10-08T21:26:38.461986+00:00"
+  },
+  {
+    "fileName": "521_Oracle_23sep.json",
+    "updatedAt": "2025-10-08T21:26:38.910436+00:00"
+  },
+  {
+    "fileName": "522_Juspay_24sep.json",
+    "updatedAt": "2025-10-08T21:26:39.357738+00:00"
+  },
+  {
+    "fileName": "523_Amazon_24sep.json",
+    "updatedAt": "2025-10-08T21:26:39.868357+00:00"
+  },
+  {
+    "fileName": "524_ZS_24sep.json",
+    "updatedAt": "2025-10-08T21:26:40.336904+00:00"
+  },
+  {
+    "fileName": "525_Airtel_24sep.json",
+    "updatedAt": "2025-10-08T21:26:40.860759+00:00"
+  },
+  {
+    "fileName": "526_nvidia_25sep.json",
+    "updatedAt": "2025-10-08T21:26:41.324172+00:00"
+  },
+  {
+    "fileName": "527_Josh Technology_25july.json",
+    "updatedAt": "2025-10-08T21:26:41.795029+00:00"
+  },
+  {
+    "fileName": "528_Amazon_25july.json",
+    "updatedAt": "2025-10-08T21:21:50.900554+00:00"
+  },
+  {
+    "fileName": "529_Tredence_25july.json",
+    "updatedAt": "2025-10-08T21:21:51.363203+00:00"
+  },
+  {
+    "fileName": "52_Netradyne.json",
+    "updatedAt": "2025-10-08T21:18:03.149617+00:00"
+  },
+  {
+    "fileName": "530_grow_25sep.json",
+    "updatedAt": "2025-10-08T21:21:51.948674+00:00"
+  },
+  {
+    "fileName": "531_Amazon_26sep.json",
+    "updatedAt": "2025-10-08T21:21:52.464676+00:00"
+  },
+  {
+    "fileName": "532_Titan_27sep.json",
+    "updatedAt": "2025-10-08T21:21:52.933496+00:00"
+  },
+  {
+    "fileName": "533_pepciso_27sep.json",
+    "updatedAt": "2025-10-08T21:21:53.447920+00:00"
+  },
+  {
+    "fileName": "534_Amazon_Scientist_27sep.json",
+    "updatedAt": "2025-10-08T21:21:53.946876+00:00"
+  },
+  {
+    "fileName": "535_Amaozn_27sep.json",
+    "updatedAt": "2025-10-08T21:21:54.462147+00:00"
+  },
+  {
+    "fileName": "536_sapient_27sep.json",
+    "updatedAt": "2025-10-08T21:21:54.994641+00:00"
+  },
+  {
+    "fileName": "537_ge vernova_27sep.json",
+    "updatedAt": "2025-10-08T21:21:55.446877+00:00"
+  },
+  {
+    "fileName": "538_HPE_28sep.json",
+    "updatedAt": "2025-10-08T21:21:55.945940+00:00"
+  },
+  {
+    "fileName": "539_ibm_29sep.json",
+    "updatedAt": "2025-10-08T21:21:56.406213+00:00"
+  },
+  {
+    "fileName": "53_kickdrum.json",
+    "updatedAt": "2025-10-08T21:18:03.616184+00:00"
+  },
+  {
+    "fileName": "540_Amazon_29sep.json",
+    "updatedAt": "2025-10-08T21:21:56.870877+00:00"
+  },
+  {
+    "fileName": "541_Accenture_29sep.json",
+    "updatedAt": "2025-10-08T21:21:57.355285+00:00"
+  },
+  {
+    "fileName": "542_samsung_29sep.json",
+    "updatedAt": "2025-10-08T21:21:57.824520+00:00"
+  },
+  {
+    "fileName": "543_Autodesk_30sep.json",
+    "updatedAt": "2025-10-08T21:21:58.350044+00:00"
+  },
+  {
+    "fileName": "544_Stripe_30sep.json",
+    "updatedAt": "2025-10-08T21:21:58.855777+00:00"
+  },
+  {
+    "fileName": "545_Citadel_30sep.json",
+    "updatedAt": "2025-10-08T21:21:59.344732+00:00"
+  },
+  {
+    "fileName": "546_Zomato_1oct.json",
+    "updatedAt": "2025-10-08T21:21:59.825900+00:00"
+  },
+  {
+    "fileName": "547_Amazon_1oct.json",
+    "updatedAt": "2025-10-08T21:22:00.296053+00:00"
+  },
+  {
+    "fileName": "548_Sprinkler_1oct.json",
+    "updatedAt": "2025-10-08T21:22:00.807480+00:00"
+  },
+  {
+    "fileName": "549_Amazon_3oct.json",
+    "updatedAt": "2025-10-08T21:22:01.281527+00:00"
+  },
+  {
+    "fileName": "54_ICICI.json",
+    "updatedAt": "2025-10-08T21:18:04.084395+00:00"
+  },
+  {
+    "fileName": "550_rubrik_4oct.json",
+    "updatedAt": "2025-10-08T21:22:01.744775+00:00"
+  },
+  {
+    "fileName": "551_Amazon_3oct.json",
+    "updatedAt": "2025-10-08T21:22:02.220201+00:00"
+  },
+  {
+    "fileName": "552_rubrik_4oct.json",
+    "updatedAt": "2025-10-08T21:22:02.761378+00:00"
+  },
+  {
+    "fileName": "553_Paytm_3oct.json",
+    "updatedAt": "2025-10-08T21:22:03.233977+00:00"
+  },
+  {
+    "fileName": "554_Altimetrik_3oct.json",
+    "updatedAt": "2025-10-08T21:22:03.708516+00:00"
+  },
+  {
+    "fileName": "555_HPE_3oct.json",
+    "updatedAt": "2025-10-08T21:22:04.179211+00:00"
+  },
+  {
+    "fileName": "556_Uber_all.json",
+    "updatedAt": "2025-10-08T21:22:04.725703+00:00"
+  },
+  {
+    "fileName": "557_DealShare.json",
+    "updatedAt": "2025-10-08T21:22:05.182927+00:00"
+  },
+  {
+    "fileName": "558_Squarepoint.json",
+    "updatedAt": "2025-10-08T21:22:05.637373+00:00"
+  },
+  {
+    "fileName": "559_ZS_4oct.json",
+    "updatedAt": "2025-10-08T21:22:06.101176+00:00"
+  },
+  {
+    "fileName": "55_Flipkart.json",
+    "updatedAt": "2025-10-08T21:18:04.556092+00:00"
+  },
+  {
+    "fileName": "560_Rubrik_5oct.json",
+    "updatedAt": "2025-10-08T21:22:06.571677+00:00"
+  },
+  {
+    "fileName": "561_citadel_3oct.json",
+    "updatedAt": "2025-10-08T21:22:07.051278+00:00"
+  },
+  {
+    "fileName": "562_Tech Mahindra_6oct.json",
+    "updatedAt": "2025-10-08T21:22:07.523376+00:00"
+  },
+  {
+    "fileName": "563_serion lab_5oct.json",
+    "updatedAt": "2025-10-08T21:22:08.047458+00:00"
+  },
+  {
+    "fileName": "564_Cargill_5oct.json",
+    "updatedAt": "2025-10-08T21:22:08.551556+00:00"
+  },
+  {
+    "fileName": "565_Tech Mahindra.json",
+    "updatedAt": "2025-10-08T21:22:09.052847+00:00"
+  },
+  {
+    "fileName": "566_uber_6oct.json",
+    "updatedAt": "2025-10-08T21:22:09.520525+00:00"
+  },
+  {
+    "fileName": "567_Dealshare_7oct.json",
+    "updatedAt": "2025-10-08T21:22:09.971171+00:00"
+  },
+  {
+    "fileName": "568_Amazon_7oct.json",
+    "updatedAt": "2025-10-08T21:22:10.450516+00:00"
+  },
+  {
+    "fileName": "569_stripe_6oct.json",
+    "updatedAt": "2025-10-08T21:22:10.934207+00:00"
+  },
+  {
+    "fileName": "56_Intuit.json",
+    "updatedAt": "2025-10-08T21:18:05.032788+00:00"
+  },
+  {
+    "fileName": "570_visa_6oct.json",
+    "updatedAt": "2025-10-18T06:18:50.777520+00:00"
+  },
+  {
+    "fileName": "571_nvidia_7oct.json",
+    "updatedAt": "2025-10-18T06:18:51.628712+00:00"
+  },
+  {
+    "fileName": "572_Oracle_7oct.json",
+    "updatedAt": "2025-10-18T06:18:52.462256+00:00"
+  },
+  {
+    "fileName": "573_Publicis Sapient_27sept.json",
+    "updatedAt": "2025-10-18T06:18:53.376232+00:00"
+  },
+  {
+    "fileName": "574_Publicis Sapient_2Sept.json",
+    "updatedAt": "2025-10-18T06:18:54.209195+00:00"
+  },
+  {
+    "fileName": "575_Mathworks_7Oct.json",
+    "updatedAt": "2025-10-18T06:18:55.076476+00:00"
+  },
+  {
+    "fileName": "576_Societe_Generale_7Oct.json",
+    "updatedAt": "2025-10-18T06:18:55.919057+00:00"
+  },
+  {
+    "fileName": "577_Bree_7oct.json",
+    "updatedAt": "2025-10-18T06:18:56.761113+00:00"
+  },
+  {
+    "fileName": "578_Ola.json",
+    "updatedAt": "2025-10-18T06:18:57.574980+00:00"
+  },
+  {
+    "fileName": "579_Publicis Sapient.json",
+    "updatedAt": "2025-10-18T06:18:58.447053+00:00"
+  },
+  {
+    "fileName": "57_paypal.json",
+    "updatedAt": "2025-10-08T21:18:05.505201+00:00"
+  },
+  {
+    "fileName": "580_Unicult_8oct.json",
+    "updatedAt": "2025-10-18T06:18:59.260881+00:00"
+  },
+  {
+    "fileName": "581_Amazon_8oct.json",
+    "updatedAt": "2025-10-18T06:19:00.110383+00:00"
+  },
+  {
+    "fileName": "582_Uber Data science_8oct.json",
+    "updatedAt": "2025-10-18T06:19:00.983827+00:00"
+  },
+  {
+    "fileName": "583_MediBuddy_8oct.json",
+    "updatedAt": "2025-10-18T06:19:01.813945+00:00"
+  },
+  {
+    "fileName": "584_Publicis Sapient_8oct.json",
+    "updatedAt": "2025-10-18T06:19:02.646627+00:00"
+  },
+  {
+    "fileName": "585_MediaNet_8oct.json",
+    "updatedAt": "2025-10-18T06:19:03.515414+00:00"
+  },
+  {
+    "fileName": "586_nagarro_18aug.json",
+    "updatedAt": "2025-10-18T06:19:04.342445+00:00"
+  },
+  {
+    "fileName": "587_SIXT.json",
+    "updatedAt": "2025-10-18T06:19:05.194949+00:00"
+  },
+  {
+    "fileName": "588_Nucleus Software.json",
+    "updatedAt": "2025-10-18T06:19:06.043677+00:00"
+  },
+  {
+    "fileName": "589_Freecharge.json",
+    "updatedAt": "2025-10-18T06:19:06.870018+00:00"
+  },
+  {
+    "fileName": "58_Samsung Research.json",
+    "updatedAt": "2025-10-08T21:18:05.974434+00:00"
+  },
+  {
+    "fileName": "590_InMobi.json",
+    "updatedAt": "2025-10-18T06:19:07.707131+00:00"
+  },
+  {
+    "fileName": "591_Factset_9oct.json",
+    "updatedAt": "2025-10-18T06:19:08.599765+00:00"
+  },
+  {
+    "fileName": "592_Komprise.json",
+    "updatedAt": "2025-10-18T06:19:09.438760+00:00"
+  },
+  {
+    "fileName": "593_Trimble.json",
+    "updatedAt": "2025-10-18T06:19:10.284577+00:00"
+  },
+  {
+    "fileName": "594_Navi Technologies.json",
+    "updatedAt": "2025-10-18T06:19:11.111156+00:00"
+  },
+  {
+    "fileName": "595_Growth jockey_9oct.json",
+    "updatedAt": "2025-10-18T06:19:11.970522+00:00"
+  },
+  {
+    "fileName": "596_OpenText_9oct.json",
+    "updatedAt": "2025-10-18T06:19:12.807530+00:00"
+  },
+  {
+    "fileName": "597_visa_9oct.json",
+    "updatedAt": "2025-10-18T06:19:13.631592+00:00"
+  },
+  {
+    "fileName": "598_unify.json",
+    "updatedAt": "2025-10-18T06:19:14.483619+00:00"
+  },
+  {
+    "fileName": "599_ethos life_9oct.json",
+    "updatedAt": "2025-10-18T06:19:15.298962+00:00"
+  },
+  {
+    "fileName": "59_Google.json",
+    "updatedAt": "2025-10-08T21:18:06.450988+00:00"
+  },
+  {
+    "fileName": "5_LG ads.json",
+    "updatedAt": "2025-10-08T21:17:39.362547+00:00"
+  },
+  {
+    "fileName": "600_Optum_9oct.json",
+    "updatedAt": "2025-10-18T06:19:16.142884+00:00"
+  },
+  {
+    "fileName": "601_Accolite_9oct.json",
+    "updatedAt": "2025-10-18T06:19:16.966074+00:00"
+  },
+  {
+    "fileName": "602_Inmobi_10oct.json",
+    "updatedAt": "2025-10-18T06:19:17.789356+00:00"
+  },
+  {
+    "fileName": "603_thoughtworks_9oct.json",
+    "updatedAt": "2025-10-18T06:19:18.631662+00:00"
+  },
+  {
+    "fileName": "604_ubs.json",
+    "updatedAt": "2025-10-18T06:19:19.456614+00:00"
+  },
+  {
+    "fileName": "605_Nk securities.json",
+    "updatedAt": "2025-10-18T06:19:20.295973+00:00"
+  },
+  {
+    "fileName": "606_Growth jockey_10oct.json",
+    "updatedAt": "2025-10-18T06:19:21.134959+00:00"
+  },
+  {
+    "fileName": "607_Rapido_10oct.json",
+    "updatedAt": "2025-10-18T06:19:21.963460+00:00"
+  },
+  {
+    "fileName": "608_commonwealth.json",
+    "updatedAt": "2025-10-18T06:19:22.793165+00:00"
+  },
+  {
+    "fileName": "609_Bank of Australia.json",
+    "updatedAt": "2025-10-18T06:19:23.664377+00:00"
+  },
+  {
+    "fileName": "60_Deshaw.json",
+    "updatedAt": "2025-10-08T21:18:06.903777+00:00"
+  },
+  {
+    "fileName": "610_Accenture Japan.json",
+    "updatedAt": "2025-10-18T06:19:24.497468+00:00"
+  },
+  {
+    "fileName": "611_Accolite_11oct.json",
+    "updatedAt": "2025-10-18T06:19:25.357387+00:00"
+  },
+  {
+    "fileName": "612_Epam_11oct.json",
+    "updatedAt": "2025-10-18T06:19:26.213732+00:00"
+  },
+  {
+    "fileName": "613_Virtusa_11oct.json",
+    "updatedAt": "2025-10-18T06:19:27.063154+00:00"
+  },
+  {
+    "fileName": "614_Scienaptic AI_11oct.json",
+    "updatedAt": "2025-10-18T06:19:27.894788+00:00"
+  },
+  {
+    "fileName": "615_ibm_11oct.json",
+    "updatedAt": "2025-10-18T06:19:29.141946+00:00"
+  },
+  {
+    "fileName": "616_infosys_11oct.json",
+    "updatedAt": "2025-10-18T06:19:30.082627+00:00"
+  },
+  {
+    "fileName": "617_wex.json",
+    "updatedAt": "2025-10-18T06:19:30.993509+00:00"
+  },
+  {
+    "fileName": "618_Virtusa..._11oct.json",
+    "updatedAt": "2025-10-18T06:19:32.022269+00:00"
+  },
+  {
+    "fileName": "619_Sprinklr_11oct.json",
+    "updatedAt": "2025-10-18T06:19:32.941269+00:00"
+  },
+  {
+    "fileName": "61_Nutanix.json",
+    "updatedAt": "2025-10-08T21:18:07.365242+00:00"
+  },
+  {
+    "fileName": "620_Algo university_11oct.json",
+    "updatedAt": "2025-10-18T06:19:34.501416+00:00"
+  },
+  {
+    "fileName": "621_Infoedge_12oct.json",
+    "updatedAt": "2025-10-18T06:19:37.017859+00:00"
+  },
+  {
+    "fileName": "622_hackerrank.json",
+    "updatedAt": "2025-10-18T06:19:40.336897+00:00"
+  },
+  {
+    "fileName": "623_ibm_12oct.json",
+    "updatedAt": "2025-10-18T06:19:42.680705+00:00"
+  },
+  {
+    "fileName": "624_Adobe_12oct.json",
+    "updatedAt": "2025-10-18T06:19:46.413529+00:00"
+  },
+  {
+    "fileName": "625_Rippling_12oct.json",
+    "updatedAt": "2025-10-18T06:19:49.166072+00:00"
+  },
+  {
+    "fileName": "626_Citi_12oct.json",
+    "updatedAt": "2025-10-18T06:19:51.552124+00:00"
+  },
+  {
+    "fileName": "627_Amazon_12oct.json",
+    "updatedAt": "2025-10-18T06:19:54.114645+00:00"
+  },
+  {
+    "fileName": "628_Razorpay_12oct.json",
+    "updatedAt": "2025-10-18T06:19:56.391038+00:00"
+  },
+  {
+    "fileName": "629_SDET_12oct.json",
+    "updatedAt": "2025-10-18T06:19:58.386026+00:00"
+  },
+  {
+    "fileName": "62_Visa fte.json",
+    "updatedAt": "2025-10-08T21:18:07.843646+00:00"
+  },
+  {
+    "fileName": "630_Kickdrum_13oct.json",
+    "updatedAt": "2025-10-18T06:20:00.770760+00:00"
+  },
+  {
+    "fileName": "631_Deshaw_13oct.json",
+    "updatedAt": "2025-10-18T06:20:02.936539+00:00"
+  },
+  {
+    "fileName": "632_Boomi_13oct.json",
+    "updatedAt": "2025-10-18T06:20:06.533361+00:00"
+  },
+  {
+    "fileName": "633_uber_13oct.json",
+    "updatedAt": "2025-10-18T06:20:08.496563+00:00"
+  },
+  {
+    "fileName": "634_Statestreet_13oct.json",
+    "updatedAt": "2025-10-18T06:20:10.715083+00:00"
+  },
+  {
+    "fileName": "635_ibm_13oct.json",
+    "updatedAt": "2025-10-18T06:20:12.848798+00:00"
+  },
+  {
+    "fileName": "636_Hitachi_13oct.json",
+    "updatedAt": "2025-10-18T06:20:15.306256+00:00"
+  },
+  {
+    "fileName": "637_opentext_13oct.json",
+    "updatedAt": "2025-10-18T06:20:17.537790+00:00"
+  },
+  {
+    "fileName": "638_Mercer _ Mettl_13oct.json",
+    "updatedAt": "2025-10-18T06:20:20.231072+00:00"
+  },
+  {
+    "fileName": "639_citi_14oct.json",
+    "updatedAt": "2025-10-18T06:20:22.377883+00:00"
+  },
+  {
+    "fileName": "63_Greyorange.json",
+    "updatedAt": "2025-10-08T21:18:08.348485+00:00"
+  },
+  {
+    "fileName": "640_Amazon_14oct.json",
+    "updatedAt": "2025-10-18T06:20:25.096000+00:00"
+  },
+  {
+    "fileName": "641_Autodesk_14oct.json",
+    "updatedAt": "2025-10-18T06:20:27.692678+00:00"
+  },
+  {
+    "fileName": "642_optiver_14oct.json",
+    "updatedAt": "2025-10-18T06:20:31.386756+00:00"
+  },
+  {
+    "fileName": "643_curefir_14oct.json",
+    "updatedAt": "2025-10-18T06:20:33.834142+00:00"
+  },
+  {
+    "fileName": "644_stripe_14oct.json",
+    "updatedAt": "2025-10-18T06:20:35.983700+00:00"
+  },
+  {
+    "fileName": "645_uber_14oct.json",
+    "updatedAt": "2025-10-18T06:20:38.297790+00:00"
+  },
+  {
+    "fileName": "646_ZS_14oct.json",
+    "updatedAt": "2025-10-18T06:20:40.704943+00:00"
+  },
+  {
+    "fileName": "647_HiLabs_SDE.json",
+    "updatedAt": "2025-10-18T06:20:44.107659+00:00"
+  },
+  {
+    "fileName": "648_Sharechat_15oct.json",
+    "updatedAt": "2025-10-18T06:20:46.478427+00:00"
+  },
+  {
+    "fileName": "649_juspay_15oct.json",
+    "updatedAt": "2025-10-18T06:20:49.052535+00:00"
+  },
+  {
+    "fileName": "64_SAP Labs.json",
+    "updatedAt": "2025-10-08T21:18:08.862797+00:00"
+  },
+  {
+    "fileName": "650_Amazon_15oct.json",
+    "updatedAt": "2025-10-18T06:20:51.140104+00:00"
+  },
+  {
+    "fileName": "651_virtusa_15oct.json",
+    "updatedAt": "2025-10-18T06:20:53.295322+00:00"
+  },
+  {
+    "fileName": "652_Bounteous × Accolite_15oct.json",
+    "updatedAt": "2025-10-18T06:20:55.874240+00:00"
+  },
+  {
+    "fileName": "653_Hushh Ai_15oct.json",
+    "updatedAt": "2025-10-18T06:20:58.213108+00:00"
+  },
+  {
+    "fileName": "654_Dezerv.json",
+    "updatedAt": "2025-10-18T06:21:00.862838+00:00"
+  },
+  {
+    "fileName": "655_citi_16oct.json",
+    "updatedAt": "2025-10-18T06:21:03.236590+00:00"
+  },
+  {
+    "fileName": "656_opentext_16oct.json",
+    "updatedAt": "2025-10-18T06:21:05.925640+00:00"
+  },
+  {
+    "fileName": "657_Amazon_16oct.json",
+    "updatedAt": "2025-10-18T06:21:08.196936+00:00"
+  },
+  {
+    "fileName": "658_oracle_16oct.json",
+    "updatedAt": "2025-10-18T06:21:10.742527+00:00"
+  },
+  {
+    "fileName": "659_Swiggy_16oct.json",
+    "updatedAt": "2025-10-18T06:21:13.089405+00:00"
+  },
+  {
+    "fileName": "65_Emerson.json",
+    "updatedAt": "2025-10-08T21:18:09.450049+00:00"
+  },
+  {
+    "fileName": "660_Arcesium_16oct.json",
+    "updatedAt": "2025-10-21T04:58:13.292546+00:00"
+  },
+  {
+    "fileName": "661_Oracle_16nov.json",
+    "updatedAt": "2025-10-21T04:58:14.136626+00:00"
+  },
+  {
+    "fileName": "662_kotak.json",
+    "updatedAt": "2025-10-21T04:58:14.903987+00:00"
+  },
+  {
+    "fileName": "663_Kotak_16oct.json",
+    "updatedAt": "2025-10-21T04:58:15.670203+00:00"
+  },
+  {
+    "fileName": "664_Walmart_1sept.json",
+    "updatedAt": "2025-10-21T04:58:16.455436+00:00"
+  },
+  {
+    "fileName": "665_Deloitte_18oct.json",
+    "updatedAt": "2025-10-21T04:58:17.309784+00:00"
+  },
+  {
+    "fileName": "666_Ivyleague csforall_18oct.json",
+    "updatedAt": "2025-10-21T04:58:18.203528+00:00"
+  },
+  {
+    "fileName": "667_Ethos.json",
+    "updatedAt": "2025-10-21T04:58:19.052047+00:00"
+  },
+  {
+    "fileName": "668_Arcesium_18oct.json",
+    "updatedAt": "2025-10-21T04:58:19.950219+00:00"
+  },
+  {
+    "fileName": "669_Jupiter money.json",
+    "updatedAt": "2025-10-21T04:58:20.886319+00:00"
+  },
+  {
+    "fileName": "66_Axis bank fte.json",
+    "updatedAt": "2025-10-08T21:18:09.950927+00:00"
+  },
+  {
+    "fileName": "670_Societe Generale_18oct.json",
+    "updatedAt": "2025-10-21T04:58:21.715952+00:00"
+  },
+  {
+    "fileName": "671_Nasdaq_18oct.json",
+    "updatedAt": "2025-10-21T04:58:22.870207+00:00"
+  },
+  {
+    "fileName": "672_StateStreet_18oct.json",
+    "updatedAt": "2025-10-21T04:58:23.738697+00:00"
+  },
+  {
+    "fileName": "673_Oracle_17oct.json",
+    "updatedAt": "2025-10-21T04:58:24.637676+00:00"
+  },
+  {
+    "fileName": "674_visa_18oct.json",
+    "updatedAt": "2025-10-21T04:58:25.898188+00:00"
+  },
+  {
+    "fileName": "675_Thoughtworks_17oct.json",
+    "updatedAt": "2025-10-21T04:58:27.352836+00:00"
+  },
+  {
+    "fileName": "676_virtusa_17oct.json",
+    "updatedAt": "2025-10-21T04:58:28.804180+00:00"
+  },
+  {
+    "fileName": "677_SHL_17oct.json",
+    "updatedAt": "2025-10-21T04:58:30.058011+00:00"
+  },
+  {
+    "fileName": "678_Arcesium_17oct.json",
+    "updatedAt": "2025-10-21T04:58:31.369753+00:00"
+  },
+  {
+    "fileName": "679_infoedge_18oct.json",
+    "updatedAt": "2025-10-21T04:58:32.490040+00:00"
+  },
+  {
+    "fileName": "67_Axis Bank fte.json",
+    "updatedAt": "2025-10-08T21:18:10.655586+00:00"
+  },
+  {
+    "fileName": "680_juspay_17oct.json",
+    "updatedAt": "2025-10-21T04:58:33.614665+00:00"
+  },
+  {
+    "fileName": "681_Accolite_17oct.json",
+    "updatedAt": "2025-10-21T04:58:34.882031+00:00"
+  },
+  {
+    "fileName": "682_Amazon_17oct.json",
+    "updatedAt": "2025-10-21T04:58:35.802052+00:00"
+  },
+  {
+    "fileName": "683_Amgen technology_17oct.json",
+    "updatedAt": "2025-10-21T04:58:36.725533+00:00"
+  },
+  {
+    "fileName": "684_Pepsico_17oct.json",
+    "updatedAt": "2025-10-21T04:58:37.592957+00:00"
+  },
+  {
+    "fileName": "685_Kotak_17oct.json",
+    "updatedAt": "2025-10-21T05:27:42.333051+00:00"
+  },
+  {
+    "fileName": "686_Ernst and young_18oct.json",
+    "updatedAt": "2025-10-21T05:27:43.176408+00:00"
+  },
+  {
+    "fileName": "687_NXT wave_18oct.json",
+    "updatedAt": "2025-10-21T05:20:52.414168+00:00"
+  },
+  {
+    "fileName": "688_PayU.json",
+    "updatedAt": "2025-10-21T05:20:53.244863+00:00"
+  },
+  {
+    "fileName": "689_Coupa.json",
+    "updatedAt": "2025-10-21T05:20:54.001833+00:00"
+  },
+  {
+    "fileName": "69_Barclays.json",
+    "updatedAt": "2025-10-08T21:18:11.422432+00:00"
+  },
+  {
+    "fileName": "6_Walmart sparkplug.json",
+    "updatedAt": "2025-10-08T21:17:40.022059+00:00"
+  },
+  {
+    "fileName": "70_Quadric.json",
+    "updatedAt": "2025-10-08T21:18:11.967349+00:00"
+  },
+  {
+    "fileName": "71_Airtel.json",
+    "updatedAt": "2025-10-08T21:18:12.551230+00:00"
+  },
+  {
+    "fileName": "72_Amazon.json",
+    "updatedAt": "2025-10-08T21:18:13.051374+00:00"
+  },
+  {
+    "fileName": "73_Amazon.json",
+    "updatedAt": "2025-10-08T21:18:13.547742+00:00"
+  },
+  {
+    "fileName": "74_Udaan.json",
+    "updatedAt": "2025-10-08T21:18:14.014310+00:00"
+  },
+  {
+    "fileName": "75_Hsbc.json",
+    "updatedAt": "2025-10-08T21:18:14.488680+00:00"
+  },
+  {
+    "fileName": "76_Flipkart.json",
+    "updatedAt": "2025-10-08T21:18:14.962820+00:00"
+  },
+  {
+    "fileName": "77_Udaan.json",
+    "updatedAt": "2025-10-08T21:18:15.438672+00:00"
+  },
+  {
+    "fileName": "78_Myntra.json",
+    "updatedAt": "2025-10-08T21:18:15.954011+00:00"
+  },
+  {
+    "fileName": "79_Vmock.json",
+    "updatedAt": "2025-10-08T21:18:16.426798+00:00"
+  },
+  {
+    "fileName": "7_Common Wealth.json",
+    "updatedAt": "2025-10-08T21:17:40.550129+00:00"
+  },
+  {
+    "fileName": "80_Gameberry labs.json",
+    "updatedAt": "2025-10-08T21:18:16.900650+00:00"
+  },
+  {
+    "fileName": "81_Gameberry labs.json",
+    "updatedAt": "2025-10-08T21:18:17.372120+00:00"
+  },
+  {
+    "fileName": "82_Vmock.json",
+    "updatedAt": "2025-10-08T21:18:17.856799+00:00"
+  },
+  {
+    "fileName": "83_Barclays.json",
+    "updatedAt": "2025-10-08T21:18:18.509797+00:00"
+  },
+  {
+    "fileName": "84_Barclays.json",
+    "updatedAt": "2025-10-08T21:18:19.019538+00:00"
+  },
+  {
+    "fileName": "85_Shaadi.com.json",
+    "updatedAt": "2025-10-08T21:18:19.507851+00:00"
+  },
+  {
+    "fileName": "86_Media net.json",
+    "updatedAt": "2025-10-08T21:18:19.979684+00:00"
+  },
+  {
+    "fileName": "87_Bolt.earth.json",
+    "updatedAt": "2025-10-08T21:18:20.437074+00:00"
+  },
+  {
+    "fileName": "88_Amazon.json",
+    "updatedAt": "2025-10-08T21:18:20.905400+00:00"
+  },
+  {
+    "fileName": "89_ClearTax.json",
+    "updatedAt": "2025-10-08T21:18:21.450210+00:00"
+  },
+  {
+    "fileName": "8_Twilio.json",
+    "updatedAt": "2025-10-08T21:17:41.157605+00:00"
+  },
+  {
+    "fileName": "90_Chargebee.json",
+    "updatedAt": "2025-10-08T21:18:21.965088+00:00"
+  },
+  {
+    "fileName": "91_SCS Global Services.json",
+    "updatedAt": "2025-10-08T21:18:22.446457+00:00"
+  },
+  {
+    "fileName": "92_Saks.json",
+    "updatedAt": "2025-10-08T21:18:22.949363+00:00"
+  },
+  {
+    "fileName": "93_Cashfree.json",
+    "updatedAt": "2025-10-08T21:18:23.543038+00:00"
+  },
+  {
+    "fileName": "94_Pocketpills.json",
+    "updatedAt": "2025-10-08T21:18:24.157216+00:00"
+  },
+  {
+    "fileName": "96_Pocketpills.json",
+    "updatedAt": "2025-10-08T21:18:25.050035+00:00"
+  },
+  {
+    "fileName": "97_CDK Global.json",
+    "updatedAt": "2025-10-08T21:18:25.529623+00:00"
+  },
+  {
+    "fileName": "98_Axis Bank.json",
+    "updatedAt": "2025-10-08T21:18:26.050802+00:00"
+  },
+  {
+    "fileName": "9_OPTUM.json",
+    "updatedAt": "2025-10-08T21:17:42.052635+00:00"
+  }
 ]

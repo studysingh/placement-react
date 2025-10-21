@@ -16,21 +16,24 @@ const Home = () => {
   useEffect(() => {
     fetch(`${basePath}/files_index.json`)
       .then(res => res.json())
-      .then(fileNames => {
+      .then(fileEntries => {
+        // fileEntries expected to be [{ fileName, updatedAt? }, ...]
         Promise.all(
-          fileNames.map(file =>
-            fetch(`${basePath}/${file}`, { method: 'GET' })
+          fileEntries.map(entry => {
+            const file = entry.fileName || entry;
+            return fetch(`${basePath}/${file}`, { method: 'GET' })
               .then(res => {
                 const lastModified = res.headers.get('last-modified');
                 return res.json().then(problems => ({
                   fileName: file,
                   problemCount: problems.length,
                   problems: problems,
-                  updatedAt: lastModified ? new Date(lastModified).toISOString() : null
+                  // Prefer filesystem-provided updatedAt from index, fallback to header
+                  updatedAt: entry.updatedAt || (lastModified ? new Date(lastModified).toISOString() : null)
                 }));
               })
               .catch(err => { console.error(file, err); return null; })
-          )
+          })
         ).then(data => {
           const validData = data.filter(d => d !== null);
           // derive numeric id from filename prefix (e.g. "100_Zeta.json" -> 100)
