@@ -17,8 +17,8 @@ const ProblemCard = ({ fileName, problemCount, onViewDetails, updatedAt }) => {
 
   // Map date keys to a fixed palette of 20 friendly colors.
   const PALETTE = [
-    '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
-    '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
+    '#bcbd22', '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728',
+     '#9467bd','#8c564b', '#e377c2', '#7f7f7f',  '#17becf',
     '#393b79', '#637939', '#8c6d31', '#843c39', '#7b4173',
     '#5254a3', '#9c9ede', '#8ca252', '#b5cf6b', '#cedb9c'
   ];
@@ -26,7 +26,7 @@ const ProblemCard = ({ fileName, problemCount, onViewDetails, updatedAt }) => {
   const colorFromDateKey = (key) => {
     if (!key) return '#dee2e6';
     // djb2 hash
-    let hash = 5381;
+    let hash = 2003;
     for (let i = 0; i < key.length; i++) {
       hash = ((hash << 5) + hash) + key.charCodeAt(i);
     }
