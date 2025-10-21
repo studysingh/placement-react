@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1927,
+        "title": "Golden",
+        "problem_statement": "<h1>Golden</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Linguists are fascinated by strings that follow special growth patterns. They define:</p>\r\n<ul>\r\n    <li>A block is a maximal run of identical letters.</li>\r\n    <li>If the block lengths form the Fibonacci sequence (starting with 1, 1, 2, 3, ...), the string is called a Golden string.</li>\r\n    <li>If by rearranging the letters you can obtain such a Golden string, it is called a semi-Golden string.</li>\r\n</ul>\r\n<p>Given the counts of characters in the alphabet, decide if the described string can be rearranged into a semi-Golden string.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The first line contains a single integer T (1 &le; T &le; 10<sup>4</sup>) &mdash; the number of test cases.</p>\r\n<p>Each test case starts with an integer k (1 &le; k &le; 100) &mdash; the number of distinct characters in the alphabet.</p>\r\n<p>The next line contains k integers c1, c2, ..., ck (1 &le; ci &le; 10<sup>9</sup>) &mdash; the frequency of each character.</p>\r\n\r\n<h2>Output</h2>\r\n<p>For each test case, print YES if the string can be rearranged into a semi-Golden string, and NO otherwise.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n2\r\n6\r\n1 39 8 2 17 21\r\n4\r\n19 2 8 25\r\nOutput:\r\nYES\r\nYES</code></pre>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input:\r\n20\r\n2179 2692 4280 4897 1567 7115 7915 870 4471\r\n6875 3819 9793 5591 1815 4871 3949 9840 4259\r\n9912 5574\r\nOutput:\r\nNO</code></pre>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input:\r\n20\r\n5841 7764\r\nOutput:\r\nYES</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>1 &le; T &le; 10<sup>4</sup></li>\r\n    <li>1 &le; k &le; 100</li>\r\n    <li>1 &le; ci &le; 10<sup>9</sup></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "juspay_17oct",
+        "company_id": 680
+    },
+    {
+        "id": 1928,
+        "title": "Candy Jar",
+        "problem_statement": "<h1>Candy Jar</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Two siblings, Sam and Nina, are playing with a jar of candies. The jar contains w sweet candies (white) and b sour candies (black). Nina always takes the first turn, and then they alternate. The first person to get a sweet candy wins the game.</p>\r\n<p>But there's a twist: Whenever Sam grabs a candy, the jar shakes and one random candy falls out onto the floor (this never happens on Nina's turn). Candies that fall out on their own are ignored-they don't belong to anyone and don't decide the winner. Once a candy is out, it cannot be put back.</p>\r\n<p>If the jar becomes empty and no sweet candy has been eaten, Sam automatically wins. Every candy has an equal chance of being picked, and on Sam's turn, each remaining candy has the same chance of falling out.</p>\r\n\r\n<h2>Input</h2>\r\n<p>A single line with two integers w and b.</p>\r\n\r\n<h2>Output</h2>\r\n<p>Print the probability that Nina wins. Round the final output rounded off to exactly three decimal places.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 &lt;= w, b &lt;= 1000</code></li>\r\n</ul>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: 8 3\r\nOutput: 0.776</code></pre>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: 7 3\r\nOutput: 0.758</code></pre>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input: 34 46\r\nOutput: 0.634</code></pre>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "juspay_17oct",
+        "company_id": 680
+    },
+    {
+        "id": 1935,
+        "title": "Book Stacks Game",
+        "problem_statement": "<h1>Book Stacks Game</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Two friends, Aria and Leo, are playing a game in a library.</p>\r\n<p>There are <code>n</code> stacks of books, and the <code>i</code>-th stack initially contains <code>ai</code> books.</p>\r\n<p>Aria always moves first. On each turn, a player chooses a non-empty stack and removes exactly one book from it. However, a player is not allowed to pick the same stack that was chosen in the immediately previous turn (either by the opponent, or if it's the first move, then any stack can be chosen).</p>\r\n<p>The player who cannot make a move on their turn loses.</p>\r\n<p>Assuming both players play optimally, determine the winner of each of the <code>t</code> games.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The first line contains a single integer <code>t</code> (<code>1 <= t <= 100</code>) - the number of games.</p>\r\n<p>The description of each game follows. The first line contains a single integer <code>n</code> (<code>1 <= n <= 100</code>) - the number of stacks.</p>\r\n<p>The second line contains <code>n</code> integers <code>a1, a2, ..., an</code> (<code>1 <= ai <= 100</code>).</p>\r\n\r\n<h2>Output</h2>\r\n<p>For each game, print \"X\" if Aria wins, otherwise \"Y\".</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\n1\r\n2\r\n1 6\r\nOutput:\r\nX</code></pre>\r\n<p><strong>Explanation:</strong> This example is from the provided image. The output description is not explicitly given, but based on the problem, 'X' means Aria wins.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input:\r\n1\r\n2\r\n7 1\r\nOutput:\r\nX</code></pre>\r\n<p><strong>Explanation:</strong> This example is from the provided image. The output description is not explicitly given, but based on the problem, 'X' means Aria wins.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 <= t <= 100</code></li>\r\n    <li><code>1 <= n <= 100</code></li>\r\n    <li><code>1 <= ai <= 100</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "juspay_17oct",
+        "company_id": 680
+    },
+    {
+        "id": 1936,
+        "title": "Stable",
+        "problem_statement": "<h1>Stable</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>Consider two integers A and M. A shift x is stable if:</p>\r\n<ul>\r\n    <li>0 ≤ x < M, and</li>\r\n    <li>gcd(A, M) = gcd(A + x, M).</li>\r\n</ul>\r\n<p>Find the number of stable shifts for given values of A and M.</p>\r\n\r\n<h2>Input</h2>\r\n<p>The first line contains an integer <strong>T</strong> (1 ≤ <strong>T</strong> ≤ 50) - the number of scenarios.</p>\r\n<p>Each of the next <strong>T</strong> lines contains two integers <strong>A</strong> and <strong>M</strong> (1 ≤ <strong>A</strong> < <strong>M</strong> ≤ 10<sup>10</sup>).</p>\r\n\r\n<h2>Output</h2>\r\n<p>For each scenario, print a single integer - the number of stable shifts x.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: A = 643, M = 671\r\nOutput: 600</code></pre>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: A = 817, M = 860\r\nOutput: 8</code></pre>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input: A = 920, M = 986\r\nOutput: 448</code></pre>\r\n\r\n<h3>Example 4:</h3>\r\n<pre><code class='language-text'>Input: A = 139, M = 690\r\nOutput: 176</code></pre>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>1 ≤ T ≤ 50</li>\r\n    <li>1 ≤ A < M ≤ 10<sup>10</sup></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "juspay_17oct",
+        "company_id": 680
+    }
+]
