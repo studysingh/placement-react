@@ -19,18 +19,29 @@ const Home = () => {
       .then(fileNames => {
         Promise.all(
           fileNames.map(file =>
-            fetch(`${basePath}/${file}`)
-              .then(res => res.json())
-              .then(problems => ({
-                fileName: file,
-                problemCount: problems.length,
-                problems: problems
-              }))
+            fetch(`${basePath}/${file}`, { method: 'GET' })
+              .then(res => {
+                const lastModified = res.headers.get('last-modified');
+                return res.json().then(problems => ({
+                  fileName: file,
+                  problemCount: problems.length,
+                  problems: problems,
+                  updatedAt: lastModified ? new Date(lastModified).toISOString() : null
+                }));
+              })
               .catch(err => { console.error(file, err); return null; })
           )
         ).then(data => {
           const validData = data.filter(d => d !== null);
-          setFiles(validData);
+          // derive numeric id from filename prefix (e.g. "100_Zeta.json" -> 100)
+          const parseIdFromFile = (f) => {
+            if (!f || !f.fileName) return Number.NEGATIVE_INFINITY;
+            const m = /^(\d+)/.exec(f.fileName);
+            return m ? Number(m[1]) : Number.NEGATIVE_INFINITY;
+          };
+
+          const sortedByIdDesc = [...validData].sort((a, b) => parseIdFromFile(b) - parseIdFromFile(a));
+          setFiles(sortedByIdDesc);
         });
       })
       .catch(err => console.error('Error loading files_index.json', err));
@@ -60,6 +71,7 @@ const Home = () => {
             <ProblemCard
               fileName={file.fileName}
               problemCount={file.problemCount}
+              updatedAt={file.updatedAt}
               onViewDetails={() => handleViewDetails(file)}
             />
           </Col>
