@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1958,
+        "title": "Count Balancing Elements",
+        "problem_statement": "<h1>Count Balancing Elements</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>When an element is deleted from an array, higher-indexed elements shift down to fill the gap. A \"balancing element\" is one that, when deleted, results in the sum of even-indexed elements equaling the sum of odd-indexed elements in the resulting array. Your task is to determine how many balancing elements exist in a given array.</p>\r\n\r\n<p><strong>Example:</strong> `arr = [5, 5, 2, 5, 8]`</p>\r\n<p>When the first 5 is deleted, the array becomes `[5, 2, 5, 8]`:</p>\r\n<ul>\r\n    <li>Sum of even-indexed elements: 5 + 5 = 10</li>\r\n    <li>Sum of odd-indexed elements: 2 + 8 = 10</li>\r\n</ul>\r\n<p>Similarly, when the second 5 is deleted, the array becomes `[5, 2, 5, 8]` with the same balanced sums.</p>\r\n<p>No other elements have this property, so there are 2 balancing elements: `arr[0]` and `arr[1]`.</p>\r\n\r\n<p>Complete the function `countBalancingElements` in the editor with the following parameter(s):</p>\r\n<ul>\r\n    <li>`int arr[n]`: an array of integers</li>\r\n</ul>\r\n<p><strong>Returns:</strong></p>\r\n<ul>\r\n    <li>`int`: the number of balancing elements in the input array</li>\r\n</ul>\r\n\r\n<p>The function signature is:</p>\r\n<pre><code class='language-javascript'>int countBalancingElements(vector&lt;int&gt; arr) {\r\n    // Function body\r\n}</code></pre>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: n = 4, arr = [2, 1, 6, 4]\r\nOutput: 1</code></pre>\r\n<p><strong>Explanation:</strong> When `arr[1] = 1` is deleted, the array becomes `[2, 6, 4]`. The sum of even-indexed elements is `2 + 4 = 6` and the sum of odd-indexed elements is `6`. No other elements of the original array have that property.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input: n = 3, arr = [2, 2, 2]\r\nOutput: 3</code></pre>\r\n<p><strong>Explanation:</strong> The input array is `[2, 2, 2]`. All three elements of this array are balancing elements. After deleting any of them, the array becomes `[2, 2]`. The sum of even-indexed elements is `2` and the sum of odd-indexed elements is `2`.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li>`1 <= n <= 2 * 10^5`</li>\r\n    <li>`1 <= arr[i] <= 10^9`</li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "Publicis Sapient_22oct",
+        "company_id": 694
+    },
+    {
+        "id": 1959,
+        "title": "Longest Strictly Increasing Subsequence",
+        "problem_statement": "<h1>Longest Strictly Increasing Subsequence</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>A subsequence is created by deleting zero or more elements from a sequence while maintaining order. A sequence is strictly increasing if every element is greater than the previous element.</p>\r\n<p>Determine the length of the longest strictly increasing subsequence in a sequence of integers.</p>\r\n<p>For example, given <code>arr = [1, 2, 2, 3, 1, 6]</code>, some strictly increasing subsequences are:</p>\r\n<ul>\r\n    <li><code>[1, 2, 3]</code></li>\r\n    <li><code>[1, 3, 6]</code></li>\r\n</ul>\r\n<p>The longest increasing subsequence is <code>[1, 2, 3, 6]</code> with a length of 4.</p>\r\n<p>Complete the function <code>findLIS</code> in the editor with the following parameter(s):</p>\r\n<ul>\r\n    <li><code>int arr[n]</code>: an array of integers</li>\r\n</ul>\r\n<p><strong>Returns:</strong></p>\r\n<ul>\r\n    <li><code>int</code>: the length of the longest strictly increasing subsequence in the array</li>\r\n</ul>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input:\r\narr[] Size = 3\r\narr[] = [1, 4, 3]\r\nOutput: 2</code></pre>\r\n<p><strong>Explanation:</strong> The longest increasing subsequences are <code>[1,4]</code> and <code>[1,3]</code>, both with length 2.</p>\r\n\r\n<h3>Example 2:</h3>\r\n<pre><code class='language-text'>Input:\r\narr[] Size = 5\r\narr[] = [1, 4, 5, 2, 6]\r\nOutput: 4</code></pre>\r\n<p><strong>Explanation:</strong> The longest increasing subsequence is <code>[1,4,5,6]</code>.</p>\r\n\r\n<h3>Example 3:</h3>\r\n<pre><code class='language-text'>Input:\r\narr[] Size = 4\r\narr[] = [2, 3, 3, 5]\r\nOutput: 3</code></pre>\r\n<p><strong>Explanation:</strong> The longest increasing subsequence is <code>[2,3,5]</code>.</p>\r\n\r\n<h2>Constraints</h2>\r\n<ul>\r\n    <li><code>1 <= n <= 1000</code></li>\r\n    <li><code>1 <= arr[i] <= 10^6</code></li>\r\n</ul>",
+        "google_doc_link": null,
+        "solution_code": null,
+        "pregiven_code": null,
+        "input_test_case": null,
+        "output_test_case": null,
+        "company_name": "Publicis Sapient_22oct",
+        "company_id": 694
+    }
+]
