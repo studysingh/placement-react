@@ -2429,63 +2429,63 @@
   },
   {
     "fileName": "685_Kotak_17oct.json",
-    "updatedAt": "2025-10-23T19:03:03.431482+00:00"
+    "updatedAt": "2025-10-25T07:41:51.653498+00:00"
   },
   {
     "fileName": "686_Ernst and young_18oct.json",
-    "updatedAt": "2025-10-23T19:03:04.417614+00:00"
+    "updatedAt": "2025-10-25T07:41:52.346039+00:00"
   },
   {
     "fileName": "687_NXT wave_18oct.json",
-    "updatedAt": "2025-10-23T19:03:05.482045+00:00"
+    "updatedAt": "2025-10-25T07:41:52.994004+00:00"
   },
   {
     "fileName": "688_PayU.json",
-    "updatedAt": "2025-10-23T19:03:06.498237+00:00"
+    "updatedAt": "2025-10-25T07:41:53.659138+00:00"
   },
   {
     "fileName": "689_Coupa.json",
-    "updatedAt": "2025-10-23T19:03:07.463414+00:00"
+    "updatedAt": "2025-10-25T07:41:54.302122+00:00"
   },
   {
     "fileName": "690_hackerrank_19oct.json",
-    "updatedAt": "2025-10-23T19:03:08.473719+00:00"
+    "updatedAt": "2025-10-25T07:41:54.936561+00:00"
   },
   {
     "fileName": "691_Ability_20oct.json",
-    "updatedAt": "2025-10-23T19:03:09.448792+00:00"
+    "updatedAt": "2025-10-25T07:41:55.697073+00:00"
   },
   {
     "fileName": "692_Epam_18oct.json",
-    "updatedAt": "2025-10-23T19:03:10.335507+00:00"
+    "updatedAt": "2025-10-25T07:41:56.426019+00:00"
   },
   {
     "fileName": "693_Ivy League.json",
-    "updatedAt": "2025-10-23T19:03:11.336744+00:00"
+    "updatedAt": "2025-10-25T07:41:57.069799+00:00"
   },
   {
     "fileName": "694_Publicis Sapient_22oct.json",
-    "updatedAt": "2025-10-23T19:03:12.196086+00:00"
+    "updatedAt": "2025-10-25T07:41:57.788035+00:00"
   },
   {
     "fileName": "695_ibm_22oct.json",
-    "updatedAt": "2025-10-23T19:03:13.114909+00:00"
+    "updatedAt": "2025-10-25T07:41:58.593637+00:00"
   },
   {
     "fileName": "696_Murf ai_22oct.json",
-    "updatedAt": "2025-10-23T19:03:14.041395+00:00"
+    "updatedAt": "2025-10-25T07:41:59.536368+00:00"
   },
   {
     "fileName": "697_Bounteous × Accolite_22oct.json",
-    "updatedAt": "2025-10-23T19:03:15.107791+00:00"
+    "updatedAt": "2025-10-25T07:42:00.211878+00:00"
   },
   {
     "fileName": "698_Hackerrank_22oct.json",
-    "updatedAt": "2025-10-23T19:03:16.128315+00:00"
+    "updatedAt": "2025-10-25T07:42:00.902784+00:00"
   },
   {
     "fileName": "699_Turing_21oct.json",
-    "updatedAt": "2025-10-23T19:03:17.108194+00:00"
+    "updatedAt": "2025-10-25T07:42:01.509494+00:00"
   },
   {
     "fileName": "69_Barclays.json",
@@ -2497,15 +2497,67 @@
   },
   {
     "fileName": "700_Rippling_23oct.json",
-    "updatedAt": "2025-10-23T19:03:18.041227+00:00"
+    "updatedAt": "2025-10-25T07:42:02.154804+00:00"
   },
   {
     "fileName": "701_Bounteous × Accolite_23oct.json",
-    "updatedAt": "2025-10-23T19:03:18.976636+00:00"
+    "updatedAt": "2025-10-25T07:42:02.824571+00:00"
+  },
+  {
+    "fileName": "702_Amazon_24oct.json",
+    "updatedAt": "2025-10-25T07:42:03.570748+00:00"
+  },
+  {
+    "fileName": "703_ibm_24oct.json",
+    "updatedAt": "2025-10-25T07:42:04.295879+00:00"
+  },
+  {
+    "fileName": "704_ubs_24oct.json",
+    "updatedAt": "2025-10-25T07:42:04.947796+00:00"
+  },
+  {
+    "fileName": "705_Hsbc_24oct.json",
+    "updatedAt": "2025-10-25T07:42:05.622741+00:00"
+  },
+  {
+    "fileName": "706_ibm_23oct.json",
+    "updatedAt": "2025-10-25T07:42:06.399861+00:00"
+  },
+  {
+    "fileName": "707_Google_24oct.json",
+    "updatedAt": "2025-10-25T07:42:08.035823+00:00"
+  },
+  {
+    "fileName": "708_Samsung.json",
+    "updatedAt": "2025-10-25T07:42:08.788253+00:00"
+  },
+  {
+    "fileName": "709_Aveva_24oct.json",
+    "updatedAt": "2025-10-25T07:42:09.457105+00:00"
   },
   {
     "fileName": "70_Quadric.json",
     "updatedAt": "2025-10-08T21:18:11.967349+00:00"
+  },
+  {
+    "fileName": "710_intuit_24oct.json",
+    "updatedAt": "2025-10-25T07:42:10.102929+00:00"
+  },
+  {
+    "fileName": "711_ZS Associates mcq.json",
+    "updatedAt": "2025-10-25T07:42:10.722596+00:00"
+  },
+  {
+    "fileName": "712_SEDEMAC mcq.json",
+    "updatedAt": "2025-10-25T07:42:11.463278+00:00"
+  },
+  {
+    "fileName": "713_Microsoft_9october.json",
+    "updatedAt": "2025-10-25T07:42:12.557744+00:00"
+  },
+  {
+    "fileName": "714_Google_25oct.json",
+    "updatedAt": "2025-10-25T07:42:13.270374+00:00"
   },
   {
     "fileName": "71_Airtel.json",

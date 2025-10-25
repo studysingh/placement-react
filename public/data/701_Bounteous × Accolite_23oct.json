@@ -2,12 +2,6 @@
     {
         "id": 1971,
         "title": "Wildlife Sanctuary Tour Management",
-        "problem_statement": "<h1>Wildlife Sanctuary Tour Management</h1>\r\n\r\n<h2>Problem Description</h2>\r\n<p>You are the manager of a wildlife sanctuary that provides guided tours through different habitats.</p>\r\n<p>Each tour group has a specific route they will follow, passing through various habitats. Each habitat can only accommodate one tour group at a time.</p>\r\n<p>You are given two arrays: <code>entryHabitat[]</code> and <code>exitHabitat[]</code>, which denote the habitats each tour group will enter and exit from, respectively.</p>\r\n<p>Your task is to determine the minimum number of habitats that must be available at the same time to ensure that all tour groups can complete their routes.</p>\r\n\r\n<h2>Examples</h2>\r\n<h3>Example 1:</h3>\r\n<pre><code class='language-text'>Input: entryHabitat[] = {1, 2, 3, 1, 4, 5}\r\n       exitHabitat[] = {3, 4, 5, 2, 6, 7}\r\nOutput: 3</code></pre>\r\n<p><strong>Explanation:</strong></p>\r\n<p>1. The first tour group enters at habitat 1 and exits at habitat 3.</p>\r\n<p>2. The second tour group enters at habitat 2 and exits at habitat 4.</p>\r\n<p>3. The third tour group enters at habitat 3 and exits at habitat 5.</p>\r\n<p>4. The fourth tour group enters at habitat 1 and exits at habitat 2.</p>\r\n<p>5. The fifth tour group enters at habitat 4 and exits at habitat 6.</p>\r\n<p>6. The sixth tour group enters at habitat 5 and exits at habitat 7.</p>\r\n<p>Between habitats 1 to 3, there are three tour groups (1-3, 2-4, 1-2) using the habitats simultaneously. This is the maximum overlap.</p>\r\n<p>Therefore, the minimum number of habitats required is 3.</p>",
-        "google_doc_link": null,
-        "solution_code": null,
-        "pregiven_code": null,
-        "input_test_case": null,
-        "output_test_case": null,
         "company_name": "Bounteous × Accolite_23oct",
         "company_id": 701
     }
